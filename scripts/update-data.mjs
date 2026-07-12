@@ -10,6 +10,21 @@ const RSS_SOURCES = [
   { name: '36氪', url: 'https://36kr.com/feed' },
 ];
 
+const GOOGLE_NEWS_FEEDS = [
+  {
+    name: 'Google News 大模型',
+    query: '(人工智能 OR 大模型 OR 生成式AI OR 多模态 OR AI Agent OR 智能体 OR 推理模型 OR OpenAI OR ChatGPT OR GPT OR Anthropic OR Claude OR Google Gemini OR DeepMind OR xAI OR Grok OR Meta AI OR Llama OR Mistral OR DeepSeek OR 通义千问 OR 文心一言 OR 豆包 OR Kimi) when:2d',
+  },
+  {
+    name: 'Google News 芯片',
+    query: '(芯片 OR 半导体 OR 算力 OR GPU OR AI芯片 OR HBM OR 存储芯片 OR 光刻机 OR 晶圆代工 OR 封装测试 OR 台积电 OR 英伟达 OR NVIDIA OR AMD OR 英特尔 OR 高通 OR 博通 OR 三星电子 OR SK海力士 OR 美光 OR 华为昇腾 OR 寒武纪 OR 海光信息 OR 长鑫科技 OR 中芯国际) when:2d',
+  },
+  {
+    name: 'Google News 新产品',
+    query: '(科技 新产品 OR AI产品 OR AI应用 OR AI手机 OR AI PC OR 智能硬件 OR 机器人 OR 人形机器人 OR 自动驾驶 OR 智能汽车 OR AR眼镜 OR XR OR 可穿戴设备 OR 无人机 OR 具身智能 OR 脑机接口 OR SaaS OR 企业服务 OR 苹果 OR 特斯拉 OR 华为 OR 小米 OR 字节跳动 OR 阿里巴巴 OR 腾讯) when:2d',
+  },
+];
+
 const CATEGORY_RULES = [
   {
     category: '大模型',
@@ -188,6 +203,16 @@ function readLink(xml) {
   return atomLink ? decodeXml(atomLink[1]) : '';
 }
 
+function googleNewsUrl(query) {
+  const params = new URLSearchParams({
+    q: query,
+    hl: 'zh-CN',
+    gl: 'CN',
+    ceid: 'CN:zh-Hans',
+  });
+  return `https://news.google.com/rss/search?${params.toString()}`;
+}
+
 function formatPublishTime(value) {
   const date = new Date(value);
   if (Number.isNaN(date.getTime())) return `${formatDate()} 09:00`;
@@ -284,6 +309,13 @@ async function fetchSource(source) {
   }
 }
 
+async function fetchGoogleNews(source) {
+  return fetchSource({
+    name: source.name,
+    url: googleNewsUrl(source.query),
+  });
+}
+
 function uniqueItems(items) {
   const seen = new Set();
   return items.filter((item) => {
@@ -295,7 +327,10 @@ function uniqueItems(items) {
 }
 
 async function main() {
-  const grouped = await Promise.all(RSS_SOURCES.map(fetchSource));
+  const grouped = await Promise.all([
+    ...RSS_SOURCES.map(fetchSource),
+    ...GOOGLE_NEWS_FEEDS.map(fetchGoogleNews),
+  ]);
   const hotspots = uniqueItems(grouped.flat())
     .sort((a, b) => b.publish_time.localeCompare(a.publish_time))
     .map((item, index) => ({ id: index + 1, ...item }));
