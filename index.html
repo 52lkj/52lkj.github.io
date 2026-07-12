@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>科技脉搏 · TechPulse | 2026-07-09 AI/科技每日热点</title>
+<meta name="description" content="每日自动汇总全球 AI、大模型、芯片、新产品领域热点新闻">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --bg-primary: #0A0E1A;
+    --bg-secondary: #111827;
+    --bg-card: rgba(17, 24, 39, 0.6);
+    --border-glow: rgba(99, 102, 241, 0.2);
+    --text-primary: #E5E7EB;
+    --text-secondary: #9CA3AF;
+    --text-muted: #6B7280;
+    --accent-ai: #06B6D4;       /* 青 - 大模型 */
+    --accent-chip: #A855F7;     /* 紫 - 芯片 */
+    --accent-product: #10B981;  /* 绿 - 新产品 */
+    --gradient-bg: radial-gradient(circle at 20% 0%, rgba(99,102,241,0.08) 0%, transparent 50%),
+                   radial-gradient(circle at 80% 100%, rgba(168,85,247,0.06) 0%, transparent 50%);
+  }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    background: var(--bg-primary);
+    background-image: var(--gradient-bg);
+    color: var(--text-primary);
+    min-height: 100vh;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  /* 顶部导航 */
+  .navbar {
+    position: sticky; top: 0; z-index: 100;
+    background: rgba(10, 14, 26, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(99,102,241,0.1);
+    padding: 16px 0;
+  }
+  .nav-container {
+    max-width: 1280px; margin: 0 auto; padding: 0 24px;
+    display: flex; justify-content: space-between; align-items: center;
+  }
+  .logo {
+    display: flex; align-items: center; gap: 12px;
+    font-size: 20px; font-weight: 700;
+  }
+  .logo-icon {
+    width: 32px; height: 32px;
+    background: linear-gradient(135deg, var(--accent-ai), var(--accent-chip));
+    border-radius: 8px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 16px; font-weight: 800; color: white;
+    box-shadow: 0 0 16px rgba(99,102,241,0.4);
+  }
+  .logo-text {
+    background: linear-gradient(135deg, #06B6D4 0%, #A855F7 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .nav-date {
+    color: var(--text-secondary); font-size: 14px;
+    padding: 6px 14px; border: 1px solid rgba(99,102,241,0.2); border-radius: 999px;
+  }
+  /* 英雄区 */
+  .hero {
+    max-width: 1280px; margin: 0 auto; padding: 60px 24px 40px;
+  }
+  .hero-date {
+    display: inline-block; font-size: 13px; color: var(--accent-ai);
+    padding: 4px 12px; border: 1px solid rgba(6,182,212,0.3); border-radius: 999px;
+    margin-bottom: 20px;
+  }
+  .hero h1 {
+    font-size: 48px; font-weight: 800; line-height: 1.2; margin-bottom: 16px;
+    background: linear-gradient(135deg, #ffffff 0%, #94A3B8 100%);
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  .hero h1 .highlight {
+    background: linear-gradient(135deg, #06B6D4 0%, #A855F7 100%);
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  .hero p {
+    font-size: 16px; color: var(--text-secondary); max-width: 720px;
+  }
+  .hero-summary {
+    margin-top: 24px; padding: 20px 24px;
+    background: var(--bg-card); border-left: 3px solid var(--accent-ai);
+    border-radius: 8px; backdrop-filter: blur(8px);
+    color: var(--text-secondary); font-size: 15px;
+  }
+  /* 统计区 */
+  .stats {
+    max-width: 1280px; margin: 32px auto 0; padding: 0 24px;
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px;
+  }
+  .stat-card {
+    background: var(--bg-card); backdrop-filter: blur(8px);
+    border: 1px solid rgba(99,102,241,0.15);
+    border-radius: 12px; padding: 20px;
+    transition: all 0.3s ease;
+  }
+  .stat-card:hover {
+    transform: translateY(-2px);
+    border-color: rgba(99,102,241,0.4);
+    box-shadow: 0 8px 24px rgba(99,102,241,0.1);
+  }
+  .stat-label { font-size: 13px; color: var(--text-muted); margin-bottom: 8px; }
+  .stat-value { font-size: 32px; font-weight: 700; }
+  .stat-value.ai { color: var(--accent-ai); }
+  .stat-value.chip { color: var(--accent-chip); }
+  .stat-value.product { color: var(--accent-product); }
+  /* 控制区 */
+  .controls {
+    max-width: 1280px; margin: 40px auto 0; padding: 0 24px;
+    display: flex; flex-wrap: wrap; gap: 16px; align-items: center;
+  }
+  .filter-group { display: flex; gap: 8px; flex-wrap: wrap; }
+  .filter-btn {
+    padding: 8px 16px; background: var(--bg-card);
+    border: 1px solid rgba(99,102,241,0.2); border-radius: 999px;
+    color: var(--text-secondary); font-size: 14px; cursor: pointer;
+    transition: all 0.3s ease; backdrop-filter: blur(8px);
+  }
+  .filter-btn:hover {
+    border-color: rgba(99,102,241,0.5); color: var(--text-primary);
+  }
+  .filter-btn.active {
+    background: linear-gradient(135deg, rgba(6,182,212,0.2), rgba(168,85,247,0.2));
+    border-color: rgba(99,102,241,0.5);
+    color: white; font-weight: 500;
+  }
+  .filter-btn .count {
+    margin-left: 6px; padding: 1px 8px;
+    background: rgba(255,255,255,0.1); border-radius: 999px;
+    font-size: 12px;
+  }
+  .search-box {
+    flex: 1; min-width: 200px; max-width: 320px;
+    position: relative;
+  }
+  .search-box input {
+    width: 100%; padding: 10px 16px 10px 40px;
+    background: var(--bg-card); border: 1px solid rgba(99,102,241,0.2);
+    border-radius: 999px; color: var(--text-primary);
+    font-size: 14px; transition: all 0.3s ease;
+    backdrop-filter: blur(8px);
+  }
+  .search-box input:focus {
+    outline: none; border-color: var(--accent-ai);
+    box-shadow: 0 0 0 3px rgba(6,182,212,0.15);
+  }
+  .search-icon {
+    position: absolute; left: 14px; top: 50%; transform: translateY(-50%);
+    color: var(--text-muted); font-size: 14px;
+  }
+  .sort-select {
+    padding: 10px 16px; background: var(--bg-card);
+    border: 1px solid rgba(99,102,241,0.2); border-radius: 999px;
+    color: var(--text-primary); font-size: 14px; cursor: pointer;
+    backdrop-filter: blur(8px);
+  }
+  /* 卡片网格 */
+  .grid {
+    max-width: 1280px; margin: 32px auto 60px; padding: 0 24px;
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    gap: 20px;
+  }
+  .card {
+    background: var(--bg-card); backdrop-filter: blur(8px);
+    border: 1px solid rgba(99,102,241,0.15);
+    border-radius: 14px; padding: 24px;
+    transition: all 0.3s ease; cursor: pointer;
+    position: relative; overflow: hidden;
+    display: flex; flex-direction: column; min-height: 220px;
+  }
+  .card::before {
+    content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
+    background: var(--card-accent, var(--accent-ai));
+    opacity: 0.6;
+  }
+  .card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(99,102,241,0.4);
+    box-shadow: 0 12px 32px rgba(0,0,0,0.4), 0 0 24px var(--card-shadow, rgba(6,182,212,0.15));
+  }
+  .card[data-category="大模型"] { --card-accent: var(--accent-ai); --card-shadow: rgba(6,182,212,0.2); }
+  .card[data-category="芯片"] { --card-accent: var(--accent-chip); --card-shadow: rgba(168,85,247,0.2); }
+  .card[data-category="新产品"] { --card-accent: var(--accent-product); --card-shadow: rgba(16,185,129,0.2); }
+  .card-header {
+    display: flex; justify-content: space-between; align-items: flex-start;
+    margin-bottom: 12px;
+  }
+  .category-tag {
+    display: inline-block; padding: 3px 10px; font-size: 12px;
+    border-radius: 999px; font-weight: 500;
+  }
+  .category-tag.大模型 { background: rgba(6,182,212,0.15); color: var(--accent-ai); border: 1px solid rgba(6,182,212,0.3); }
+  .category-tag.芯片 { background: rgba(168,85,247,0.15); color: var(--accent-chip); border: 1px solid rgba(168,85,247,0.3); }
+  .category-tag.新产品 { background: rgba(16,185,129,0.15); color: var(--accent-product); border: 1px solid rgba(16,185,129,0.3); }
+  .time-tag {
+    font-size: 12px; color: var(--text-muted);
+  }
+  .card h3 {
+    font-size: 16px; font-weight: 600; line-height: 1.5;
+    margin-bottom: 12px; color: var(--text-primary);
+  }
+  .card p {
+    font-size: 14px; color: var(--text-secondary); line-height: 1.6;
+    flex: 1;
+  }
+  .card-footer {
+    margin-top: 16px; padding-top: 12px;
+    border-top: 1px solid rgba(99,102,241,0.1);
+    display: flex; justify-content: space-between; align-items: center;
+    font-size: 12px; color: var(--text-muted);
+  }
+  .card-tags { display: flex; gap: 6px; flex-wrap: wrap; }
+  .card-tag {
+    padding: 2px 8px; background: rgba(99,102,241,0.1);
+    border-radius: 4px; font-size: 11px;
+  }
+  .card-link {
+    color: var(--accent-ai); text-decoration: none;
+    transition: color 0.2s;
+  }
+  .card-link:hover { color: var(--accent-chip); }
+  /* 空状态 */
+  .empty {
+    grid-column: 1 / -1; text-align: center; padding: 60px 20px;
+    color: var(--text-muted);
+  }
+  .empty-icon { font-size: 48px; margin-bottom: 12px; }
+  /* 页脚 */
+  .footer {
+    border-top: 1px solid rgba(99,102,241,0.1);
+    padding: 32px 24px; text-align: center;
+    color: var(--text-muted); font-size: 13px;
+  }
+  .footer a { color: var(--accent-ai); text-decoration: none; }
+  .footer a:hover { text-decoration: underline; }
+  /* 响应式 */
+  @media (max-width: 768px) {
+    .hero h1 { font-size: 32px; }
+    .stats { grid-template-columns: repeat(2, 1fr); }
+    .grid { grid-template-columns: 1fr; }
+    .controls { flex-direction: column; align-items: stretch; }
+    .search-box { max-width: 100%; }
+  }
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-container">
+    <div class="logo">
+      <div class="logo-icon">TP</div>
+      <span class="logo-text">科技脉搏 · TechPulse</span>
+    </div>
+    <div class="nav-date" id="navDate">2026-07-09 · 星期四</div>
+  </div>
+</nav>
+
+<section class="hero">
+  <span class="hero-date" id="heroDate">📅 2026-07-09（星期四）</span>
+  <h1>今天，<span class="highlight">AI 全双工时代</span><br>正式开启</h1>
+  <p>每日自动汇总全球 AI、大模型、芯片、新产品领域核心热点，人工筛选 + 智能分类，为你节省 30 分钟资讯筛选时间。</p>
+  <div class="hero-summary" id="heroSummary"></div>
+</section>
+
+<section class="stats" id="stats">
+  <div class="stat-card">
+    <div class="stat-label">📊 今日热点总数</div>
+    <div class="stat-value" id="statTotal">20</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-label">🔵 大模型</div>
+    <div class="stat-value ai" id="statAI">5</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-label">🟣 芯片</div>
+    <div class="stat-value chip" id="statChip">5</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-label">🟢 新产品</div>
+    <div class="stat-value product" id="statProduct">10</div>
+  </div>
+</section>
+
+<section class="controls">
+  <div class="filter-group" id="filterGroup">
+    <button class="filter-btn active" data-filter="all">全部 <span class="count" id="cntAll">20</span></button>
+    <button class="filter-btn" data-filter="大模型">🔵 大模型 <span class="count" id="cntAI">5</span></button>
+    <button class="filter-btn" data-filter="芯片">🟣 芯片 <span class="count" id="cntChip">5</span></button>
+    <button class="filter-btn" data-filter="新产品">🟢 新产品 <span class="count" id="cntProduct">10</span></button>
+  </div>
+  <div class="search-box">
+    <span class="search-icon">🔍</span>
+    <input type="text" id="searchInput" placeholder="搜索标题、摘要、标签...">
+  </div>
+  <select class="sort-select" id="sortSelect">
+    <option value="time-desc">最新发布</option>
+    <option value="time-asc">最早发布</option>
+    <option value="category">按分类</option>
+  </select>
+</section>
+
+<section class="grid" id="grid"></section>
+
+<footer class="footer">
+  <p>🤖 <strong>科技脉搏 TechPulse</strong> · 自动拉取 + 人工精选 · 数据更新于 <span id="updateTime">2026-07-09</span></p>
+  <p style="margin-top:8px;">由 妙搭 & 飞书 AI 助手 出品 · <a href="https://github.com/52lkj/tech-pulse" target="_blank">GitHub 源码</a></p>
+</footer>
+
+<script>
+const DATA = {
+  "date": "2026-07-09",
+  "weekday": "星期四",
+  "summary": "2026-07-09 全球 AI 产业迎来'全双工'升级：OpenAI GPT-5.6 系列全球开放 + GPT-Live 语音模型发布，SpaceX AI 联合 Cursor 发布 Grok 4.5 (1.5 万亿参数 V9 模型)。同日 SK 海力士美国 IPO 获 7 倍超额认购、苹果博通 300 亿美元芯片采购、长鑫科技科创板启动发行。A 股半导体板块爆发：长鑫科技 IPO、国家超算互联网核心节点上线、浪潮信息半年净利预增 226%-288%。",
+  "hotspots": [
+    {"id":1,"category":"大模型","title":"OpenAI GPT-5.6 系列全球开放：三款齐发，Sol 旗舰、Terra 均衡、Luna 经济","summary":"美国商务部批准 OpenAI 全面发布 GPT-5.6 系列，7-9 全球用户开放。Sol 旗舰版编程测试 Terminal-Bench 2.1 得分 91.9%，上下文 150 万 tokens；Terra 性能对标 5.5 成本砍半；Luna 走极致速度与低价路线。GPT-5.x 系列将收官。","source":"36氪 / 华尔街见闻 / 证券时报","publish_time":"2026-07-09 12:49","url":"https://36kr.com/p/3887699133233926","tags":["OpenAI","GPT-5.6","Sol/Terra/Luna"]},
+    {"id":2,"category":"大模型","title":"GPT-6 提前曝光：OpenAI 抛弃 4T 旧底押注新预训练，正面硬刚 Anthropic Fable 5.1","summary":"据爆料，GPT-6 发布大幅提前，最快本月内推出。OpenAI 彻底抛弃约 4T 参数的 spud 旧底座，转向更庞大的全新预训练底座，目标正面对抗 Anthropic 即将发布的 Fable 5.1。","source":"36氪","publish_time":"2026-07-09 12:49","url":"https://36kr.com/p/3887699133233926","tags":["OpenAI","GPT-6","Fable 5.1"]},
+    {"id":3,"category":"新产品","title":"OpenAI 发布 GPT-Live 语音模型：全双工架构，ChatGPT 进入实时对话时代","summary":"GPT-Live 支持边听边说、打断、翻译、听写，可后台调用 GPT-5.5 与联网搜索。GPT-Live-1 面向付费用户，GPT-Live-1 mini 面向免费用户。OpenAI 透露每周已有超 1.5 亿人使用 ChatGPT 语音功能。","source":"新浪财经 / IT之家","publish_time":"2026-07-09 08:08","url":"https://m.toutiao.com/group/7660313289548775936/","tags":["OpenAI","GPT-Live","全双工"]},
+    {"id":4,"category":"大模型","title":"SpaceX AI 发布 Grok 4.5：1.5 万亿参数 V9 模型，与 Cursor 深度合作","summary":"Grok 4.5 基于 1.5 万亿参数 V9 基础模型，数万张英伟达 GB300 GPU 训练，Cursor 真实开发数据参与补充训练。面向金融、法律、复杂软件工程长链路任务。马斯克宣布 7-9 起向公众开放，重申'今年剩余时间每月一款新模型'高频迭代路线。","source":"第一财经 / 财联社 / 新浪财经","publish_time":"2026-07-09 08:08","url":"https://m.toutiao.com/group/7660313289548775936/","tags":["SpaceX AI","Grok 4.5","Cursor","1.5T"]},
+    {"id":5,"category":"大模型","title":"SpaceX 600 亿美元全股票收购 Cursor，直接抄了 Anthropic 后路","summary":"马斯克宣布 SpaceX AI 收购 AI 编程工具 Cursor，交易估值 600 亿美元。Cursor 是 Anthropic Claude Code 重要竞品，此次收购直接改变 AI 编程工具竞争格局。","source":"华尔街见闻 / 金融界","publish_time":"2026-07-09 08:26","url":"https://m.weibo.cn/detail/5318685059449864","tags":["SpaceX","Cursor","收购"]},
+    {"id":6,"category":"大模型","title":"谷歌 Gemini 3.5 Pro 定档 7-17 发布：200 万上下文，新增 Deep Think 推理层","summary":"谷歌 DeepMind 宣布 Gemini 3.5 Pro 全新预训练后版本 7-17 正式发布。泄露信息显示，前端与视觉代码生成能力跃升，多项测试优于 Anthropic Fable 5，上下文扩展至 200 万 tokens，新增 Deep Think 推理层。","source":"华尔街见闻 / TechTimes / 智东西","publish_time":"2026-07-09 08:26","url":"https://m.weibo.cn/detail/5318685059449864","tags":["Google","Gemini 3.5 Pro","DeepMind"]},
+    {"id":7,"category":"新产品","title":"工信部对 Claude Code 发布后门警告，阿里宣布 7-10 全面禁用","summary":"工信部网络安全平台监测发现 Claude Code 存在安全后门，未经用户同意回传敏感信息。这是中国官方首次对海外 AI 编程工具亮剑。阿里宣布 7-10 全面禁用，12 万开发者紧急迁移。","source":"小白聊 ai","publish_time":"2026-07-09 12:03","url":"http://m.toutiao.com/group/7660369530316751412/","tags":["Claude Code","工信部","安全"]},
+    {"id":8,"category":"芯片","title":"SK 海力士美国 IPO 获 7 倍超额认购，募资约 245 亿美元","summary":"SK 海力士美国 IPO 获超 7 倍超额认购，计划发行 1.779 亿份 ADR，融资规模约 245 亿美元，将成为外国公司赴美上市史上第二大交易，仅次于阿里 2014 年 250 亿美元。计划周四完成定价。","source":"每日经济新闻","publish_time":"2026-07-09 08:08","url":"https://m.toutiao.com/group/7660313289548775936/","tags":["SK海力士","IPO","存储芯片"]},
+    {"id":9,"category":"芯片","title":"长鑫科技披露科创板 IPO 招股意向书：7-16 申购，覆盖 A 股 30 余家产业链","summary":"国产 DRAM 龙头长鑫科技 7-9 启动科创板 IPO，拟发行 66.88 亿股，发行后总股本占比约 10%。战略配售 33.44 亿股占发行量 50%。新股网下/网上申购日均为 7-16。产业链覆盖 A 股 30 余家上市公司，总市值超 3 万亿元。","source":"证券时报 / 财联社","publish_time":"2026-07-09 08:12","url":"http://m.toutiao.com/group/7660314405968446006/","tags":["长鑫科技","DRAM","科创板"]},
+    {"id":10,"category":"芯片","title":"苹果未来 5 年向博通采购 300 亿美元美国芯片，加码本土供应链","summary":"苹果与博通达成 5 年超 300 亿美元美国制造芯片采购协议，追加 15 亿美元投资扩建科罗拉多州工厂，将生产超 150 亿颗美国本土芯片。这是苹果'四年 6000 亿美元美国投资计划'中最大单笔项目。","source":"新浪财经 / 财联社","publish_time":"2026-07-09 08:08","url":"https://m.toutiao.com/group/7660313289548775936/","tags":["苹果","博通","ASIC"]},
+    {"id":11,"category":"芯片","title":"英伟达 Rosa CPU 采用台积电 A16 工艺 + 背面供电，2028 年面世","summary":"英伟达下一代 Rosa CPU（Vera 后继）将采用台积电 2nm 工艺，可能进一步采用带背面供电的 A16 制程，2028 年随 Rosa Feynman 数据中心平台推出。架构采用自研 Rigel 核心 + Arm v9.2 指令集。","source":"IT之家 / 凤凰网科技","publish_time":"2026-07-09 13:10","url":"https://tech.ifeng.com/c/8ucNF1HFxGc","tags":["英伟达","台积电","A16","背面供电"]},
+    {"id":12,"category":"芯片","title":"英特尔公布 XBM 内存专利：超高带宽，有望对标 HBM4","summary":"英特尔公布一项名为 XBM 的超高带宽内存专利技术，旨在成为 HBM4 的替代方案，有望提供更高带宽和更低成本。","source":"财联社","publish_time":"2026-07-09 08:12","url":"http://m.toutiao.com/group/7660314405968446006/","tags":["英特尔","XBM","HBM4"]},
+    {"id":13,"category":"新产品","title":"国家超算互联网核心节点正式上线：10 万卡国产 AI 算力池","summary":"7-9 国家超算互联网核心节点在郑州上线，对外提供超 10 万卡国产 AI 算力，是国家超算互联网平台接入的最大规模国产 AI 算力资源池，承担资源调度、供需对接、产业孵化功能。","source":"证券时报 / 今日头条","publish_time":"2026-07-09 12:52","url":"http://m.toutiao.com/group/7660386689252180522/","tags":["国家超算","国产算力","10万卡"]},
+    {"id":14,"category":"新产品","title":"浪潮信息半年净利预增 226%-288%，A 股 AI 算力板块爆发","summary":"浪潮信息发布半年度业绩预告，预计上半年归母净利 26-31 亿元，同比增 226%-288%，半年净利已超去年全年。7-8 一字涨停，AI 服务器、交换机、AI PC 等算力硬件全面开花，沐曦股份 MXC600 大规模出货。","source":"证券时报 / 和讯网","publish_time":"2026-07-09 08:26","url":"https://m.weibo.cn/detail/5318685059449864","tags":["浪潮信息","中报业绩","AI算力"]},
+    {"id":15,"category":"新产品","title":"蚂蚁灵波开源 LingBot-VLA 2.0：6 万小时真实物理数据，17 品牌 20 构型","summary":"蚂蚁灵波科技升级并开源新一代具身基座模型 LingBot-VLA 2.0，融入 6 万小时高质量真实物理数据，覆盖 17 个主流机器人品牌的 20 种构型，扩展对头部、腰部、末端执行器、移动底盘自由度的支持。","source":"新浪财经 / 财经早报","publish_time":"2026-07-09 08:52","url":"http://m.toutiao.com/group/7660324599325917696/","tags":["蚂蚁灵波","具身智能","VLA"]},
+    {"id":16,"category":"新产品","title":"上海脑虎科技脑机接口系统启动 GCP 临床试验，国内首款三类医疗器械","summary":"脑虎科技'全植入、全无线、全功能脑机接口系统'在华山医院启动 GCP 注册临床试验，是国内首款进入国家三类医疗器械注册临床阶段的硬膜下皮层表面植入式脑机接口产品。","source":"财经早报","publish_time":"2026-07-09 08:52","url":"http://m.toutiao.com/group/7660324599325917696/","tags":["脑机接口","脑虎科技","三类医疗器械"]},
+    {"id":17,"category":"新产品","title":"Meta 投资 91.7 亿美元在加拿大 Alberta 建设首个超大数据中心","summary":"Meta 宣布在加拿大 Alberta 建设首个超大数据中心，项目超 130 亿加元（约 91.7 亿美元），强化 AI 基础设施。","source":"EFE / 西班牙 EFE 通讯社","publish_time":"2026-07-09 09:00","url":"https://efe.com/noticias/inteligencia-artificial/","tags":["Meta","数据中心","加拿大"]},
+    {"id":18,"category":"新产品","title":"Anthropic 计划在澳建 1.4GW 数据中心，投资 150 亿美元","summary":"Anthropic 计划在澳大利亚采购至少 1.4GW 数据中心算力，建设成本约 150 亿美元，目标 2027 年底前启用至少 1GW。Anthropic 年化收入过去 15 个月从 10 亿美元飙升至 470 亿美元。","source":"Australian Financial Review / The Tech Capital / 财联社","publish_time":"2026-07-09 08:26","url":"https://m.weibo.cn/detail/5318685059449864","tags":["Anthropic","数据中心","150亿"]},
+    {"id":19,"category":"新产品","title":"加州 Queue 推出全球首家全自动机器人药房","summary":"美国加州初创公司 Queue 推出全球首家全自动机器人药房，从处方接收、配药到交付全流程无人化。","source":"财联社","publish_time":"2026-07-09 08:12","url":"http://m.toutiao.com/group/7660314405968446006/","tags":["机器人药房","Queue","医疗AI"]},
+    {"id":20,"category":"新产品","title":"四部门联合印发'人工智能+人社'实施意见：2026 年建 20 个行业大模型场景","summary":"人力资源社会保障部、国家发改委、工信部、国家数据局联合印发意见，2026 年打造 20 个基于行业大模型的应用场景，2027 年探索 50 个高价值场景，2030 年形成普遍应用。规划 67 个细分应用场景，涵盖数智就业、智慧社保等 6 方面。","source":"光明网 / 中国政府网 / 经济参考报","publish_time":"2026-07-09 08:26","url":"https://m.weibo.cn/detail/5318685059449864","tags":["人工智能+人社","四部门","政策"]}
+  ]
+};
+
+// 渲染
+const grid = document.getElementById('grid');
+const filterGroup = document.getElementById('filterGroup');
+const searchInput = document.getElementById('searchInput');
+const sortSelect = document.getElementById('sortSelect');
+
+let currentFilter = 'all';
+let currentSearch = '';
+let currentSort = 'time-desc';
+
+function render() {
+  let list = DATA.hotspots.slice();
+
+  // 筛选分类
+  if (currentFilter !== 'all') {
+    list = list.filter(h => h.category === currentFilter);
+  }
+  // 搜索
+  if (currentSearch) {
+    const q = currentSearch.toLowerCase();
+    list = list.filter(h =>
+      h.title.toLowerCase().includes(q) ||
+      h.summary.toLowerCase().includes(q) ||
+      h.tags.some(t => t.toLowerCase().includes(q))
+    );
+  }
+  // 排序
+  if (currentSort === 'time-desc') {
+    list.sort((a,b) => b.publish_time.localeCompare(a.publish_time));
+  } else if (currentSort === 'time-asc') {
+    list.sort((a,b) => a.publish_time.localeCompare(b.publish_time));
+  } else if (currentSort === 'category') {
+    const order = {'大模型':0,'芯片':1,'新产品':2};
+    list.sort((a,b) => order[a.category] - order[b.category]);
+  }
+
+  if (list.length === 0) {
+    grid.innerHTML = '<div class="empty"><div class="empty-icon">🔍</div><p>没有匹配的热点，换个关键词试试</p></div>';
+    return;
+  }
+
+  grid.innerHTML = list.map(h => `
+    <div class="card" data-category="${h.category}" data-url="${h.url}">
+      <div class="card-header">
+        <span class="category-tag ${h.category}">${h.category}</span>
+        <span class="time-tag">${h.publish_time.slice(5)}</span>
+      </div>
+      <h3>${h.title}</h3>
+      <p>${h.summary}</p>
+      <div class="card-footer">
+        <div class="card-tags">
+          ${h.tags.slice(0,3).map(t => `<span class="card-tag">#${t}</span>`).join('')}
+        </div>
+        <a href="${h.url}" target="_blank" class="card-link" onclick="event.stopPropagation()">原文 →</a>
+      </div>
+    </div>
+  `).join('');
+
+  // 卡片点击跳转
+  document.querySelectorAll('.card').forEach(c => {
+    c.addEventListener('click', () => {
+      const url = c.dataset.url;
+      if (url) window.open(url, '_blank');
+    });
+  });
+}
+
+function updateCounts() {
+  const counts = {
+    all: DATA.hotspots.length,
+    '大模型': DATA.hotspots.filter(h => h.category === '大模型').length,
+    '芯片': DATA.hotspots.filter(h => h.category === '芯片').length,
+    '新产品': DATA.hotspots.filter(h => h.category === '新产品').length
+  };
+  document.getElementById('cntAll').textContent = counts.all;
+  document.getElementById('cntAI').textContent = counts['大模型'];
+  document.getElementById('cntChip').textContent = counts['芯片'];
+  document.getElementById('cntProduct').textContent = counts['新产品'];
+  document.getElementById('statTotal').textContent = counts.all;
+  document.getElementById('statAI').textContent = counts['大模型'];
+  document.getElementById('statChip').textContent = counts['芯片'];
+  document.getElementById('statProduct').textContent = counts['新产品'];
+}
+
+function init() {
+  document.getElementById('navDate').textContent = `${DATA.date} · ${DATA.weekday}`;
+  document.getElementById('heroDate').textContent = `📅 ${DATA.date}（${DATA.weekday}）`;
+  document.getElementById('heroSummary').textContent = DATA.summary;
+  document.getElementById('updateTime').textContent = DATA.date;
+  updateCounts();
+  render();
+}
+
+filterGroup.addEventListener('click', e => {
+  const btn = e.target.closest('.filter-btn');
+  if (!btn) return;
+  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  currentFilter = btn.dataset.filter;
+  render();
+});
+
+searchInput.addEventListener('input', e => {
+  currentSearch = e.target.value.trim();
+  render();
+});
+
+sortSelect.addEventListener('change', e => {
+  currentSort = e.target.value;
+  render();
+});
+
+init();
+</script>
+</body>
+</html>
