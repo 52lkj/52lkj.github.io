@@ -1,22 +1,955 @@
 {
   "date": "2026-10-05",
   "weekday": "星期一",
-  "summary": "2026-10-05 科技热点自动更新：共收录 360 条资讯，覆盖大模型 108 条、芯片 97 条、新产品 155 条。重点包括：英伟达 AI 芯片走私案嫌疑人被捕，涉案金额超 3 亿美元；再涨价！消息称台积电先进晶圆价格 2027Q1 拟计划再上调 6%~8%；华为首款“韬定律逻辑折叠”芯片海思麒麟 9050 Pro 裸片显微照首曝：双裸片垂直堆叠，晶体管密度提升 55% 而面积小于前代；内存涨价倒逼系统瘦身：微软详解 Win11 为何要降低 RAM 占用；1nm 之后晶体管怎么走？泛林集团探索 SA-CFET 架构，SRAM 单元面积较 N3 缩小 52.7%。",
+  "summary": "2026-10-05 科技热点自动更新：共收录 357 条资讯，覆盖大模型 114 条、芯片 99 条、新产品 144 条。重点包括：迈从公布 A7 V3-X 中大手鼠标：雾透渐变配色，nRF54L + PAW3955，日常价 459 元；一汽丰田：“一汽丰田或将彻底退出历史舞台”“丰田大降价”等均为不实言论；南亚科技布局晶圆级封测，将在屏东科学园区投资设厂 - 新浪财经；半导体股，逆市走高 - 东方财富；JEDEC 发布首份全行业硅光子学（SiPh）可靠性标准 JESD264。",
   "keywords": [
-    "芯片",
-    "英伟达",
-    "AI",
-    "台积电",
-    "半导体",
-    "华为",
-    "苹果",
     "新产品",
+    "芯片",
+    "半导体",
+    "英伟达",
+    "NVIDIA",
+    "AI",
     "大模型",
-    "Anthropic"
+    "OpenAI",
+    "Anthropic",
+    "台积电"
   ],
   "hotspots": [
     {
       "id": 1,
+      "category": "新产品",
+      "title": "迈从公布 A7 V3-X 中大手鼠标：雾透渐变配色，nRF54L + PAW3955，日常价 459 元",
+      "summary": "IT之家 10 月 5 日消息，迈从 (MCHOSE) 今日宣布，其 中大手 三模鼠标新品 A7 V3-X 现已登陆迈从线下门店。该款可选浮影 / 幻樱 2 种雾透渐变配色， 日常价 459 元 。 A7 V3-X 三维 125.8 × 6...",
+      "source": "IT之家",
+      "publish_time": "2026-10-05 10:43",
+      "url": "https://www.ithome.com/1/009/778.htm",
+      "tags": [
+        "新产品"
+      ]
+    },
+    {
+      "id": 2,
+      "category": "新产品",
+      "title": "一汽丰田：“一汽丰田或将彻底退出历史舞台”“丰田大降价”等均为不实言论",
+      "summary": "IT之家 10 月 5 日消息，一汽丰田汽车销售有限公司今日发布《针对近期网络上出现的有关一汽丰田不实言论的声明》。 IT之家附声明全文如下： 针对近期网络上出现的有关一汽丰田不实言论的声明 近期，中国第一汽车集团有限公司与广州汽车工业集团...",
+      "source": "IT之家",
+      "publish_time": "2026-10-05 10:41",
+      "url": "https://www.ithome.com/1/009/776.htm",
+      "tags": [
+        "新产品"
+      ]
+    },
+    {
+      "id": 3,
+      "category": "芯片",
+      "title": "南亚科技布局晶圆级封测，将在屏东科学园区投资设厂 - 新浪财经",
+      "summary": "南亚科技布局晶圆级封测，将在屏东科学园区投资设厂 &nbsp;&nbsp; 新浪财经",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-05 10:36",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMVhLUkNGblBXZDhoRWJEYXZGWHJWaXJoQXhDSnlxbExLTVpOeXVzNFJCNzYyWDRuMFJuNDhzUFVKTTFfU0tNYXpQNVVtbUl0RkFTc0hQdjB2ZWpEYUEycV9ZWVNzMVVVV0V0VlJHTEpiR2tQcmhmOVJFbFBPSXNrekZMemtMVVNVS044VHpJMjZKZ1dwcENqTXpRQ1RldGlkYzdtTFhYWQ?oc=5",
+      "tags": [
+        "芯片"
+      ]
+    },
+    {
+      "id": 4,
+      "category": "芯片",
+      "title": "半导体股，逆市走高 - 东方财富",
+      "summary": "半导体股，逆市走高 &nbsp;&nbsp; 东方财富",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-05 10:35",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE42ZW9OZXEzOFNMMTNjTzZzandLWDE3VS1oMmVJQ0RmbWJ6TmNaY1Z6QjZnN0tlZFV1QS1TUmlyS3hmNXM3TVM2TXFNWmFZOTFMOXVENUdDbVNXaHNhUk9ucG5CYU5idw?oc=5",
+      "tags": [
+        "芯片",
+        "半导体"
+      ]
+    },
+    {
+      "id": 5,
+      "category": "新产品",
+      "title": "JEDEC 发布首份全行业硅光子学（SiPh）可靠性标准 JESD264",
+      "summary": "IT之家 10 月 5 日消息，JEDEC 固态技术协会美国当地时间本月 1 日发布了 JESD264 硅光子学 (SiPh) 器件认证和可靠性要求，这是 首份全行业级别的硅光器件统一认证和可靠性实践规范 。 硅光领域此前缺乏标准化的、行业...",
+      "source": "IT之家",
+      "publish_time": "2026-10-05 10:34",
+      "url": "https://www.ithome.com/1/009/775.htm",
+      "tags": [
+        "新产品",
+        "芯片"
+      ]
+    },
+    {
+      "id": 6,
+      "category": "新产品",
+      "title": "iQOO 16 手机首销情况曝光：同期约为 iQOO 15 的 50%、iQOO 13 的 100%",
+      "summary": "IT之家 10 月 5 日消息，长期关注国内手机市场份额的数码博主 @RD观测 今日爆料了 iQOO 16 手机的首销情况（Sell out）。 以首销当天（20:30 开售）+ 后三天为标准 iQOO 16 同期约为 iQOO 15 的 ...",
+      "source": "IT之家",
+      "publish_time": "2026-10-05 10:32",
+      "url": "https://www.ithome.com/1/009/774.htm",
+      "tags": [
+        "新产品"
+      ]
+    },
+    {
+      "id": 7,
+      "category": "芯片",
+      "title": "半导体股，逆市走高 - sohu.com",
+      "summary": "半导体股，逆市走高 &nbsp;&nbsp; sohu.com",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-05 10:25",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRnRPWXFLa0FQWHBqNGRnZDJOYXhjZ2xsZnJXRkJkQ1VPUzBxOTJ5Z21OY210V09TODhmaER5d1VtWUhmZW9oWjBXU3o0YzdDOGkycDVHbk5Pb3VvY2dZenh4WXgyNklFcXJBQWRldDY5SERtb1BQRDRydWhmbzNRWnRBdlRZOV9r?oc=5",
+      "tags": [
+        "芯片",
+        "半导体"
+      ]
+    },
+    {
+      "id": 8,
+      "category": "芯片",
+      "title": "华擎DeskSlim X600 / B760台式机支持英伟达RTX PRO Blackwell显卡 - 凤凰网",
+      "summary": "华擎DeskSlim X600 / B760台式机支持英伟达RTX PRO Blackwell显卡 &nbsp;&nbsp; 凤凰网",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-05 10:24",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE82bEJJWE5RVVIwQ0tZcVNhVnBqSVFrNHNOVU1ZWl9VbXNuX2FZT0RiUW9VY0xSZjJoSFRVb1hYRUNfOGViU3NwSg?oc=5",
+      "tags": [
+        "芯片",
+        "英伟达"
+      ]
+    },
+    {
+      "id": 9,
+      "category": "新产品",
+      "title": "《GTA6》开发初期曾考虑四主角设定，R 星担心玩家不够代入而选择聚焦杰森与露西亚",
+      "summary": "IT之家 10 月 5 日消息，Rockstar North 联合负责人罗布 · 尼尔森（Rob Nelson）在接受 IGN 等媒体采访时透露，《GTA6》开发初期曾考虑加入四名可操作主角，但最终放弃了这一方案。 他表示，团队曾讨论过如何...",
+      "source": "IT之家",
+      "publish_time": "2026-10-05 10:23",
+      "url": "https://www.ithome.com/1/009/773.htm",
+      "tags": [
+        "新产品"
+      ]
+    },
+    {
+      "id": 10,
+      "category": "新产品",
+      "title": "长安汽车米梦冬谈阿维塔 9 系设计：可以讨论、可以期待，最终还是让产品说话",
+      "summary": "IT之家 10 月 5 日消息，长安汽车副总裁、总法律顾问、新闻发言人米梦冬今日发布长文，谈及阿维塔 9 系设计，并表示“可以讨论，可以期待， 最终还是让产品说话 。” 他表示，对于一款旗舰产品而言，最怕的不是有人喜欢、有人争论，而是没有自...",
+      "source": "IT之家",
+      "publish_time": "2026-10-05 10:22",
+      "url": "https://www.ithome.com/1/009/772.htm",
+      "tags": [
+        "新产品"
+      ]
+    },
+    {
+      "id": 11,
+      "category": "芯片",
+      "title": "华擎 DeskSlim X600 / B760 台式机支持英伟达 RTX PRO Blackwell 显卡",
+      "summary": "IT之家 10 月 5 日消息，华擎 (ASRock) 本月 2 日宣布，其 5L 级紧凑型台式机 DeskSlim X600（AMD)） / B760（英特尔）正式支持 NVIDIA（英伟达） RTX PRO 4000 Blackwell...",
+      "source": "IT之家",
+      "publish_time": "2026-10-05 10:21",
+      "url": "https://www.ithome.com/1/009/771.htm",
+      "tags": [
+        "芯片",
+        "英伟达",
+        "NVIDIA",
+        "AI"
+      ]
+    },
+    {
+      "id": 12,
+      "category": "芯片",
+      "title": "NVIDIA市值冲上5.6万亿美元 黄仁勋身价重回2000亿美元行列 - 新浪财经",
+      "summary": "NVIDIA市值冲上5.6万亿美元 黄仁勋身价重回2000亿美元行列 &nbsp;&nbsp; 新浪财经",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-05 10:16",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9EZDdRd08yRDlzWUVuem1DU3phZDRlZ21Id0dzdk5TdDdpNkdCSm5GMk5FVkRDX01mb2gwY3EtY3VJZTBWNUxaV05XRmhLQkNRMmJMcnFXc1I4VGw3YlNYTjRpTk1fRWVKWW5vSkRSb1dyMU5FUGQ1dkVGUlBzb2M?oc=5",
+      "tags": [
+        "芯片",
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": 13,
+      "category": "芯片",
+      "title": "NVIDIA市值冲上5.6万亿美元 黄仁勋身价重回2000亿美元行列 - Moomoo",
+      "summary": "NVIDIA市值冲上5.6万亿美元 黄仁勋身价重回2000亿美元行列 &nbsp;&nbsp; Moomoo",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-05 10:16",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5RZFBwUXg1cWJBdTlwdUxvWkxJQ052cmN6SUlyYnVRRjM3VEdBOWlpY0dYdGxLa1NQbTV1ZW9wYThIRTZnMVFuYUFNbGlIUlZoaE5OaDRKa3UxSm03?oc=5",
+      "tags": [
+        "芯片",
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": 14,
+      "category": "大模型",
+      "title": "Anthropic 前研究员将出席纽约 AI 听证会作证，曾警告 AI 或毁灭人类",
+      "summary": "IT之家 10 月 5 日消息，据知情人士向彭博新闻社透露，Anthropic 前研究员雅各布 · 考克斯顿（Jacob Coxon）将出席纽约市一场关于人工智能的听证会并作证。 报道称，考克斯恩将应纽约市议会议长朱莉 · 梅宁的要求出席作...",
+      "source": "IT之家",
+      "publish_time": "2026-10-05 10:14",
+      "url": "https://www.ithome.com/1/009/769.htm",
+      "tags": [
+        "大模型",
+        "OpenAI",
+        "Anthropic",
+        "AI"
+      ]
+    },
+    {
+      "id": 15,
+      "category": "芯片",
+      "title": "南亚科技布局晶圆级封测，将在屏东科学园区投资设厂",
+      "summary": "IT之家 10 月 5 日消息，DRAM 内存芯片与模组制造商南亚科技 (Nanya Technology) 本月 1 日宣布，将在屏东科学园区投资设立 3D 晶圆封装测试厂。 这座先进封测设施将导入 TSV（硅通孔）、晶圆堆叠等 3D I...",
+      "source": "IT之家",
+      "publish_time": "2026-10-05 10:12",
+      "url": "https://www.ithome.com/1/009/768.htm",
+      "tags": [
+        "芯片",
+        "AI"
+      ]
+    },
+    {
+      "id": 16,
+      "category": "芯片",
+      "title": "台积电股价早盘一度上涨3%，此前马斯克证实正在与台积电就TeraFab项目合作进行谈判。 - 新浪财经",
+      "summary": "台积电股价早盘一度上涨3%，此前马斯克证实正在与台积电就TeraFab项目合作进行谈判。 &nbsp;&nbsp; 新浪财经",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-05 10:08",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1rNzV3ckJIY2lqM3dhZmh2X1Bybmg1bE5aVnpKdFNIMTlpd2N2N20yNjBMcENJMWc3aXhIR1lBNTFvTElFU0tucmkyZVpuWFE?oc=5",
+      "tags": [
+        "芯片",
+        "台积电"
+      ]
+    },
+    {
+      "id": 17,
+      "category": "新产品",
+      "title": "谷歌 Fitbit Edge 健身手环曝光：续航七天，内置 GPS 与高度计",
+      "summary": "IT之家 10 月 5 日消息，关于 Fitbit Edge 外界目前掌握的信息还不算多，但这款产品看上去是中端 Charge 系列的继任机型。 此前就曾出现过相关泄露消息，而在 Android Headlines 发布的最新图片当中，可以...",
+      "source": "IT之家",
+      "publish_time": "2026-10-05 10:06",
+      "url": "https://www.ithome.com/1/009/767.htm",
+      "tags": [
+        "新产品",
+        "AI"
+      ]
+    },
+    {
+      "id": 18,
+      "category": "新产品",
+      "title": "vivo Y600k Turbo 手机开售：第四代骁龙 7s，12GB+256GB 售价 2799 元",
+      "summary": "IT之家 10 月 5 日消息，vivo Y600k Turbo 手机现已在官网开售，搭载第四代骁龙 7s，有电光蓝、千禧粉、沙丘金三种颜色可选， 12GB+256GB 售价 2799 元 。 vivo Y600k Turbo 手机搭载第四...",
+      "source": "IT之家",
+      "publish_time": "2026-10-05 10:05",
+      "url": "https://www.ithome.com/1/009/766.htm",
+      "tags": [
+        "新产品"
+      ]
+    },
+    {
+      "id": 19,
+      "category": "大模型",
+      "title": "消息称 Reflection 等多家西方企业本月将推出开放权重 AI 模型",
+      "summary": "IT之家 10 月 5 日消息，外媒 Axios 当地时间 4 日报道称，Reflection 等 多家西方企业本月将推出开放权重 AI 模型 ，人工智能模型领域的竞争将进一步升级。 开放权重模型的一大好处是其支持客户本地部署，这对微调和推...",
+      "source": "IT之家",
+      "publish_time": "2026-10-05 10:02",
+      "url": "https://www.ithome.com/1/009/765.htm",
+      "tags": [
+        "大模型",
+        "AI"
+      ]
+    },
+    {
+      "id": 20,
+      "category": "新产品",
+      "title": "三星Exynos 2700量产，产能较前代增加超10% - sohu.com",
+      "summary": "三星Exynos 2700量产，产能较前代增加超10% &nbsp;&nbsp; sohu.com",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-05 10:01",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdVpCSWhXNnVudUJHeTN1TWxoYjJxVGtRSzRMLXZid080ZWJVN0tDLWdiZ0FrS0s3dVlyRDZJaHZwRXNObC1KWmJ2R0lVY1pPX1kwdEJLMW4wZlZvNHpEem5jc0RGVmFIb0RQVDE3ZDhyVk1LZjdlc2NhWHBaX18zbUJtdkQwVHhT?oc=5",
+      "tags": [
+        "新产品"
+      ]
+    },
+    {
+      "id": 21,
+      "category": "大模型",
+      "title": "跨越百年的代言：斯凯孚用 AI“复活”已故女星葛丽泰 · 嘉宝拍广告",
+      "summary": "IT之家 10 月 5 日消息，“开拍了吗？”由人工智能生成的好莱坞三十年代影星葛丽泰 · 嘉宝（Greta Garbo）的形象柔声问道。这是一则看起来颇出人意料的广告，广告的投放方是瑞典滚珠轴承制造商斯凯孚（SKF）。 据路透社报道，这则...",
+      "source": "IT之家",
+      "publish_time": "2026-10-05 10:00",
+      "url": "https://www.ithome.com/1/009/764.htm",
+      "tags": [
+        "大模型",
+        "Gemini",
+        "AI"
+      ]
+    },
+    {
+      "id": 22,
+      "category": "芯片",
+      "title": "$博通 (AVGO.US)$ 咕嘎 不是只做夜盘侠而已勒 你很久没有做盘中侠了[得意] - Moomoo",
+      "summary": "$博通 (AVGO.US)$ 咕嘎 不是只做夜盘侠而已勒 你很久没有做盘中侠了[得意] &nbsp;&nbsp; Moomoo",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-05 09:51",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcVhYM09Xd3FPUWlDWjZMSG1yR1preW9TdEVUM1BtRnFtc05lbzcwR3FPNUxnOVF6OThackQ3Q24yY1ZudE1VSHgtYm10TklLY1lIMmVya1JaSVpsNUk5OFZaWUowcnZDd1lTOE51bTR4WERUSWlyV09VX2twZlM1a0VBNGVRVktCRWNiLUpURHZIWW4yXy13WGZmY1kzSFE5QU5IQk9Hdw?oc=5",
+      "tags": [
+        "芯片"
+      ]
+    },
+    {
+      "id": 23,
+      "category": "新产品",
+      "title": "消息称 Wayve 将为大众供应自动驾驶解决方案",
+      "summary": "IT之家 10 月 5 日消息，德媒 Donaukurier 当地时间本月 2 日报道称，英国具身智能初创企业 Wayve 从诸多竞争者中胜出，将同大众汽车集团旗下软件公司 CARIAD 合作 为大众供应自动驾驶解决方案 。 Wayve 将...",
+      "source": "IT之家",
+      "publish_time": "2026-10-05 09:48",
+      "url": "https://www.ithome.com/1/009/762.htm",
+      "tags": [
+        "新产品"
+      ]
+    },
+    {
+      "id": 24,
+      "category": "大模型",
+      "title": "OpenAI 宣布“28 天计划”：Codex、Work 日进一步或“重置”",
+      "summary": "IT之家 10 月 5 日消息，OpenAI 核心产品与平台负责人 Thibault Sottiaux 今日在 X 上发文，透露团队将在未来 28 天持续推进 Codex 和 ChatGPT Work 相关改进。 他表示，OpenAI 接下...",
+      "source": "IT之家",
+      "publish_time": "2026-10-05 09:47",
+      "url": "https://www.ithome.com/1/009/761.htm",
+      "tags": [
+        "大模型",
+        "OpenAI",
+        "ChatGPT",
+        "AI"
+      ]
+    },
+    {
+      "id": 25,
+      "category": "芯片",
+      "title": "港股半导体板块盘初走强，澜起科技涨超5% - 东方财富",
+      "summary": "港股半导体板块盘初走强，澜起科技涨超5% &nbsp;&nbsp; 东方财富",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-05 09:46",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9aSzkzcnBILXNSX3hUdEFaeWFhZUJuM0tMVnlxWWJ3RTN0bV9oX0VaM3VPWU1tOTRVdUlfV2I0ZEFtU3VSX1Z5Z0xTVFk4S0tEYWowV0ExYTZiUnhwNy1mZA?oc=5",
+      "tags": [
+        "芯片",
+        "半导体"
+      ]
+    },
+    {
+      "id": 26,
+      "category": "芯片",
+      "title": "iQOO Pad Ultra 小平板开售：第六代骁龙 8 超级至尊版，首销价 5999 元起",
+      "summary": "IT之家 10 月 5 日消息，iQOO Pad Ultra 小平板于 9 月 29 日正式发布，10 月 5 日 10:00 全渠道正式开售， 首销价 5999 元起 ： 12GB+256GB：6499 元，首销优惠价 5999 元，国补...",
+      "source": "IT之家",
+      "publish_time": "2026-10-05 09:39",
+      "url": "https://www.ithome.com/1/009/760.htm",
+      "tags": [
+        "芯片"
+      ]
+    },
+    {
+      "id": 27,
+      "category": "新产品",
+      "title": "更大容量选项：SUNEAST 预告 2TB microSD Express 存储卡",
+      "summary": "IT之家 10 月 5 日消息，日本存储与配件制造商旭东 (SUNEAST) 此前已推出了 128GB / 256GB / 512GB / 1TB 四种容量的 microSD Express 存储卡。 而根据其官网上的宣传资料， 该企业还将...",
+      "source": "IT之家",
+      "publish_time": "2026-10-05 09:38",
+      "url": "https://www.ithome.com/1/009/759.htm",
+      "tags": [
+        "新产品"
+      ]
+    },
+    {
+      "id": 28,
+      "category": "新产品",
+      "title": "协同铺筑的“六张网” - 新浪财经",
+      "summary": "协同铺筑的“六张网” &nbsp;&nbsp; 新浪财经",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-05 09:38",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdzFPb0VfcmVpRlRaUDFrT2gtWFpSNGhnRXlVb0R5N1h1S2JVcVB3YVV5ci00bGJxYWUzRlFMeWJGX3o0Q2NwUVFpSlcwMVhVbmhDZGhjdi1fR281ZFRnVm8yMWE5Wkszam9xZjdndHpuSEJYWV90VS11bjRMRENCTzhfcnhIdHBud3g0eWhSbWl1VkJZNXdreg?oc=5",
+      "tags": [
+        "新产品"
+      ]
+    },
+    {
+      "id": 29,
+      "category": "芯片",
+      "title": "港股PCB、半导体股盘初走强， $建滔集团(00148.HK)$ 、 $建滔积层板(018 - 富途牛牛",
+      "summary": "港股PCB、半导体股盘初走强， $建滔集团(00148.HK)$ 、 $建滔积层板(018 &nbsp;&nbsp; 富途牛牛",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-05 09:38",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOY05RbWtQbHFRTHNwaTJwSHhScXFDdXh0a0FkUGdCUURhRzg5S1JYQzZxaldrNnVYWjNBbUJlSzc1X1otbmV0TmZ4WTJDc0VGejBYMmY3M1FiRjJBMmZwYWdrbkRsY0hQU2FHX3VmS0hWQ2pCVWh2c2UtWFFLZTRDYk5rNW81aEZaS19RMG5vVy1fVjM2ZlM1WFYtUkV6Z1VWenN2ejhn?oc=5",
+      "tags": [
+        "芯片",
+        "半导体"
+      ]
+    },
+    {
+      "id": 30,
+      "category": "芯片",
+      "title": "台积电评估参与马斯克Terafab超级晶圆厂项目，马斯克回应正在讨论 - 虎嗅网",
+      "summary": "台积电评估参与马斯克Terafab超级晶圆厂项目，马斯克回应正在讨论 &nbsp;&nbsp; 虎嗅网",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-05 09:33",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5IdXkyZFQ2UmRKNV9iVGt4dER6ejV1Rml1Z0VES042eWpaNTFJZDRMQ1M4Z1JydXdIbVI3N3JIMFpwVk0xV3JtQkRXZGZVc2xEOUxmRw?oc=5",
+      "tags": [
+        "芯片",
+        "台积电"
+      ]
+    },
+    {
+      "id": 31,
+      "category": "芯片",
+      "title": "深圳这场半导体盛会热度拉满！10月再聚全球产业力量 - sohu.com",
+      "summary": "深圳这场半导体盛会热度拉满！10月再聚全球产业力量 &nbsp;&nbsp; sohu.com",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-05 09:33",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOekRyZWdkSm5hLUk1M1lzOHRGYmFmYm9IVzl0U0NkRFVEai1nanh6dXBzMVYtRWVPT3NDV3Y2UEloZFNfbUZLZ3hLSG12UGE0dWRuak9sdFBMRzJ5aE10c3VJV0RHMDc4aGY2V1MyZER2U3V2d1k5ZTU5LXlWYjBPTkhHVUNtSWtabkViaA?oc=5",
+      "tags": [
+        "芯片",
+        "半导体"
+      ]
+    },
+    {
+      "id": 32,
+      "category": "新产品",
+      "title": "MCU大厂，重要收购！ - sohu.com",
+      "summary": "MCU大厂，重要收购！ &nbsp;&nbsp; sohu.com",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-05 09:22",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORThhVTN6RGxYMnY2YzJ3U1gyN3JqYk1meUJGTDZWeV9LcGt1RW5RbGxDMnpweUtIbVJRVi12VExlWkZjbENuMGpacTVUQTNxeEljMkpVUXUzOF83VW1EVGdpdXdwQjRwVkFCUVFWQlJqSENIZHZ4RkhpU0d1Q2pwR3FUQ2ppeWpN?oc=5",
+      "tags": [
+        "新产品"
+      ]
+    },
+    {
+      "id": 33,
+      "category": "大模型",
+      "title": "软银集团孙正义罕见发出 AI 安全警告，呼吁各国携手应对威胁",
+      "summary": "IT之家 10 月 5 日消息，据彭博社报道，软银集团创始人孙正义一直被视为人工智能最坚定的拥护者之一。然而他近日坦言，随着 AI 能力的突飞猛进，就连他也对伴随而来的安全风险深感担忧。 周日，在日本京都举行的“科学与技术在社会中的作用”论...",
+      "source": "IT之家",
+      "publish_time": "2026-10-05 09:21",
+      "url": "https://www.ithome.com/1/009/758.htm",
+      "tags": [
+        "大模型",
+        "OpenAI",
+        "ChatGPT",
+        "芯片"
+      ]
+    },
+    {
+      "id": 34,
+      "category": "新产品",
+      "title": "365 米超埃菲尔铁塔，德国建造全球最高风力发电机",
+      "summary": "IT之家 10 月 5 日消息，一台被开发方称作全球最高的风力发电机现已矗立在德国东部人口稀疏的旷野之上，整机高度达到 365 米，已经超过埃菲尔铁塔。 这台巨型风机落户于柏林东南方向的卢萨蒂亚地区一座已有的风电场内。该地区曾经是褐煤开采的...",
+      "source": "IT之家",
+      "publish_time": "2026-10-05 09:16",
+      "url": "https://www.ithome.com/1/009/757.htm",
+      "tags": [
+        "新产品"
+      ]
+    },
+    {
+      "id": 35,
+      "category": "芯片",
+      "title": "芯片设备，迎来大爆发 - Moomoo",
+      "summary": "芯片设备，迎来大爆发 &nbsp;&nbsp; Moomoo",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-05 09:15",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1WMlN1U2VLLU9vMWR4bk9Bc3VDZjdtcjFQaVF0QUxoclN5WWhYMm5oYzFDbElCdTkwOXF5YktpR3NxSmExS0w5YzJVM3ZMTE9FRk9RVWF2cXVuZ0RV?oc=5",
+      "tags": [
+        "芯片"
+      ]
+    },
+    {
+      "id": 36,
+      "category": "芯片",
+      "title": "传台积电与马斯克洽谈德州芯片工厂项目合作 - 观点网",
+      "summary": "传台积电与马斯克洽谈德州芯片工厂项目合作 &nbsp;&nbsp; 观点网",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-05 09:10",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE40TTIyRnNEemV4OVNNM3Q3Sk1qN1RTdGYyZGpSYXhwYWRWbFQ2UXphX3Vfc1AyaDRJVGpmME9ydDZzOGx0SnphTzUwNzcwdw?oc=5",
+      "tags": [
+        "芯片",
+        "台积电"
+      ]
+    },
+    {
+      "id": 37,
+      "category": "芯片",
+      "title": "我的台积电笔记 - Moomoo",
+      "summary": "我的台积电笔记 &nbsp;&nbsp; Moomoo",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-05 09:10",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE84eE9SV2ZzUTZUQmdycm5iVklzNUV4X0VISklPX1dRaXFzbWVyWXJsR0QxZzBFcThFTktxQUlpa09NUTdvdDBXVHBLdzNmVUdXeHNLZUp2TDdxTGc1TDBSZTlMMG9HTFhtbUF4czNnZnd6U2dxTjJiUnlB?oc=5",
+      "tags": [
+        "芯片",
+        "台积电"
+      ]
+    },
+    {
+      "id": 38,
+      "category": "大模型",
+      "title": "英伟达重金力捧！“美版DeepSeek”即将发布开源模型 - 富途牛牛",
+      "summary": "英伟达重金力捧！“美版DeepSeek”即将发布开源模型 &nbsp;&nbsp; 富途牛牛",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-05 09:09",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOaTZtOXpDVi1ROFdnZGxsYV81WV9SN25na0pHVG5xOVZ4T1V0S1hCNGVFOFU3WjktR1U2dHNZcWJJZFVLVlVsV0FuTEJGN01CRnhvREdxV21JdEd2UllIdk4tYmtTZ2JPbUhpOGFpOXE2QWhLLXFtRlJJaTZmeFRaMXNaQlJLMS1vM3VyRkNKdGZ0RHYyMUN5M1A5VXR5MkNZWm9hTjdVZWhRUVQtNW5jVlBiS19YTUJxREJRbHJCQnp2QUVoc2hLUmNiOFdjdw?oc=5",
+      "tags": [
+        "大模型",
+        "DeepSeek",
+        "英伟达"
+      ]
+    },
+    {
+      "id": 39,
+      "category": "大模型",
+      "title": "Meta 的 AI 助手 Muse 被曝可深度分析用户社交关系，并为每位联系人建立个人档案",
+      "summary": "IT之家 10 月 5 日消息，Meta 的全新个人助手 Muse 已经迅速走红，数百万用户下载了这款人工智能智能体，把它和自己的银行账户、消息软件或者健康数据进行绑定，交由它代为完成各项事务。不过就在 Muse 在普通消费者群体当中迅速普...",
+      "source": "IT之家",
+      "publish_time": "2026-10-05 09:08",
+      "url": "https://www.ithome.com/1/009/755.htm",
+      "tags": [
+        "大模型",
+        "ChatGPT",
+        "机器人",
+        "AI"
+      ]
+    },
+    {
+      "id": 40,
+      "category": "芯片",
+      "title": "全球首款玻璃基射频芯片实现规模化量产！ - sohu.com",
+      "summary": "全球首款玻璃基射频芯片实现规模化量产！ &nbsp;&nbsp; sohu.com",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-05 09:06",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOOVREUDlSaFFzeG8tTG9CcjdLLURJT3I5UDcyTkdPUFlrSGg3ZnY0ZW02dDdtbzN6Ulp2OUM1VkQzbnlwVnU2VVkwQTBSVnBZQ1dZZVBNdmhtS1JnRFcyN2xxd0lJS0tnc2V3eDJQTXVuLWdIbzBIWXVRZVpzbGhrLUtLU3lCeGNHRnlicg?oc=5",
+      "tags": [
+        "芯片"
+      ]
+    },
+    {
+      "id": 41,
+      "category": "芯片",
+      "title": "日股开盘大涨，半导体领涨 - 凤凰网",
+      "summary": "日股开盘大涨，半导体领涨 &nbsp;&nbsp; 凤凰网",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-05 09:04",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE91UUZDRFV4V0dnZFBVWkZGNXFvTWJrX3lIRE5sTTA2M3hYb0hMU3RJMHpEMUlaeEpCYkVHZUtSQUU2V3RXMHRyWk1lZkhnSjJK?oc=5",
+      "tags": [
+        "芯片",
+        "半导体"
+      ]
+    },
+    {
+      "id": 42,
+      "category": "大模型",
+      "title": "OpenAI 奥尔特曼：人工智能的巨大效益值得承担部分风险",
+      "summary": "IT之家 10 月 5 日消息，OpenAI 首席执行官萨姆 · 奥尔特曼（Sam Altman）近日在接受《Decoded》栏目专访时表示，他的公司与竞争对手 Anthropic 在人工智能监管问题上，仍然存在根本性的世界观分歧。 奥尔特...",
+      "source": "IT之家",
+      "publish_time": "2026-10-05 09:02",
+      "url": "https://www.ithome.com/1/009/754.htm",
+      "tags": [
+        "大模型",
+        "OpenAI",
+        "Anthropic",
+        "AI"
+      ]
+    },
+    {
+      "id": 43,
+      "category": "芯片",
+      "title": "《中国半导体湿电子化学品年度报告 2026》重磅推出！欢迎索取目录！ - 电子工程专辑",
+      "summary": "《中国半导体湿电子化学品年度报告 2026》重磅推出！欢迎索取目录！ &nbsp;&nbsp; 电子工程专辑",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-05 09:00",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5hVWFWd18wV0lrVnlBbHoxVEdwdFlQYUFfTmxZTXBXbFNnbkRnT0lFTmlEbU5GNHNIY0E2V1pMUmxNQTFTSzN6N2Iwb29yeWhBMERV?oc=5",
+      "tags": [
+        "芯片",
+        "半导体"
+      ]
+    },
+    {
+      "id": 44,
+      "category": "芯片",
+      "title": "重磅推出全新系列报告！包含9个项目表，4张项目地图及9份年度报告！亚化咨询半导体数据全家桶/年报开启订阅 - 电子工程专辑",
+      "summary": "重磅推出全新系列报告！包含9个项目表，4张项目地图及9份年度报告！亚化咨询半导体数据全家桶/年报开启订阅 &nbsp;&nbsp; 电子工程专辑",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-05 09:00",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBUVDk4QWNpZWNwR1lsd1J0TGlVaktVYTJkTXBUWlcyN09nb3ljNkZEOGJUTkp5eTB2Y0ticXRJcTlvZ3M2SXZkbVl4YkpGVmlseHpJ?oc=5",
+      "tags": [
+        "芯片",
+        "半导体"
+      ]
+    },
+    {
+      "id": 45,
+      "category": "新产品",
+      "title": "格力技工学校首届新生开学：董明珠任校长，机电与制冷方向最热门",
+      "summary": "IT之家 10 月 5 日消息，据“中国珠海发布”，由格力电器牵头打造、董明珠亲自担任校长的珠海市格力技工学校，10 月 4 日正式迎来建校后的首批新生入学报到。 迎新当天，校园里“人人皆可成才人人尽展其才”的横幅标语格外醒目，新生和陪同家...",
+      "source": "IT之家",
+      "publish_time": "2026-10-05 08:58",
+      "url": "https://www.ithome.com/1/009/753.htm",
+      "tags": [
+        "新产品"
+      ]
+    },
+    {
+      "id": 46,
+      "category": "大模型",
+      "title": "古尔曼：苹果 CEO 特努斯深度介入设计业务，每周多次亲临设计工作室",
+      "summary": "IT之家 10 月 5 日消息，自乔纳森 · 伊夫（Jony Ive）2019 年离开苹果之后，这家公司就一直没有一位真正的首席设计负责人。此前一段时间，由前首席运营官杰夫 · 威廉姆斯（Jeff Williams）接管设计业务，直至他去年...",
+      "source": "IT之家",
+      "publish_time": "2026-10-05 08:56",
+      "url": "https://www.ithome.com/1/009/752.htm",
+      "tags": [
+        "大模型",
+        "OpenAI",
+        "苹果",
+        "AI"
+      ]
+    },
+    {
+      "id": 47,
+      "category": "芯片",
+      "title": "算力资产寿命的多空之争：黄仁勋说能用六年，空头说三年就该报废 - 新浪财经",
+      "summary": "算力资产寿命的多空之争：黄仁勋说能用六年，空头说三年就该报废 &nbsp;&nbsp; 新浪财经",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-05 08:56",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9LOVVzTHliYlQ3U1diLXFnMFNlTC1jUjh0WFpMR1FDcXpPcGJYWmY3WDlQWFZZZWJqOWdaZ2JnRXNoQUs5ZllIS3Q2S0VGaTg5Y1BvQU84cWZqczJaZGVKbnh4QUlfelZ0RDczSnRqQ2tpTnk5aHc?oc=5",
+      "tags": [
+        "芯片"
+      ]
+    },
+    {
+      "id": 48,
+      "category": "大模型",
+      "title": "DeepSeek V4.1 Flash 发力，中美顶尖模型 LiveBench 跑分差距缩至 3%",
+      "summary": "北京时间 10 月 5 日，据彭博行业研究称，过去几个月，随着 DeepSeek 等中国 AI 实验室的模型不断进步，美国 AI 公司相对中国同行的性能领先优势急剧缩小，降至历史最低水平，这让美国的科技主导地位面临威胁。 DeepSeek ...",
+      "source": "IT之家",
+      "publish_time": "2026-10-05 08:50",
+      "url": "https://www.ithome.com/1/009/751.htm",
+      "tags": [
+        "大模型",
+        "OpenAI",
+        "Anthropic",
+        "DeepSeek"
+      ]
+    },
+    {
+      "id": 49,
+      "category": "芯片",
+      "title": "黄仁勋双喜临门：三星电子会长李在镕暴出黄仁勋长女婚讯,市值逼近6万亿美元10年涨了88倍！ - 财富号",
+      "summary": "黄仁勋双喜临门：三星电子会长李在镕暴出黄仁勋长女婚讯,市值逼近6万亿美元10年涨了88倍！ &nbsp;&nbsp; 财富号",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-05 08:47",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAtVW1sZFpUaHM4TUJMaGEzdXdua0hvb241VEp6TVllX0NJa1VLOG01Q0ItU09PSUZ6eHNFbDlfS3EycDVzVy15SjNWekdWMTloTjNjNER3SmV1MVNsYzZUNk1VYV84WEhveFBv?oc=5",
+      "tags": [
+        "芯片"
+      ]
+    },
+    {
+      "id": 50,
+      "category": "新产品",
+      "title": "古尔曼：配备 OLED 触控屏的全新苹果 MacBook Pro 将大幅减重",
+      "summary": "IT之家 10 月 5 日消息，苹果即将对 MacBook Pro 进行一次重大重塑，新机大约会在一个月之内正式亮相。这将是首款支持触控屏的 MacBook，同时也是首次采用叠层 OLED（Tandem OLED）屏幕的机型。除此之外，据彭...",
+      "source": "IT之家",
+      "publish_time": "2026-10-05 08:39",
+      "url": "https://www.ithome.com/1/009/750.htm",
+      "tags": [
+        "新产品",
+        "苹果",
+        "芯片",
+        "AI"
+      ]
+    },
+    {
+      "id": 51,
+      "category": "芯片",
+      "title": "SpaceX巨型星舰火箭首次进入轨道；英伟达市值迈向6万亿美元 | 一周全球公司十大要闻 - sohu.com",
+      "summary": "SpaceX巨型星舰火箭首次进入轨道；英伟达市值迈向6万亿美元 | 一周全球公司十大要闻 &nbsp;&nbsp; sohu.com",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-05 08:32",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNc1V2ckVfZkFzWHB4UUFPdF9DQlhxTlY3TEZ3YkFTa1NDOTh5NUZSTEdLbmIwVDI0M3NyTE5ETzJmWjMzY2R4ZklyOXBVY2RpRGxmZTdjdS1GU3BkdDBLRGVGRkJWYmV0VWktZGNYZk9XM3lTd2lmdnBFQ3JtYjdMODhSUnBFRHhHU2E2Yg?oc=5",
+      "tags": [
+        "芯片",
+        "英伟达"
+      ]
+    },
+    {
+      "id": 52,
+      "category": "大模型",
+      "title": "4nm芯片、AI大模型、激光雷达全配齐，四款热门纯电SUV智能座舱谁更“懂你”？ - 手机新浪网",
+      "summary": "4nm芯片、AI大模型、激光雷达全配齐，四款热门纯电SUV智能座舱谁更“懂你”？ &nbsp;&nbsp; 手机新浪网",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-05 08:31",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB0NDlLMGY4TlN4YllGR2tuLXFSa0FFR0lwU0Ryb3RzS190YnFaTm5DRGVxSVlaMVZ5d2g2WU5WbWxfYzhGcFRiQ3Z4VEJzbEVKeHN1U3BwcXVESFpUSlJZeWluNFlCdXJycXJ0WlQ0TExsUkFoYTE4cUxmSTJ4bHM?oc=5",
+      "tags": [
+        "大模型",
+        "芯片",
+        "AI"
+      ]
+    },
+    {
+      "id": 53,
+      "category": "新产品",
+      "title": "2026 诺贝尔奖即将揭晓，9 位华人科学家成热门候选人",
+      "summary": "IT之家 10 月 5 日消息，2026 年诺贝尔奖各奖项揭晓活动将于 10 月 5 日至 12 日依次进行，其中与科技相关的生理学或医学奖（10 月 5 日）、物理学奖（10 月 6 日）、化学奖（10 月 7 日）即将公布，目前有 9 ...",
+      "source": "IT之家",
+      "publish_time": "2026-10-05 08:27",
+      "url": "https://www.ithome.com/1/009/748.htm",
+      "tags": [
+        "新产品"
+      ]
+    },
+    {
+      "id": 54,
+      "category": "新产品",
+      "title": "宝马中国 2027 年产品规划路线图曝光：iX1 长轴距版与 3 系长轴距版有望同期亮相",
+      "summary": "IT之家 10 月 5 日消息，宝马在 2026 资本市场日活动的相关文件中披露了一张面向中国市场的产品路线图，其中展示了数款身披伪装车衣、计划于 2027 年底前登陆中国市场的神秘车型。 这张路线图并未标注具体车型名称，但结合宝马当前的产...",
+      "source": "IT之家",
+      "publish_time": "2026-10-05 08:24",
+      "url": "https://www.ithome.com/1/009/747.htm",
+      "tags": [
+        "新产品"
+      ]
+    },
+    {
+      "id": 55,
+      "category": "芯片",
+      "title": "英伟达将推出DGX SPARK 64GB配置 起售价4999美元 - 观点网",
+      "summary": "英伟达将推出DGX SPARK 64GB配置 起售价4999美元 &nbsp;&nbsp; 观点网",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-05 08:20",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBmaktoMExJUHZnZ29EUWJsUXVGa05PWXduSzlTZ3l3WDNTaTI4dU53aFBQWW00NHhudGhMcmJKYlp3MWpmRDNWcXZERzZnZw?oc=5",
+      "tags": [
+        "芯片",
+        "英伟达"
+      ]
+    },
+    {
+      "id": 56,
+      "category": "新产品",
+      "title": "“机器人通用大脑”受追捧：FieldAI 拟融资 7 亿美元，估值达 100 亿美元",
+      "summary": "IT之家 10 月 5 日消息，FieldAI 正在为人形机器人、无人机等各类机器人打造一款通用大脑。投资者正为重押这一发展愿景投入巨资。 据《商业内幕》报道，一位了解本次交易的人士透露，这家机器人企业正在融资 7 亿美元 （IT之家注：现...",
+      "source": "IT之家",
+      "publish_time": "2026-10-05 08:15",
+      "url": "https://www.ithome.com/1/009/746.htm",
+      "tags": [
+        "新产品",
+        "英伟达",
+        "特斯拉",
+        "机器人"
+      ]
+    },
+    {
+      "id": 57,
+      "category": "芯片",
+      "title": "华为徐直军：昇腾芯片中国市场份额已超越英伟达 - 观点网",
+      "summary": "华为徐直军：昇腾芯片中国市场份额已超越英伟达 &nbsp;&nbsp; 观点网",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-05 08:15",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBtcVZYa18wN3VCT3Z2THczVXZERHRQUmhVVllpR3cyam1sSXprRVVoUWl1Q3Zock9jM2JiS2pteTRWYXNMRENfd0M3SGNmUQ?oc=5",
+      "tags": [
+        "芯片",
+        "英伟达",
+        "华为"
+      ]
+    },
+    {
+      "id": 58,
+      "category": "大模型",
+      "title": "OpenAI GPT-6 Sol 被破解，30 万字系统提示词已泄露",
+      "summary": "大模型圈的核心机密，终究还是保不住了！继前阵子 Opus 5.5 被爆出 190 万字提示词泄露后，AI 圈的「地心引力」再次失效 ——OpenAI 的现役代码模型 GPT-6 Sol Codex 惨遭「开盒」，老底被扒得一干二净！ 据外网...",
+      "source": "IT之家",
+      "publish_time": "2026-10-05 08:14",
+      "url": "https://www.ithome.com/1/009/745.htm",
+      "tags": [
+        "大模型",
+        "OpenAI",
+        "ChatGPT",
+        "Gemini"
+      ]
+    },
+    {
+      "id": 59,
+      "category": "芯片",
+      "title": "大摩重将英伟达(NVDA.US)列为半导体首选股 行业瓶颈转向数据中心基建 SpaceX、亚马逊合作打开增长空间 - 英为财情 Investing.com",
+      "summary": "大摩重将英伟达(NVDA.US)列为半导体首选股 行业瓶颈转向数据中心基建 SpaceX、亚马逊合作打开增长空间 &nbsp;&nbsp; 英为财情 Investing.com",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-05 08:11",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5QWlFlcW4ybElCNUdPSWFNRmtyV3B4MXh4S1lqUEhpUjY2bkI0MkpQTW0yRVgzVzdFM21ENm5zZGF5RW01a1JWa1NBRk9pZ3ZzSGRLdVNyN2hleHk3anMxejJGZDZvNUtqTVh2YmttOV8?oc=5",
+      "tags": [
+        "芯片",
+        "英伟达",
+        "半导体"
+      ]
+    },
+    {
+      "id": 60,
+      "category": "芯片",
+      "title": "英伟达AI芯片走私案嫌疑人被捕，涉案金额超3亿美元 - 手机新浪网",
+      "summary": "英伟达AI芯片走私案嫌疑人被捕，涉案金额超3亿美元 &nbsp;&nbsp; 手机新浪网",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-05 08:10",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBBclZOSGZYaGJqNTdPTHcwaE9aY0IyTlFXdXdfMVhndTk0ZENEZGgybndablZQMEdWQnVTN19qcDEyY0lsNzNWdWhjdm5DMkNMNTMzbWxLX3d0RjU1UVlXTktTcy0wQmVYczJVZmd1UllOX0E2ZE16aWxjSHE1NnM?oc=5",
+      "tags": [
+        "芯片",
+        "英伟达",
+        "AI"
+      ]
+    },
+    {
+      "id": 61,
+      "category": "大模型",
+      "title": "TypeSafe AI 决策模型 Jev 日处理量达 1 万亿 Token，硅谷巨头火速跟进复刻",
+      "summary": "IT之家 10 月 5 日消息，据《华尔街日报》报道，一款仅问世三周的人工智能模型 Jev 已经在硅谷圈子引发热议，人们开始探讨大语言模型之外的替代路线，同时这款模型也已经催生出不少跟风仿制产品。 初创企业 TypeSafe AI 于当地时...",
+      "source": "IT之家",
+      "publish_time": "2026-10-05 08:06",
+      "url": "https://www.ithome.com/1/009/744.htm",
+      "tags": [
+        "大模型",
+        "OpenAI",
+        "ChatGPT",
+        "机器人"
+      ]
+    },
+    {
+      "id": 62,
+      "category": "大模型",
+      "title": "突发，谷歌关停大批免费Gemini模型！|Google|Google AI|官方|套餐|降级_手机新浪网 - 新浪财经",
+      "summary": "突发，谷歌关停大批免费Gemini模型！|Google|Google AI|官方|套餐|降级_手机新浪网 &nbsp;&nbsp; 新浪财经",
+      "source": "Google News 大模型",
+      "publish_time": "2026-10-05 08:05",
+      "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxPMkVxZmo0M3FEQnI5N0czLUh1ajB5UVBWcG1VczByQjRBQ3hrTlFVYUpfalN6TkVvaGRoal9IeHJCbFNEbFFtejUwZE5Pblk2TXdPTFIxa1NsZGRnOGhWLTh3T0FYWDBNaThqckIzQWFvT3JyWDAtTXgwajQzcEZDQ1BlS21RbWV0S2owUHN0TG5NOUJZVmgxQ2w4dmE5bWM0b1R1WVd0cHE3Y2NrYVZoQ0NhZ2J4Qm5KdnBwTzAxUVhkamR5TG9velZHbVNZazVubzVtWUxJSnlyVVBTV2lHamo0UmpDQ0t4OUFINmhReWZHUHBvazVyUWN2cEE5RnJRNy1UV3dScU9OMVNOeTlNekJ3VHU2cmdubmRNazR3?oc=5",
+      "tags": [
+        "大模型",
+        "Google",
+        "Gemini",
+        "AI"
+      ]
+    },
+    {
+      "id": 63,
+      "category": "芯片",
+      "title": "台积电先进晶圆再涨价8%。 - 虎嗅网",
+      "summary": "台积电先进晶圆再涨价8%。 &nbsp;&nbsp; 虎嗅网",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-05 08:05",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5Na2J6c0FrQUxmeEh5ZjlKWmZKV2lPLWtXNHo2QVVPZ1cyWkUtOWFHaVk2a2ZWOHpOQXRHV0Fod3dNTFZnYXRDSnVucGFDM1FqeXNN?oc=5",
+      "tags": [
+        "芯片",
+        "台积电"
+      ]
+    },
+    {
+      "id": 64,
+      "category": "芯片",
+      "title": "半导体行业的跨境风险投资：是知识溢出效应，还是资本深化作用？ - 生物通",
+      "summary": "半导体行业的跨境风险投资：是知识溢出效应，还是资本深化作用？ &nbsp;&nbsp; 生物通",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-05 08:03",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBVLWE5Z21nQ2ZmQUdjRTB6enV1VVZuVHV2R2RTeEhITmFCUFN1YzFod3ZLSjFwQW9SdkJPWVpBY1VvaTM4bmVfd3N5WGFtNlVtaW1KMzk1bG1QaUZWZ1oxOUs0LU15RERWR0dmaGpB?oc=5",
+      "tags": [
+        "芯片",
+        "半导体"
+      ]
+    },
+    {
+      "id": 65,
+      "category": "新产品",
+      "title": "Meta开源Muse Gadgets，用ESP32和树莓派打造自定义AI硬件 - 凤凰网科技",
+      "summary": "Meta开源Muse Gadgets，用ESP32和树莓派打造自定义AI硬件 &nbsp;&nbsp; 凤凰网科技",
+      "source": "Google News 大模型",
+      "publish_time": "2026-10-05 08:01",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFByTHlpcDA4cTloWFIyY3E4d3JlOUR5NkFvNktpZjZ6dXBTblhoektEcG5fSFN4ZHdrN1lPRXdWR1hqd3dGREJmME9IelI?oc=5",
+      "tags": [
+        "新产品",
+        "AI"
+      ]
+    },
+    {
+      "id": 66,
+      "category": "芯片",
+      "title": "绿电“追风”而来算力“逐绿”而兴|哈尔滨市平房区|风力发电|国庆节|黑龙江省|哈尔滨市_手机新浪网 - 新浪财经",
+      "summary": "绿电“追风”而来算力“逐绿”而兴|哈尔滨市平房区|风力发电|国庆节|黑龙江省|哈尔滨市_手机新浪网 &nbsp;&nbsp; 新浪财经",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-05 08:01",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1hSHU3Yk9SNVJ1U2phbGlWaFNxcFN3b3hYRWtBVEVWc0g3UVJWdTNYMElFZ2NCU1NfWlZSd1owRnQtV3dobjNITy1teTlaWFVZMzd1V3VXYUthY1dMWW0wM2dSSFY5VVIzVmQ5ZnhKdnV6OEpaazN4Wg?oc=5",
+      "tags": [
+        "芯片"
+      ]
+    },
+    {
+      "id": 67,
+      "category": "新产品",
+      "title": "人人都能有自己的智能体设备：Meta 开源 Muse Gadgets，用 ESP32 和树莓派打造自定义 AI 硬件",
+      "summary": "IT之家 10 月 5 日消息，Meta 于当地时间 10 月 2 日宣布推出开源项目 Muse Gadgets，允许开发者为旗下个人 AI 智能体 Muse 打造自定义硬件。 Meta 同时也已经在 GitHub 上按照 Apache 2...",
+      "source": "IT之家",
+      "publish_time": "2026-10-05 08:00",
+      "url": "https://www.ithome.com/1/009/743.htm",
+      "tags": [
+        "新产品",
+        "机器人",
+        "AI"
+      ]
+    },
+    {
+      "id": 68,
+      "category": "芯片",
+      "title": "华为首款“韬定律逻辑折叠”芯片海思麒麟9050 Pro裸片显微照首曝 - 凤凰网",
+      "summary": "华为首款“韬定律逻辑折叠”芯片海思麒麟9050 Pro裸片显微照首曝 &nbsp;&nbsp; 凤凰网",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-05 07:50",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1OMXYzT0hnMzNuOC1tUHdpRUlhZ3ZZTnNKcUtFWXlmTTctMGFRcGdlYWx3ODVCcUM4NExqX0I5dFMxNDRDQ05SRw?oc=5",
+      "tags": [
+        "芯片",
+        "华为"
+      ]
+    },
+    {
+      "id": 69,
+      "category": "新产品",
+      "title": "IT早报 1005：乐山大佛“掏耳朵”视频系 AI 合成；央视曝光外卖“明厨亮灶”造假；余承东称华为已量产 381 款 τ 芯片；马斯克确认 SpaceXAI 将更名 SpaceXSI...",
+      "summary": "“IT早报”时间，大家好，现在是 2026 年 10 月 5 日星期一，今天的重要科技资讯有： 1. 乐山大佛景区回应网传“掏耳朵”养护作业视频：系 AI 合成，佛耳内并无所谓“杂物” 网传视频显示文保工人给大佛掏耳朵、掏鼻孔，还出现猴子抢...",
+      "source": "IT之家",
+      "publish_time": "2026-10-05 07:49",
+      "url": "https://www.ithome.com/1/009/742.htm",
+      "tags": [
+        "新产品",
+        "OpenAI",
+        "DeepSeek",
+        "英伟达"
+      ]
+    },
+    {
+      "id": 70,
+      "category": "新产品",
+      "title": "集成电路成中国第一大出口商品背后 涨价潮推动出口狂飙 - 中华网",
+      "summary": "集成电路成中国第一大出口商品背后 涨价潮推动出口狂飙 &nbsp;&nbsp; 中华网",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-05 07:48",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5PSVJ4V3JDTWMtX01QWXNmck40NjJQWHVBV2xjZ3BNcl9ha0lHWDFCR0lqenp0WGlvMFRsR3A3Z2l3dXVyV0cwNXVmLXU1SExlcC1SLWIwbEd5ck0yRnk0b2JnNVRDSlhZelVoNlBSMWE?oc=5",
+      "tags": [
+        "新产品"
+      ]
+    },
+    {
+      "id": 71,
+      "category": "芯片",
+      "title": "早报：太空算力升空 通信产业多线并进 早报：太空算力升空 通信产业多线并进 - sohu.com",
+      "summary": "早报：太空算力升空 通信产业多线并进 早报：太空算力升空 通信产业多线并进 &nbsp;&nbsp; sohu.com",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-05 07:48",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQXzNERFJYeHRqVGwyY1ZPOFJRR3Zrbm1jdGJtX3h4VzV0TmlhNlhDZnBkaUl6MU53WmhZU3FNUFdFVXNzNzI3bDR4MEVTbWJKRnoxMGJ3MkE1Z3VjcFFwUXAzVkF0NVFQUW5SM0ptaWVaSjVtWjF3MUNhb1RuM3Ruc0dhWEJSeko5?oc=5",
+      "tags": [
+        "芯片"
+      ]
+    },
+    {
+      "id": 72,
       "category": "芯片",
       "title": "英伟达 AI 芯片走私案嫌疑人被捕，涉案金额超 3 亿美元",
       "summary": "IT之家 10 月 5 日消息，美国上周逮捕了一名嫌疑人，此人被控走私含有受出口管制的英伟达芯片的高端计算机服务器进入中国。 美国司法部于当地时间上周四发布新闻稿，指控 38 岁的格雷格 · 刘（Greg Lui）使用虚假文件掩盖一批货值超...",
@@ -30,7 +963,32 @@
       ]
     },
     {
-      "id": 2,
+      "id": 73,
+      "category": "芯片",
+      "title": "视频 | 美光科技拥抱新能源 无碳赋能AI - klsescreener.com",
+      "summary": "视频 | 美光科技拥抱新能源 无碳赋能AI &nbsp;&nbsp; klsescreener.com",
+      "source": "Google News 新产品",
+      "publish_time": "2026-10-05 07:40",
+      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNNi1BNWZNajFVMnVMdVFVUzBzTk5iVXhjbXlJVXEwMFkwbDcxZkV4ZWZjbEVtZ09IRjlRV1hBclRBN1lDS3B6YWJyQm1QRE5wMTNkS2xFZS0tM2tUVlJzRHpNc1AxTXEyeDYzMFM5V1MxNnVIMkdVT21jUXlHRS12bXZHZ3E3dTE0ekNkckYtUHRGMXZqYm5yQzBoQlhNcDIyTV91cEtTQmFqa3B5Q2xaeE1Rb0s2X3dqcy1xVkQ0Q010cmMtekdobkZHTktIZEYtVllTZGZ1dUMtd2Vvcnpxb2JSTFlRN3BUWFZjTEd6TlRJZTdRUDhUdDBSd01FUHFpby1LM3hldFdLX2FQYW9GZU53aXR2bHJj?oc=5",
+      "tags": [
+        "芯片",
+        "AI"
+      ]
+    },
+    {
+      "id": 74,
+      "category": "芯片",
+      "title": "早报：太空算力升空 通信产业多线并进 - sohu.com",
+      "summary": "早报：太空算力升空 通信产业多线并进 &nbsp;&nbsp; sohu.com",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-05 07:30",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRWxqOXYxUno2RlZ6bU80RF9iQTRWSGlzYm43RnNfZ2ZZYkQycWpDaDRnWGNLN0tGeEFqWDNGUzc2UHhyTEU4QzJlMzExTjZGRi1RRms2VXlMT3FXZDVORl9qcGp1NURpenNqY19felJoZFdyekxQUEtQZGZES2RSUkY2QkdEaVB1?oc=5",
+      "tags": [
+        "芯片"
+      ]
+    },
+    {
+      "id": 75,
       "category": "芯片",
       "title": "再涨价！消息称台积电先进晶圆价格 2027Q1 拟计划再上调 6%~8%",
       "summary": "IT之家 10 月 5 日消息，韩媒 ddaily 于 10 月 2 日发布博文，报道称 在决定上调 10%~20% 基础上 ，台积电计划 2027 年第一季度针对最先进晶圆出货价格， 再次上调约 6%~8%， 理由是制造成本和电力费用上涨...",
@@ -45,7 +1003,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": 76,
       "category": "芯片",
       "title": "华为首款“韬定律逻辑折叠”芯片海思麒麟 9050 Pro 裸片显微照首曝：双裸片垂直堆叠，晶体管密度提升 55% 而面积小于前代",
       "summary": "IT之家 10 月 5 日消息，半导体分析机构 Kurnal Insights 于当地时间 9 月 30 日发布了华为麒麟 9050 Pro 芯片的裸片（Die Shot）显微照，首次从物理层面展示了这款芯片的内部结构。 照片显示，麒麟 9...",
@@ -60,7 +1018,20 @@
       ]
     },
     {
-      "id": 4,
+      "id": 77,
+      "category": "新产品",
+      "title": "7亿用户成为我国AI产业巨大底盘 - 中国经济网",
+      "summary": "7亿用户成为我国AI产业巨大底盘 &nbsp;&nbsp; 中国经济网",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-05 07:21",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5IamI2bTNpcUFac04yWGVzSUUxUEx2TFRTRnNJajhTVzlUdHNYQXZOWHo4RWdtX3dzb1hxUWNXU3ppem9KdktmNUFVSWhSMUQ1Y3cwSlFNOHFkY0NIZmpHTldScG5EZ2hWRGpSLWNJazVTcHotNXRJ?oc=5",
+      "tags": [
+        "新产品",
+        "AI"
+      ]
+    },
+    {
+      "id": 78,
       "category": "新产品",
       "title": "内存涨价倒逼系统瘦身：微软详解 Win11 为何要降低 RAM 占用",
       "summary": "IT之家 10 月 5 日消息，随着内存成本持续上涨，微软正将“降低 Windows 11 内存占用”列为 2026 年剩余时间的重要工作之一。 微软 Windows 与设备业务负责人帕万 · 达武卢里（Pavan Davuluri）在官方...",
@@ -73,7 +1044,19 @@
       ]
     },
     {
-      "id": 5,
+      "id": 79,
+      "category": "新产品",
+      "title": "当中国机器狗进入哈萨克斯坦工地：托卡耶夫平衡术下的中美“错位竞争” - thepaper.cn",
+      "summary": "当中国机器狗进入哈萨克斯坦工地：托卡耶夫平衡术下的中美“错位竞争” &nbsp;&nbsp; thepaper.cn",
+      "source": "Google News 新产品",
+      "publish_time": "2026-10-05 07:08",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBnSHZycXExMGJpM0xUWDNZa1FEQ2VKSjgxd2wyRnB2UW5uZEF0OTlxdUVVU0NUWmJOb01HekxyQ08ybHhnOXVpRlh5NTh4dXdPaFVmRTNYSTgxbE4yTXlZelk1WXFZcDZ0M0tmdUxyT2FDUQ?oc=5",
+      "tags": [
+        "新产品"
+      ]
+    },
+    {
+      "id": 80,
       "category": "芯片",
       "title": "1nm 之后晶体管怎么走？泛林集团探索 SA-CFET 架构，SRAM 单元面积较 N3 缩小 52.7%",
       "summary": "IT之家 10 月 5 日消息，随着先进制程不断向 1nm 及以下节点推进，传统 GAA 纳米片晶体管在漏电、迁移率、寄生电阻以及制造工艺波动等方面面临越来越大的挑战。 当地时间 9 月 29 日，全球前三的晶圆制造设备厂商泛林集团（Lam...",
@@ -86,7 +1069,20 @@
       ]
     },
     {
-      "id": 6,
+      "id": 81,
+      "category": "芯片",
+      "title": "《海东市新质生产力引领数字海东发展“十五五”规划》出台打造服务全省、辐射全国的“算力绿洲”-政务公开 - qinghai.gov.cn",
+      "summary": "《海东市新质生产力引领数字海东发展“十五五”规划》出台打造服务全省、辐射全国的“算力绿洲”-政务公开 &nbsp;&nbsp; qinghai.gov.cn",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-05 06:54",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1RWDI2SkJSUW92UWVtRWJzQXlzY2Exb2Zoc0czak1CZWlITE9LLWR3SnBUaEpnZkJ1YVV3Q0F5b3pMd1lHTnVWSXdublZ2RmhCYzlYSUl5YkNqZ1MtOWxLc0xwVWhlRG5jdGtWdExsVGViQQ?oc=5",
+      "tags": [
+        "芯片",
+        "AI"
+      ]
+    },
+    {
+      "id": 82,
       "category": "新产品",
       "title": "中国正在编织六张“超级大网” - 新浪财经",
       "summary": "中国正在编织六张“超级大网” &nbsp;&nbsp; 新浪财经",
@@ -98,32 +1094,31 @@
       ]
     },
     {
-      "id": 7,
-      "category": "大模型",
-      "title": "7亿用户成为AI产业巨大底盘|人工智能|模型|用户规模|数据|生态_手机新浪网 - 新浪财经",
-      "summary": "7亿用户成为AI产业巨大底盘|人工智能|模型|用户规模|数据|生态_手机新浪网 &nbsp;&nbsp; 新浪财经",
-      "source": "Google News 芯片",
-      "publish_time": "2026-10-05 05:51",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE90REtiN0NVUTNac1pzT1VCWk5yMHFVTUtjYjRnTzBfcHpVNFhNZmNsdElLWHF4YmtwMDktbm9jOGtfcXVYX290MlhPMV91UksyRVgyMHBYYkhJcXNENUJHbWxTZTkwOGxJV045b19EQi1nM2NCcGstcA?oc=5",
-      "tags": [
-        "大模型",
-        "AI"
-      ]
-    },
-    {
-      "id": 8,
+      "id": 83,
       "category": "芯片",
-      "title": "AMD锐龙7 9700X装机方案 万元预算的性能如何 - 新浪财经",
-      "summary": "AMD锐龙7 9700X装机方案 万元预算的性能如何 &nbsp;&nbsp; 新浪财经",
+      "title": "AMD锐龙7 9700X装机方案万元预算的性能如何|AMD处理器|中关村在线|显卡|电源|显存_手机新浪网 - 新浪财经",
+      "summary": "AMD锐龙7 9700X装机方案万元预算的性能如何|AMD处理器|中关村在线|显卡|电源|显存_手机新浪网 &nbsp;&nbsp; 新浪财经",
       "source": "Google News 芯片",
-      "publish_time": "2026-10-05 05:36",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE40NXg5TC1rMkNKcE8wM0xmaFIzY3pNREVUblUxYW1OQXVCM3dRN083UkpXdkZCODZOVDZac3prb1JOSWRsel9seDJOd3lndjBfY3BEVXRjOFVxa2JjQkJsQzJyYXBOZHdhUURJYVlqR1hvQ1czN2xJYg?oc=5",
+      "publish_time": "2026-10-05 06:48",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOT19hSm0wRU5rU3hqYU82VnhsOVp3QWdSaTBGdXRBSEZoak9aQlZLT3YweTViSDcwUE5MaVhkcVFHZnE4Y1VBZ0xIcVdxeW92S1VsdWp6VVUzeFFEbF9rSk5RbmxDTk9LcW9VeDl1UGg4NE1VRjhGWjVLemphLWE1RVR2dw?oc=5",
       "tags": [
         "芯片"
       ]
     },
     {
-      "id": 9,
+      "id": 84,
+      "category": "芯片",
+      "title": "日本Rapidus公司将协助17家企业为其客户开展芯片设计工作合作方包括东芝旗下子公司东芝信息系统等企业 - 东方财富",
+      "summary": "日本Rapidus公司将协助17家企业为其客户开展芯片设计工作合作方包括东芝旗下子公司东芝信息系统等企业 &nbsp;&nbsp; 东方财富",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-05 05:53",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9lRG1FalFseFFUWFp6Y0hYeDVvUnhrak5sdFNPZ3E0eHJXUWxSRndmaEpidldzLTRSNkV4RElKSXJ4UWkxanRJcXhIdGxCZHo4aUlTWUt2ekNpRjd4RjZydHU3QQ?oc=5",
+      "tags": [
+        "芯片"
+      ]
+    },
+    {
+      "id": 85,
       "category": "新产品",
       "title": "四川肉兔育种迈入“芯”时代 - 四川日报",
       "summary": "四川肉兔育种迈入“芯”时代 &nbsp;&nbsp; 四川日报",
@@ -135,7 +1130,20 @@
       ]
     },
     {
-      "id": 10,
+      "id": 86,
+      "category": "芯片",
+      "title": "当华为、高通、宁德时代同时为一台车站台，FREELANDER神行者揭开了合资3.0的底牌 - 手机新浪网",
+      "summary": "当华为、高通、宁德时代同时为一台车站台，FREELANDER神行者揭开了合资3.0的底牌 &nbsp;&nbsp; 手机新浪网",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-05 05:05",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1iS3h4RDFwWTMzd2ZnV0NBLUYtX2dCaEYtWVJCYnJWN1Zub2F5S2l5TWd0THNYbEE5emhzY2NTRkNCcmtaMktDQXh5RzduVl9SaGU0bzRSODA0Qk81SUlLUVYtMTIwNE1XejR0c0Q0NFBYdw?oc=5",
+      "tags": [
+        "芯片",
+        "华为"
+      ]
+    },
+    {
+      "id": 87,
       "category": "芯片",
       "title": "中国K型经济（上）半导体企业净利增至7.2倍 - 日经中文网",
       "summary": "中国K型经济（上）半导体企业净利增至7.2倍 &nbsp;&nbsp; 日经中文网",
@@ -148,10 +1156,10 @@
       ]
     },
     {
-      "id": 11,
+      "id": 88,
       "category": "芯片",
-      "title": "博通或将向Anthropic提供最高420亿美元，用于租赁AI算力| 乌克兰新闻 - Межа. Новини України.",
-      "summary": "博通或将向Anthropic提供最高420亿美元，用于租赁AI算力| 乌克兰新闻 &nbsp;&nbsp; Межа. Новини України.",
+      "title": "博通或将向Anthropic提供最高420亿美元，用于租赁AI算力| 乌克兰新闻 - mezha.net",
+      "summary": "博通或将向Anthropic提供最高420亿美元，用于租赁AI算力| 乌克兰新闻 &nbsp;&nbsp; mezha.net",
       "source": "Google News 芯片",
       "publish_time": "2026-10-05 05:01",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5KUlhRVjdiUVpJc1MzLXIyRG43TE9xSUktR0FVTC14ck1iYnVhd2NXZUVlbHNPUVNDR2lzUDh2bTFLbnFNMnNLVFJMUXJvNlBjMGxrLXVndTBuMk91c245bkdHeFlkZ29YeUVIOC00ZEJ5UVFtQUg4?oc=5",
@@ -162,7 +1170,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 89,
       "category": "芯片",
       "title": "日本Rapidus公司将协助17家企业为其客户开展芯片设计工作合作方包括东芝旗下子公司东芝信息系统等企业 - 东方财富",
       "summary": "日本Rapidus公司将协助17家企业为其客户开展芯片设计工作合作方包括东芝旗下子公司东芝信息系统等企业 &nbsp;&nbsp; 东方财富",
@@ -174,31 +1182,7 @@
       ]
     },
     {
-      "id": 13,
-      "category": "新产品",
-      "title": "報告：中共囤積DUV光刻機 美應全面禁出口 - 新唐人電視台",
-      "summary": "報告：中共囤積DUV光刻機 美應全面禁出口 &nbsp;&nbsp; 新唐人電視台",
-      "source": "Google News 芯片",
-      "publish_time": "2026-10-05 01:12",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBZOUlUVGlzSFVLYkQ3WDYtRU1YbWlxQTcwNmREb1haNzZORGhKR09BdEF6NWt0bS1heU9EVXBJblFIS1V0Rkd2dEJiTDE2bXdjUkhpZTQ0OWR2N1lacmFyRNIBZkFVX3lxTFBmTGJNbE83cGpaRDZBLXNncmdsVnNvSlk5N1VnenZzVkdmOUY1SVk4dERtV1Q4Rmp6djhwdVdiLXVvZWk4UlpuZ0pMckZlYVNheEpaQTVuTXBJak5kQTN6Ri01cWJiQQ?oc=5",
-      "tags": [
-        "新产品"
-      ]
-    },
-    {
-      "id": 14,
-      "category": "新产品",
-      "title": "【一线调研】协同铺筑的“六张网” - 新浪财经",
-      "summary": "【一线调研】协同铺筑的“六张网” &nbsp;&nbsp; 新浪财经",
-      "source": "Google News 芯片",
-      "publish_time": "2026-10-05 01:01",
-      "url": "https://news.google.com/rss/articles/CBMi4gNBVV95cUxOWnBXYzE3NzB0V1hGaFRrZTFWSFg3dHVFYWFzcnBTYmtjcEI2WjdYdm9mVGtWZFFjQ3JEckNac2E2T1N5WWJ0WG51WjlaeDZpNnoyd1RmeWk4em9IeXRzU18zTnNEMGpSdmIwdEtmNjNJVlZYb3IteEhNUFFqbld1NGQtYnVQeTh6Zy1SMnF5WFVmUTE3TmhnZnlzaldPSUp4NXdaVTV4WjRkUWNSMG03ajlRdWdiRFFFODk1TTVqcjR3OHJzYzhnU2k5R0w3UEpYcnl6bFcyc01zSy1DekVxT01uSi0wWTZmWmVrbHVKb1dDbUR3c2hCWGVkSHN6RW9qYVF5SlRhRE8xdWQzNklOV0FBRk94cjRyUnFQVXo3WXRUbW1icTNCV04tX0VsUmhzMnlIb2VCNks3c1lNdkVlaE45X281QnV6bjhXZ3lwTTRTVTIwdHZXMXZZTE1pTHFMTUtuU1FtMkVtaFNrQ0dvVmVuXzFZMXFScWxRSUNSLVFJVzVxdE9zUmI0X3dzelVITlNJc1V5ZTFKYnNrVThCZHVFNEJnV1Nzdl9FWm5DaVFqRTVkTWhmZjJkVGw2VnBPQlV0ZnpBOWMyd1VJcWhob3BrV3pCclZhNnd0X2xMNHE0UQ?oc=5",
-      "tags": [
-        "新产品"
-      ]
-    },
-    {
-      "id": 15,
+      "id": 90,
       "category": "芯片",
       "title": "三款热门纯电SUV智能座舱横评：从芯片到AI，谁真正读懂了家庭用户？ - 手机新浪网",
       "summary": "三款热门纯电SUV智能座舱横评：从芯片到AI，谁真正读懂了家庭用户？ &nbsp;&nbsp; 手机新浪网",
@@ -211,7 +1195,20 @@
       ]
     },
     {
-      "id": 16,
+      "id": 91,
+      "category": "芯片",
+      "title": "外资巨头盯上这些A股！AI算力硬件链受青睐 - 天天基金",
+      "summary": "外资巨头盯上这些A股！AI算力硬件链受青睐 &nbsp;&nbsp; 天天基金",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-05 00:16",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB4TjZZRnlsc2pwRmZ5SkktaDduVGxyZGtrTzV5NjRsQTI3T1RueXBNRmg4ZmNMNWNxYm8zYVl0U29wNFhFZnAtN1pjR3pBcWdrTlN1REFHaXpfeWF6UExxN0pB?oc=5",
+      "tags": [
+        "芯片",
+        "AI"
+      ]
+    },
+    {
+      "id": 92,
       "category": "新产品",
       "title": "首办AI Horizon峰会 逾20国120机构参与 机器人亮相槟城 - 诗华日报",
       "summary": "首办AI Horizon峰会 逾20国120机构参与 机器人亮相槟城 &nbsp;&nbsp; 诗华日报",
@@ -225,20 +1222,7 @@
       ]
     },
     {
-      "id": 17,
-      "category": "芯片",
-      "title": "AMD收购 World Labs，82 亿抢世界模型，物理 AI 新战局 - 搜狐网",
-      "summary": "AMD收购 World Labs，82 亿抢世界模型，物理 AI 新战局 &nbsp;&nbsp; 搜狐网",
-      "source": "Google News 芯片",
-      "publish_time": "2026-10-05 00:01",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOQzNRUWEwQ21rMHoyYTJCenF4VGExTEhvSXBZSTluZndNdU1iYmZhejBHa0xXRFNmTTBhR1Z5QVJTTm4yZzU4MHNHXzNBOUdaeXhETHlXVGc3UXFRZDJDOW90WGVkQ01fdHg5R1REQjBZLW9mTFotMUhWR3dESndHUWVQbEdXRDhidHZ5Nw?oc=5",
-      "tags": [
-        "芯片",
-        "AI"
-      ]
-    },
-    {
-      "id": 18,
+      "id": 93,
       "category": "新产品",
       "title": "机器人格斗公司 REK 举办真人与机器人笼斗赛被叫停：未取得许可组织活动",
       "summary": "IT之家 10 月 4 日消息，据 tomshardware 今日报道，一家机器人格斗公司在旧金山举办了一场人机格斗赛后，收到了加州政府发来的停止侵权禁令。加州州立体育委员会（CSAC）要求该公司停止举办、宣传或赞助这类未经审批的格斗赛事，...",
@@ -251,7 +1235,7 @@
       ]
     },
     {
-      "id": 19,
+      "id": 94,
       "category": "芯片",
       "title": "【光电集成】芯片半导体种类大汇总 - 电子工程专辑",
       "summary": "【光电集成】芯片半导体种类大汇总 &nbsp;&nbsp; 电子工程专辑",
@@ -264,7 +1248,7 @@
       ]
     },
     {
-      "id": 20,
+      "id": 95,
       "category": "新产品",
       "title": "消息称微软为 20 多个数据中心建设项目引入“仿生”计划：修复湿地生态、种植本土植物以降低环境影响",
       "summary": "IT之家 10 月 4 日消息，据外媒 The Verge 报道，微软正在推行一项名为“仿生”（Biomimicry）的计划，该公司正重新规划旗下 20 多个数据中心周边土地，陆续恢复原先湿地生态、种植本土植物，希望让数据中心更好地融入当地...",
@@ -277,10 +1261,10 @@
       ]
     },
     {
-      "id": 21,
+      "id": 96,
       "category": "新产品",
-      "title": "推理支出2026年首超训练：\"Token工厂\"崛起 AI基础设施投资逻辑生变｜深度 - cls.cn",
-      "summary": "推理支出2026年首超训练：\"Token工厂\"崛起 AI基础设施投资逻辑生变｜深度 &nbsp;&nbsp; cls.cn",
+      "title": "推理支出2026年首超训练：\"Token工厂\"崛起 AI基础设施投资逻辑生变｜深度 - 财联社",
+      "summary": "推理支出2026年首超训练：\"Token工厂\"崛起 AI基础设施投资逻辑生变｜深度 &nbsp;&nbsp; 财联社",
       "source": "Google News 芯片",
       "publish_time": "2026-10-04 22:59",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBvRE95cDRYaW5JQ2xZVEhpODctWTZGR2V6MkJIakdiYjJqUXZjYWFtaWlIWXQ1elJzN0tNUk5FRWU1UXc2ZWpqMA?oc=5",
@@ -290,7 +1274,7 @@
       ]
     },
     {
-      "id": 22,
+      "id": 97,
       "category": "新产品",
       "title": "资金逆势加仓，涌入这些方向 - 新浪财经",
       "summary": "资金逆势加仓，涌入这些方向 &nbsp;&nbsp; 新浪财经",
@@ -302,19 +1286,7 @@
       ]
     },
     {
-      "id": 23,
-      "category": "芯片",
-      "title": "这对华人夫妻，造了全球1/6电视芯片 - 搜狐网",
-      "summary": "这对华人夫妻，造了全球1/6电视芯片 &nbsp;&nbsp; 搜狐网",
-      "source": "Google News 芯片",
-      "publish_time": "2026-10-04 22:55",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWVU5bXFLcGtrSU1QdVRiUVZCNkNEa2RZMTFiYmFjc3N6V3dfRXFCTlBJSDVlZDlSSS04aGxRTFBWQjlCWUFWS1M0WDVBZ3QyR204SHp4MjI4TE1DQml4Y1J3RlpmN2x3Sm4zd3FUc2tod3gxd0tMTnlvZm5ydm5SZ256c2FKUDFJRWQtdw?oc=5",
-      "tags": [
-        "芯片"
-      ]
-    },
-    {
-      "id": 24,
+      "id": 98,
       "category": "新产品",
       "title": "10 月 5 日高速服务区充电特别繁忙清单公布，主要集中河北、湖南、山西等省份",
       "summary": "IT之家 10 月 4 日消息，据交通运输部动态研判，10 月 5 日，全国高速公路预计有 30 个服务区充电特别繁忙，主要集中在河北、湖南、山西等省份，大家可通过“e 路畅通”微信小程序查询服务区充电桩运行状态。 IT之家整理如下： 序号...",
@@ -326,19 +1298,7 @@
       ]
     },
     {
-      "id": 25,
-      "category": "新产品",
-      "title": "7万亿大盘展开，南方电网起笔“六网协同” - 21财经",
-      "summary": "7万亿大盘展开，南方电网起笔“六网协同” &nbsp;&nbsp; 21财经",
-      "source": "Google News 芯片",
-      "publish_time": "2026-10-04 22:45",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTWF3cnRqNzlYRndobW5WRUE5MWhDNktzX1V5WUZhRHN0MFhGWGZNSmxnc2dIc3BUYlRjTC0ybjE5aFpISm0xUng4MDU5ZHJqUS1LSFc4SXBpaVNHaFFJWnY5bU5qSWEzZlR2RVRCWVFpQ0w0ek94Y1BCRmJUb3RhN00yemM2Ump4dm56RWJ6aw?oc=5",
-      "tags": [
-        "新产品"
-      ]
-    },
-    {
-      "id": 26,
+      "id": 99,
       "category": "大模型",
       "title": "卡位智能体，英特尔开打翻身仗了_手机新浪网 - 新浪财经",
       "summary": "卡位智能体，英特尔开打翻身仗了_手机新浪网 &nbsp;&nbsp; 新浪财经",
@@ -350,7 +1310,19 @@
       ]
     },
     {
-      "id": 27,
+      "id": 100,
+      "category": "新产品",
+      "title": "零跑C11、深蓝S07还是大众ID.AURA T6？三款纯电SUV智能座舱横评 - 手机新浪网",
+      "summary": "零跑C11、深蓝S07还是大众ID.AURA T6？三款纯电SUV智能座舱横评 &nbsp;&nbsp; 手机新浪网",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-04 22:29",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB3bWxwRXowRVl1OEJzLW1TVGcxemd2Q004SW5kVTFyOEFyMzI4bUI1X0R3M1p2cG9fNEpPTVFVb3Z1b2pfYUpOSG8zNUJoNV82TFF3dE51d2otNW45aWxxVEZ2ZmNuSGd6REhobWJDc0xMUQ?oc=5",
+      "tags": [
+        "新产品"
+      ]
+    },
+    {
+      "id": 101,
       "category": "新产品",
       "title": "时隔九年重返内地大银幕，《生化危机：爆发夜》游改真人电影明日上映",
       "summary": "IT之家 10 月 4 日消息，《生化危机：爆发夜》游改真人电影将于明日在中国内地上映，该电影将以 CINITY、IMAX、中国巨幕、4DX、SCREENX 多制式上映，让影迷感受扑面而来的惊悚感。值得一提的是，这也是《生化危机》系列时隔九...",
@@ -362,7 +1334,22 @@
       ]
     },
     {
-      "id": 28,
+      "id": 102,
+      "category": "芯片",
+      "title": "余承东：华为半导体已在手机、AI、智能汽车等领域成功设计并量产 381 款 τ 芯片 - 同花顺",
+      "summary": "余承东：华为半导体已在手机、AI、智能汽车等领域成功设计并量产 381 款 τ 芯片 &nbsp;&nbsp; 同花顺",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-04 22:23",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBoaWhlVlJaWEhqV0h1OF9pYXhaN21JTm9McUtocU04TGpXQ3ItU3poRzVadHpBOTd0VnA3N0J5cEFOd1VjXzRzbkdTanFFZHRzVi1HNjVubHVodWU0d2c?oc=5",
+      "tags": [
+        "芯片",
+        "华为",
+        "半导体",
+        "AI"
+      ]
+    },
+    {
+      "id": 103,
       "category": "芯片",
       "title": "华为、宁德时代、高通齐聚：FREELANDER神行者凭什么重塑合资豪华？ - 手机新浪网",
       "summary": "华为、宁德时代、高通齐聚：FREELANDER神行者凭什么重塑合资豪华？ &nbsp;&nbsp; 手机新浪网",
@@ -375,7 +1362,7 @@
       ]
     },
     {
-      "id": 29,
+      "id": 104,
       "category": "芯片",
       "title": "华为、宁德时代、高通齐聚：FREELANDER神行者凭什么重塑合资豪华？ - 新浪财经",
       "summary": "华为、宁德时代、高通齐聚：FREELANDER神行者凭什么重塑合资豪华？ &nbsp;&nbsp; 新浪财经",
@@ -388,10 +1375,10 @@
       ]
     },
     {
-      "id": 30,
+      "id": 105,
       "category": "大模型",
-      "title": "卡位智能体，英特尔开打翻身仗了 - 搜狐网",
-      "summary": "卡位智能体，英特尔开打翻身仗了 &nbsp;&nbsp; 搜狐网",
+      "title": "卡位智能体，英特尔开打翻身仗了 - sohu.com",
+      "summary": "卡位智能体，英特尔开打翻身仗了 &nbsp;&nbsp; sohu.com",
       "source": "Google News 芯片",
       "publish_time": "2026-10-04 22:04",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMGFVaDBTazFRMnBfLUVRaWFKT2IyMHdicmQzSG5QYjNjT3pQem10YVVtU2wtcFRlZTY0WmhnLVQ0cmo4dTdSUGZoSWg5ZEFNeC1CWkRxMElQaEpsYWlCV1JrNEtHT0puUHpvSHh3WUx6MXlSU3FTaHlWaVJLSUF6b01GcWtFZVZSMFFRaw?oc=5",
@@ -400,7 +1387,7 @@
       ]
     },
     {
-      "id": 31,
+      "id": 106,
       "category": "芯片",
       "title": "国庆特辑 国产半导体设备IPO：从龙头再融资到撤 拆解五大核心风险 - 凤凰网",
       "summary": "国庆特辑 国产半导体设备IPO：从龙头再融资到撤 拆解五大核心风险 &nbsp;&nbsp; 凤凰网",
@@ -413,19 +1400,7 @@
       ]
     },
     {
-      "id": 32,
-      "category": "芯片",
-      "title": "首个昇腾950测试基地在北京通州落成 - 东方财富",
-      "summary": "首个昇腾950测试基地在北京通州落成 &nbsp;&nbsp; 东方财富",
-      "source": "Google News 芯片",
-      "publish_time": "2026-10-04 21:44",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5lZDlUS3pHUGRwMkR0cGJlTUlvdHJqVXYzN0lVcVF6V01mYzVDRXc4SC15VkIxX3RxX1B3cHVXZ2FyTDQzbmtfVnZVOHNpVXJLTmVUd0Z0Qi00ejd4eVNTSWNIVQ?oc=5",
-      "tags": [
-        "芯片"
-      ]
-    },
-    {
-      "id": 33,
+      "id": 107,
       "category": "新产品",
       "title": "海南商发二期项目已基本建成，再添三号、四号两个发射工位",
       "summary": "IT之家 10 月 4 日消息，海南商发 10 月 1 日官宣，海南商业航天发射场二期项目以崭新姿态震撼亮相，该项目已基本建成并正式进入全系统合练阶段。 IT之家注意到，海南商业航天发射场是中国首个专业化商业航天发射基地，位于海南省文昌市东...",
@@ -437,19 +1412,7 @@
       ]
     },
     {
-      "id": 34,
-      "category": "芯片",
-      "title": "$英特尔 PERP (INTC-USDC.PP)$ - Moomoo",
-      "summary": "$英特尔 PERP (INTC-USDC.PP)$ &nbsp;&nbsp; Moomoo",
-      "source": "Google News 芯片",
-      "publish_time": "2026-10-04 21:37",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNdW1BZEhlWmpEUGU2LVRzRjNMMERjQnhpSHpwVnFKLWdaVFhYMmxXRzJxenNvcWdCX0UtR3lRQ0RHYkE0QmQtR25uUnV2eWNGcldMR1FtMkFoQWwyV0lGUld2ZnRWS19RYWtZVFFVQnd0MVd4aHFodGVibVU0Q1NmUGYzUko4X1hGV3c?oc=5",
-      "tags": [
-        "芯片"
-      ]
-    },
-    {
-      "id": 35,
+      "id": 108,
       "category": "新产品",
       "title": "央视曝光车辆“ETC 异常”短信骗局：系不法分子钓鱼陷阱",
       "summary": "IT之家 10 月 4 日消息，据央视新闻报道，近期市面上出现一种“ETC 异常”短信骗局，相应短信谎称汽车 ETC“被停用”“更新升级”“认证失效”，要求车主点击所谓链接处理。 央视新闻表示，相应短信系陷阱。这种不明链接往往是骗子专门设置...",
@@ -461,22 +1424,7 @@
       ]
     },
     {
-      "id": 36,
-      "category": "新产品",
-      "title": "余承东称华为已量产381款τ芯片，覆盖手机、AI、智能汽车等领域 - Pchome电脑之家",
-      "summary": "余承东称华为已量产381款τ芯片，覆盖手机、AI、智能汽车等领域 &nbsp;&nbsp; Pchome电脑之家",
-      "source": "Google News 芯片",
-      "publish_time": "2026-10-04 21:32",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE12WVZ1OVpEMEYzdEp1NHVrNlRmaTdlS05ael9zMHptb1hBb282QjZNSXk0bllfRkJuYjlrelRvNG04alRtNlMyWWlBMGFlbUYxNi03Xw?oc=5",
-      "tags": [
-        "新产品",
-        "华为",
-        "芯片",
-        "AI"
-      ]
-    },
-    {
-      "id": 37,
+      "id": 109,
       "category": "芯片",
       "title": "荣耀平板 X10 Mini 上架：9.7 英寸护眼屏，10 月 23 日发售",
       "summary": "IT之家 10 月 4 日消息，荣耀平板 X10 Mini 现已在京东平台上架并预约，将于 10 月 23 日 10:00 发售。 IT之家从官方海报获悉，这款新品配备 9.7 英寸 2K 护眼屏 ，内置 8000mAh 大电池，获得 SG...",
@@ -488,20 +1436,7 @@
       ]
     },
     {
-      "id": 38,
-      "category": "芯片",
-      "title": "科创001 ｜半导体产业力量齐聚鹏城，深圳将迎“芯潮” - 搜狐网",
-      "summary": "科创001 ｜半导体产业力量齐聚鹏城，深圳将迎“芯潮” &nbsp;&nbsp; 搜狐网",
-      "source": "Google News 芯片",
-      "publish_time": "2026-10-04 21:29",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVjFiMFc2cEkxUU52RlRNM0RwN2RXcXhoOFUwYWhEZDVXTTBHWVVsc0U0V19URWlJdjBLak9Fdkh2LVBYQkNFZUxaQURMMDJWcjVmZ25GVGhMcVdwS2VFd2dOX2Z4NjVXejdMNzJJYTQ0V295U21nRXoxZzNxdWZhMTdXMlBjblFaeDNBdA?oc=5",
-      "tags": [
-        "芯片",
-        "半导体"
-      ]
-    },
-    {
-      "id": 39,
+      "id": 110,
       "category": "新产品",
       "title": "Alignment 2026 - 手机新浪网",
       "summary": "Alignment 2026 &nbsp;&nbsp; 手机新浪网",
@@ -513,7 +1448,7 @@
       ]
     },
     {
-      "id": 40,
+      "id": 111,
       "category": "大模型",
       "title": "乐山大佛景区回应网传“掏耳朵”养护作业视频：系 AI 合成，佛耳内并无所谓“杂物”",
       "summary": "IT之家 10 月 4 日消息，近期网络上流传一段所谓“乐山大佛开展养护作业”短视频，其中显示文保工人正在给大佛“掏耳朵”，佛耳里掏出鸽子和腐叶，鼻孔里清理出大量腐叶等物质，旁边还有一只猴子在佛身上上蹿下跳，猴子还抢工人的安全帽戴在自己头上...",
@@ -526,7 +1461,7 @@
       ]
     },
     {
-      "id": 41,
+      "id": 112,
       "category": "芯片",
       "title": "这对华人夫妻，造了全球1/6电视芯片 - 凤凰网",
       "summary": "这对华人夫妻，造了全球1/6电视芯片 &nbsp;&nbsp; 凤凰网",
@@ -538,7 +1473,19 @@
       ]
     },
     {
-      "id": 42,
+      "id": 113,
+      "category": "芯片",
+      "title": "这对华人夫妻，造了全球1/6电视芯片 - 新浪财经",
+      "summary": "这对华人夫妻，造了全球1/6电视芯片 &nbsp;&nbsp; 新浪财经",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-04 21:15",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcU9nUE9ja21BSmE2T1NRSjR0YnNfNGlhVDVPejc3RHdwdW9UekR6Q2sxdWZfTDA3MTljaUprWHhNUy1va0RxeVI5ellnOWlISDZwaEEwbjY1eWd1SU13NTVlZE9xSXEyblBqR0xRcEhzOHczMnF6SHFHYlFPN3pFZ0xmbHI?oc=5",
+      "tags": [
+        "芯片"
+      ]
+    },
+    {
+      "id": 114,
       "category": "新产品",
       "title": "当千年非遗遇上AI科技，罗浮山这个国庆有点不一样 - 手机新浪网",
       "summary": "当千年非遗遇上AI科技，罗浮山这个国庆有点不一样 &nbsp;&nbsp; 手机新浪网",
@@ -551,7 +1498,7 @@
       ]
     },
     {
-      "id": 43,
+      "id": 115,
       "category": "新产品",
       "title": "竞速游戏《星球大战：银河赛车手》获 IGN 8 分评价，10 月 6 日发售",
       "summary": "IT之家 10 月 4 日消息，开发商 Fuse Games 旗下《星球大战》IP 竞速游戏《星球大战：银河赛车手（STAR WARS：Galactic Racer）》将于 10 月 6 日正式发售，目前本作全球媒体评分已解禁。 截至IT之...",
@@ -564,7 +1511,7 @@
       ]
     },
     {
-      "id": 44,
+      "id": 116,
       "category": "新产品",
       "title": "浙江杭州：“AI交警”新生上路“学习” - 手机新浪网",
       "summary": "浙江杭州：“AI交警”新生上路“学习” &nbsp;&nbsp; 手机新浪网",
@@ -577,7 +1524,7 @@
       ]
     },
     {
-      "id": 45,
+      "id": 117,
       "category": "新产品",
       "title": "拉瑞安工作室：《博德之门 3》Steam 国区即将永久降价：298 元起 → 268 元起",
       "summary": "IT之家 10 月 4 日消息，拉瑞安工作室宣布，为了感谢中国玩家一直以来的支持，《博德之门 3》将在本次 10 月促销活动结束后降价。游戏基础版从 298 元下调至 268 元。 目前，《博德之门 3》正在 Steam 秋季特卖中进行促销...",
@@ -589,33 +1536,19 @@
       ]
     },
     {
-      "id": 46,
-      "category": "新产品",
-      "title": "浙江杭州：“AI交警”新生上路“学习” - chinanews.com.cn",
-      "summary": "浙江杭州：“AI交警”新生上路“学习” &nbsp;&nbsp; chinanews.com.cn",
-      "source": "Google News 新产品",
-      "publish_time": "2026-10-04 20:55",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9JSm9BUzA0UHRuS0NsRk5IaHlacG9oQ0JoRXNlb3E1SHZubzRWOFNBVWRGT0txS1hmMXREM2IwZnJ3MHo2bHhxUndaQTZCWElmYlJ5eU41TGx2cWxwa0FPcnBOckJqbUZ0?oc=5",
-      "tags": [
-        "新产品",
-        "AI"
-      ]
-    },
-    {
-      "id": 47,
+      "id": 118,
       "category": "芯片",
-      "title": "从美光财报谈谈市场需要什么预期 - caifuhao.eastmoney.com",
-      "summary": "从美光财报谈谈市场需要什么预期 &nbsp;&nbsp; caifuhao.eastmoney.com",
+      "title": "从美光财报谈谈市场需要什么预期 - 财富号",
+      "summary": "从美光财报谈谈市场需要什么预期 &nbsp;&nbsp; 财富号",
       "source": "Google News 芯片",
       "publish_time": "2026-10-04 20:52",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1wMVMxc215R1Rzb3RJWm5tWGtndXBGRGdyMzV6c29mYjNDZ2NpMkh2N25ZcEZfcHp4ZERLLV8xS0plaUhQZ0hwQ1lfdy11YnQyYnNKZVc3OGl3RlBVeHJob0s0Q05KNUljQWdB?oc=5",
       "tags": [
-        "芯片",
-        "AI"
+        "芯片"
       ]
     },
     {
-      "id": 48,
+      "id": 119,
       "category": "芯片",
       "title": "全球跨国投资十强榜单出炉：台积电居首、字节跳动位列第二 - ijiwei.com",
       "summary": "全球跨国投资十强榜单出炉：台积电居首、字节跳动位列第二 &nbsp;&nbsp; ijiwei.com",
@@ -628,7 +1561,7 @@
       ]
     },
     {
-      "id": 49,
+      "id": 120,
       "category": "新产品",
       "title": "国庆假期前三天：汽车以旧换新 4.6 万辆、数码和智能产品购新 170.9 万件",
       "summary": "IT之家 10 月 4 日消息，据新华社报道，记者 4 日从商务部获悉，国庆假期过半，全国消费市场平稳有序，生活必需品货足价稳。 商务部商务大数据显示，国庆假期前三天（10 月 1 至 3 日），商务部重点监测的 78 个步行街（商圈）客流...",
@@ -640,20 +1573,32 @@
       ]
     },
     {
-      "id": 50,
+      "id": 121,
       "category": "芯片",
-      "title": "免费更新了10多年 NVIDIA停售2GB版Shield TV：又是内存涨价的坑 - 驱动之家",
-      "summary": "免费更新了10多年 NVIDIA停售2GB版Shield TV：又是内存涨价的坑 &nbsp;&nbsp; 驱动之家",
+      "title": "免费更新了10多年 NVIDIA停售2GB版Shield TV：又是内存涨价的坑 - 新浪财经",
+      "summary": "免费更新了10多年 NVIDIA停售2GB版Shield TV：又是内存涨价的坑 &nbsp;&nbsp; 新浪财经",
       "source": "Google News 芯片",
       "publish_time": "2026-10-04 20:29",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB5WHNmRjRzLS0wQXo5Uy1DM1B0VVkzeUlGczdmVkRleEt0a1BqakFXd19tWjYwYUVQWW1ZdVd0X3hJcnZIel85cGV1NmltZ1BFMU5vbXFYYTE?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBfa1hTbk5oVnJ2cDd0R0tjUU4zQjd6b2dXZUhMYTRocEdHWHdRdkZaYXl1VDg3WElfVXFadVVlMVJNVjRHdGdIRzZPZndGem5jRzhIOEliWmJ2c0hSS0pKUnBIQTVqQ2RfOXJvbHNvTmtES0xRX3Z2d2tFTGM1X2M?oc=5",
       "tags": [
         "芯片",
         "NVIDIA"
       ]
     },
     {
-      "id": 51,
+      "id": 122,
+      "category": "新产品",
+      "title": "491家机构“盯”上1家公司 科技赛道仍是主线焦点 - 手机新浪网",
+      "summary": "491家机构“盯”上1家公司 科技赛道仍是主线焦点 &nbsp;&nbsp; 手机新浪网",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-04 20:28",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQYWNDZDF2WmFNWnhTaUE2UHF1OWphVlZCaWRvU2RnbDIxbEFQY3BCVXY1UHpYbjR4RzhVdzVJVGtsS0JDS3RRVkJHODNqYUIxTFJmcm9tLVBpYlpTUndqVm41ZlJSXzJmOW5PaGt0b2EzN3RKYWtyV096dGJzTU1RSW13?oc=5",
+      "tags": [
+        "新产品"
+      ]
+    },
+    {
+      "id": 123,
       "category": "大模型",
       "title": "DeepSeek Harness 崔添翼：产品核心理念是“一切皆插件”，可扩展性是初心",
       "summary": "IT之家 10 月 4 日消息，DeepSeek Harness 组成员崔添翼今日回应了“如何看待 DeepSeek Harness 在新版本中加入 Claude Code Mods 兼容？”，他本人是这次 v0.2.1-alpha.1 版...",
@@ -667,7 +1612,7 @@
       ]
     },
     {
-      "id": 52,
+      "id": 124,
       "category": "大模型",
       "title": "算力落地 场景开花 人工智能深度融入南京产业发展 - 南京广播电视台",
       "summary": "算力落地 场景开花 人工智能深度融入南京产业发展 &nbsp;&nbsp; 南京广播电视台",
@@ -679,7 +1624,19 @@
       ]
     },
     {
-      "id": 53,
+      "id": 125,
+      "category": "新产品",
+      "title": "核心景区引领，全域精彩不断，“文旅+”持续激发四川假日市场活力 - zgm.cn",
+      "summary": "核心景区引领，全域精彩不断，“文旅+”持续激发四川假日市场活力 &nbsp;&nbsp; zgm.cn",
+      "source": "Google News 新产品",
+      "publish_time": "2026-10-04 20:00",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBqZWJZLVUxbUFRMUNrR0Y3Sm54V3FXM2xTQWZMNS1ITmxpeUhOSjMyZzJxWWx6cHFVQTlGUDhsODl1Tm1wM1BGRWlHLW9CNGZmVmc?oc=5",
+      "tags": [
+        "新产品"
+      ]
+    },
+    {
+      "id": 126,
       "category": "新产品",
       "title": "连续 4 天单日破亿，2026 国庆档电影票房已超 7 亿",
       "summary": "IT之家 10 月 4 日消息，据灯塔专业版，2026 年国庆档（10 月 1 日 —10 月 7 日）档期总票房（含预售）突破 7 亿，《神探之痕迹》《什么意思夫妇》《欢迎来龙餐馆》《小猪佩奇 · 完美假期》《八仙！》暂列档期票房前五。据...",
@@ -691,19 +1648,7 @@
       ]
     },
     {
-      "id": 54,
-      "category": "新产品",
-      "title": "傳台積電傳評估與馬斯克合作 - epochtimes.com",
-      "summary": "傳台積電傳評估與馬斯克合作 &nbsp;&nbsp; epochtimes.com",
-      "source": "Google News 芯片",
-      "publish_time": "2026-10-04 19:53",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBkSXJ0SmpfSU5TVjVGdkVnVTFvMkhQNmFoQm9QWC1RWkE4ckZzVWpaTFhVT0dkMl9hU2tqblktdjJMWXNKNHh3dTZXN01faGFRaEIxSFNES3o2c3V0N0xCWdIBZkFVX3lxTE10R3liOXpYU1hDS1czcUJEQ0xKOUp6a0FjTHEzTVdMbEZEMTFBR1NlUFhPenFTQWtCNnRGby11VGdxRGlhLXR3bEpkdktOQXRyQXl3WDJ1ZlFmVEFiSzdaR1U2SlVNUQ?oc=5",
-      "tags": [
-        "新产品"
-      ]
-    },
-    {
-      "id": 55,
+      "id": 127,
       "category": "新产品",
       "title": "我国科学家赴尼泊尔开展联合科考，研判喜马拉雅冰冻灾害",
       "summary": "IT之家 10 月 4 日消息，据央视新闻报道，今天（10 月 4 日），我国喜马拉雅“8·26”极端地质灾害应急跨境科学考察队从成都启程赴尼泊尔，开展冰冻圈与岩石圈巨灾应急联合科考。本次科考共有十余家高校与科研院所 50 余名科研人员参加...",
@@ -715,7 +1660,7 @@
       ]
     },
     {
-      "id": 56,
+      "id": 128,
       "category": "芯片",
       "title": "开局“十五五” 奋斗正当时·干事创业 担当尽责丨抢抓全球算力热潮 山东装备加速出海 - 齐鲁网",
       "summary": "开局“十五五” 奋斗正当时·干事创业 担当尽责丨抢抓全球算力热潮 山东装备加速出海 &nbsp;&nbsp; 齐鲁网",
@@ -727,7 +1672,19 @@
       ]
     },
     {
-      "id": 57,
+      "id": 129,
+      "category": "芯片",
+      "title": "不谈芯片算力，只聊「活人感」，三款热门纯电SUV智能座舱谁更懂你？ - 手机新浪网",
+      "summary": "不谈芯片算力，只聊「活人感」，三款热门纯电SUV智能座舱谁更懂你？ &nbsp;&nbsp; 手机新浪网",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-04 19:32",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE80VlJYVTZINjNxYmFyTUZpNHpTZDZHYl9aeFNhaE42VkFSN042X1l4Z09jbEhQZ0xfaDU4QlRPYlVpcmNLRTVBTUZUc1FIZUtUd1RSSHE2RFJ4eFVfOVowdWlkc1Y5VjFDLUdsbDU0ZFN6dw?oc=5",
+      "tags": [
+        "芯片"
+      ]
+    },
+    {
+      "id": 130,
       "category": "新产品",
       "title": "联想推出 Lenovo Watch Fit 3 智能手表：1.96 英寸 AMOLED 面板、支持检测血氧 / 睡眠，199 元",
       "summary": "IT之家 10 月 4 日消息，联想现已在京东上架 Lenovo Watch Fit 3 智能手表， 定价为 199 元 。 京东 联想 Lenovo Watch Fit 3 智能手表 199 元 直达链接 该手表提供 IP68 认证，机身...",
@@ -739,7 +1696,7 @@
       ]
     },
     {
-      "id": 58,
+      "id": 131,
       "category": "芯片",
       "title": "存储芯片超级周期，美光财报双超预期，HBM需求看不到天花板 - 手机新浪网",
       "summary": "存储芯片超级周期，美光财报双超预期，HBM需求看不到天花板 &nbsp;&nbsp; 手机新浪网",
@@ -751,7 +1708,7 @@
       ]
     },
     {
-      "id": 59,
+      "id": 132,
       "category": "新产品",
       "title": "几毫米的“迷你人脑”，在临港生长 - 新浪财经",
       "summary": "几毫米的“迷你人脑”，在临港生长 &nbsp;&nbsp; 新浪财经",
@@ -763,7 +1720,7 @@
       ]
     },
     {
-      "id": 60,
+      "id": 133,
       "category": "新产品",
       "title": "雷柏 VT2/2s MAX V2 版鼠标开启预约：PAW 3955 Ultimate 传感器 + Nordic 54LM20 主控，329 元",
       "summary": "IT之家 10 月 4 日消息，雷柏旗下 VT2 MAX V2 系列无线游戏鼠标现已在京东上架，其中 VT2 MAX V2 适用于中大手型，而 VT2s MAX V2 适用于中小手型，定价均为 329 元。 京东 雷柏 VT2/2s MAX...",
@@ -775,7 +1732,7 @@
       ]
     },
     {
-      "id": 61,
+      "id": 134,
       "category": "芯片",
       "title": "11.98万起的图灵AI芯片有多强？2026款小鹏MONA M03智驾深度解析+FAQ - 手机新浪网",
       "summary": "11.98万起的图灵AI芯片有多强？2026款小鹏MONA M03智驾深度解析+FAQ &nbsp;&nbsp; 手机新浪网",
@@ -788,32 +1745,19 @@
       ]
     },
     {
-      "id": 62,
+      "id": 135,
       "category": "芯片",
-      "title": "美股必须给美光一个交代‼️🥳 - Moomoo",
-      "summary": "美股必须给美光一个交代‼️🥳 &nbsp;&nbsp; Moomoo",
+      "title": "方正推出 16 英寸二合一 Windows 平板：英特尔 N100 + 16G + 512G 售 3999 元 - 手机新浪网",
+      "summary": "方正推出 16 英寸二合一 Windows 平板：英特尔 N100 + 16G + 512G 售 3999 元 &nbsp;&nbsp; 手机新浪网",
       "source": "Google News 芯片",
-      "publish_time": "2026-10-04 19:08",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMGdSQkVaT05seWI4Z0FObFByaklsVXNqbS01R0hMaElkalhxOVVldTlwdmtZUmNKbkpsN1VFaW5zZE1JX1ptTlNRMUVwd1FwSjVqOW5qbWRkTkxMUWpPbnZuTW9uOU1fY2tDWjhJNXVLZklwQ0Uyb2hVNDJfMm9Ia3VlNC1XaEtPb2o0TDNvQ1plUjN4dnhjcExEclM?oc=5",
+      "publish_time": "2026-10-04 19:07",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNWHRnaU5sZmVHMWwtU3VRc3RXbFlVT0x2bDVwMElyTXpJQVpJbkc1NnM5VDJqa1NlY05tQTVBQ2l1b0FHZmY1R0ZubHJldkRocGtqQkphUmVvWERWY0xBczhCcENBS2F4OVJOX2dqMnNhbHRCenBwSnZFVEozdFVlNWNyUU9qQlR5U1d5QWNRMFJCMTFibzBKOXBOM21TcWRZRGVLYmMzb3hGX04wOGtFbVZaR0tqc3NodkdMTDk2YW5kSDNMbkxpS0tWN0JqVk52azFQWXR1NWx5TnMxS195aDY1OXpaTXY1dF8zNHFaVk1STlhJTkhCYjhOVDdVMEJ0Ui0za1lnOUs?oc=5",
       "tags": [
         "芯片"
       ]
     },
     {
-      "id": 63,
-      "category": "芯片",
-      "title": "三星HBM4突然涨价200%：AI芯片这次又要更贵了 - 搜狐网",
-      "summary": "三星HBM4突然涨价200%：AI芯片这次又要更贵了 &nbsp;&nbsp; 搜狐网",
-      "source": "Google News 芯片",
-      "publish_time": "2026-10-04 18:58",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUXBMVjJqNVYwLWpER0I0MkI0c1RVRHVtWUphQm5vb3F6MHpzSmRlQlJmcTlpSUN3QWMyTGZBRTR4NG1NbjlOeFBvMFZHRHR5d0xQblk2SUd0cUdTMEtEM21FNTBZemtzc3E5MTRTdkEtc01TZU9taVhBRFFLeXVFNXgyc0xJWEY4QmlQSA?oc=5",
-      "tags": [
-        "芯片",
-        "AI"
-      ]
-    },
-    {
-      "id": 64,
+      "id": 136,
       "category": "新产品",
       "title": "雷柏推出 VH500 头戴式有线游戏耳机：搭 50mm 动圈单元，189 元",
       "summary": "IT之家 10 月 4 日消息，雷柏现已在京东上架 VH500 头戴式有线游戏耳机，该耳机配备 50mm 动圈单元， 定价为 189 元 。 京东 雷柏 VH500 头戴式有线耳机 189 元 直达链接 该耳机目前在售暗夜黑配色，耳机采用人...",
@@ -825,7 +1769,7 @@
       ]
     },
     {
-      "id": 65,
+      "id": 137,
       "category": "芯片",
       "title": "方正推出16英寸二合一Windows平板：英特尔N100 + 16G + 512G售3999元 - 新浪财经",
       "summary": "方正推出16英寸二合一Windows平板：英特尔N100 + 16G + 512G售3999元 &nbsp;&nbsp; 新浪财经",
@@ -837,19 +1781,7 @@
       ]
     },
     {
-      "id": 66,
-      "category": "新产品",
-      "title": "黄仁勋：没人比我更能吃苦 - 新浪财经",
-      "summary": "黄仁勋：没人比我更能吃苦 &nbsp;&nbsp; 新浪财经",
-      "source": "Google News 芯片",
-      "publish_time": "2026-10-04 18:43",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9va2ZwbkpCeTNHX0dBZUgwZ09fRjZldWZPLVZ4ZU5NY1Y5QWNBS2hrWDNtVWZuaWVPYkpBSmZBSHZ3X19rNmFBb0xRczV3ZHdnQ3d6TWpydFdpc0xmRlVEVjFrWEJRYUd4MjhZUFA1MTE1alZwTGZsQg?oc=5",
-      "tags": [
-        "新产品"
-      ]
-    },
-    {
-      "id": 67,
+      "id": 138,
       "category": "芯片",
       "title": "高通8295P+双零重力座椅，零跑B10座舱配置越级了 - 手机新浪网",
       "summary": "高通8295P+双零重力座椅，零跑B10座舱配置越级了 &nbsp;&nbsp; 手机新浪网",
@@ -861,19 +1793,7 @@
       ]
     },
     {
-      "id": 68,
-      "category": "芯片",
-      "title": "语音开黑平台 Discord 将引入“游戏模式”，开启后可降低应用 CPU / GPU 占用 - 手机新浪网",
-      "summary": "语音开黑平台 Discord 将引入“游戏模式”，开启后可降低应用 CPU / GPU 占用 &nbsp;&nbsp; 手机新浪网",
-      "source": "Google News 芯片",
-      "publish_time": "2026-10-04 18:25",
-      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNdE5hRGY5WmMtT3NiMzBoVElmWG10dTJnTm9qVWx4bnJTYy1Xb1otTDRuY2dKRkxfazJhcnBQRGVaS2IwOWxIMVZVYXJsUVVia1R1UjhfSUgzUEJhQU8wSW9EekdxUmxGcEhEUklqQ2RhYS1IVGd2MWhGTVdPQV9fT0pCOXQ4RkFweWF1Ujc4SjI3dnF1cXR0U1pWOVJDYVJDZVhlbVd2d0o4T090eDNxOG1KLUxLR1ZGb3VwMENCX3RKa3lpQjRPeEIwNzRkdzlOaVJwM20tUng0U2t5N2ZsbjZXX2N5RFpRYzRHM0djSFN0Vmt3?oc=5",
-      "tags": [
-        "芯片"
-      ]
-    },
-    {
-      "id": 69,
+      "id": 139,
       "category": "新产品",
       "title": "埃尼与Generative Bionics达成协议：人形机器人、物理AI与GENE.01 - 新闻和统计 - IndexBox",
       "summary": "埃尼与Generative Bionics达成协议：人形机器人、物理AI与GENE.01 - 新闻和统计 &nbsp;&nbsp; IndexBox",
@@ -887,20 +1807,7 @@
       ]
     },
     {
-      "id": 70,
-      "category": "芯片",
-      "title": "路虎基因注入、华为高通宁德时代共研：FREELANDER神行者凭什么改写合资逻辑？ - 手机新浪网",
-      "summary": "路虎基因注入、华为高通宁德时代共研：FREELANDER神行者凭什么改写合资逻辑？ &nbsp;&nbsp; 手机新浪网",
-      "source": "Google News 芯片",
-      "publish_time": "2026-10-04 18:22",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9oeDNHMTdEZ213OFNrVlRvY0QzNDZNci1TU0tNY0RhRjlLU1dEY0kxTXVLUE56YTZfRnhDMEhHcDFGUUllZXNUN3FzSXhfRTdDUEFWRkVuT09SOGlreFctWUJUMzQ4RUdqNDJiUml0NDZiQQ?oc=5",
-      "tags": [
-        "芯片",
-        "华为"
-      ]
-    },
-    {
-      "id": 71,
+      "id": 140,
       "category": "芯片",
       "title": "HMD Slate Tab 5G 平板曝光：设计灵感来自微软 Surface / 诺基亚 Lumia 2520、有望随 Skyline 2 手机一同发布",
       "summary": "IT之家 10 月 4 日消息，消息源 smashx_60 现已曝光了 HMD Slate Tab 5G 二合一平板电脑，该机搭载安卓系统，据称已开发了两年，有望随同 Skyline 2 手机一同发布。 参考消息源曝光的产品外观渲染图，可以...",
@@ -912,7 +1819,7 @@
       ]
     },
     {
-      "id": 72,
+      "id": 141,
       "category": "新产品",
       "title": "央视曝光外卖“明厨亮灶”造假，湖北、云南等地核查处置",
       "summary": "IT之家 10 月 4 日消息，据央视新闻报道，针对今天总台《每周质量报告》栏目反映的外卖商户明厨亮灶监控摄像头随意摆放、故意偏移角度， 不对准后厨切配、烹饪、洗消等关键操作区域 ，刻意规避监督，导致后厨卫生脏乱差现象难以被及时有效发现等问...",
@@ -924,7 +1831,7 @@
       ]
     },
     {
-      "id": 73,
+      "id": 142,
       "category": "大模型",
       "title": "特朗普将“人工智能”改为“超级智能”后，马斯克确认 SpaceXAI 将更名为 SpaceXSI",
       "summary": "IT之家 10 月 4 日消息，美东时间 9 月 29 日，美国总统特朗普正式签署行政令，下令所有行政部门和机构使用“超级智能”（Super Intelligence，简称 SI）一词代替人工智能（AI）。 今日有网友向埃隆 · 马斯克提问...",
@@ -938,19 +1845,7 @@
       ]
     },
     {
-      "id": 74,
-      "category": "芯片",
-      "title": "方正推出16英寸二合一Windows平板：英特尔N100 + 16G + 512G售3999元 - 凤凰网",
-      "summary": "方正推出16英寸二合一Windows平板：英特尔N100 + 16G + 512G售3999元 &nbsp;&nbsp; 凤凰网",
-      "source": "Google News 芯片",
-      "publish_time": "2026-10-04 18:04",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFAzdGNIRTE1cXhrWVl6bzVfZ0FpTmZNWjEyNmtWY0pwNzRPQ3AyOXZOMW51ZGhiUlU4Rkk0MDNZR0ZTMGxVcTBUdQ?oc=5",
-      "tags": [
-        "芯片"
-      ]
-    },
-    {
-      "id": 75,
+      "id": 143,
       "category": "芯片",
       "title": "方正推出 16 英寸二合一 Windows 平板：英特尔 N100 + 16G + 512G 售 3999 元",
       "summary": "IT之家 10 月 4 日消息，方正现已在京东上架一款 16 英寸 Windows 二合一平板，该机采用英特尔 N100 + 16GB RAM + 512GB 存储空间规格， 定价为 3999 元 ，部分地区国补后低至 3789.55 元。...",
@@ -962,19 +1857,7 @@
       ]
     },
     {
-      "id": 76,
-      "category": "芯片",
-      "title": "方正推出 16 英寸二合一 Windows 平板：英特尔 N100 + 16G + 512G 售 3999 元 - 新浪财经",
-      "summary": "方正推出 16 英寸二合一 Windows 平板：英特尔 N100 + 16G + 512G 售 3999 元 &nbsp;&nbsp; 新浪财经",
-      "source": "Google News 芯片",
-      "publish_time": "2026-10-04 18:03",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5nNmRTb1U1Q213bUlFRXhzNy1XNVdQcTg4Wlg5QzJUQlJ6dURuLWJuOUxHTVBCYWpRWGtiU2NuTVczbFZMYmhiS3l0blVPT3gtWUU2NS13NTVVYUVnM0JDR1NnTGk1eHVxTFhtcHJycERoV1pYVXZFczFkdkNrams?oc=5",
-      "tags": [
-        "芯片"
-      ]
-    },
-    {
-      "id": 77,
+      "id": 144,
       "category": "新产品",
       "title": "VGN 魔竞耳机官宣：入耳式专业电竞 HiFi 耳机，提供粉色版本",
       "summary": "IT之家 10 月 4 日消息，10 月 2 日，VGN 魔竞耳机官宣即将登场， 提供高饱和度粉色版本 ，定位“入耳式专业电竞 HiFi 耳机”。 新品由 VGN 联合声学大师王富裕和天霸 FPS 电竞主播林树特调音效，配备 DLC 振膜，...",
@@ -986,7 +1869,7 @@
       ]
     },
     {
-      "id": 78,
+      "id": 145,
       "category": "新产品",
       "title": "冰雪末日求生：多人生存游戏《永冻纪元》将于 10 月 9 日在 Steam 开启抢先体验",
       "summary": "IT之家 10 月 4 日消息，由 SpaceRocket Games 开发的极寒多人生存建造游戏《Permafrost（永冻纪元）》将于 10 月 9 日在 Steam 平台开启抢先体验，IT之家附游戏商品页（ https://store...",
@@ -998,7 +1881,7 @@
       ]
     },
     {
-      "id": 79,
+      "id": 146,
       "category": "新产品",
       "title": "科技消费新趋势 | 假期抱一台机器人回家！千元及以下情感陪伴款成热门 - 每日经济新闻",
       "summary": "科技消费新趋势 | 假期抱一台机器人回家！千元及以下情感陪伴款成热门 &nbsp;&nbsp; 每日经济新闻",
@@ -1011,93 +1894,21 @@
       ]
     },
     {
-      "id": 80,
-      "category": "新产品",
-      "title": "《Apex 英雄》PC 版游戏告别 EAC 反作弊引擎，迎来全新自研系统 EA Javelin Anticheat",
-      "summary": "IT之家 10 月 4 日消息，EA 旗下《Apex 英雄》PC 版现已正式停用长期使用的 Easy Anti-Cheat 引擎，改用自研的“EA Javelin Anticheat”（俗称“标枪系统”）负责反作弊工作。 公开信息显示，《A...",
-      "source": "IT之家",
-      "publish_time": "2026-10-04 17:41",
-      "url": "https://www.ithome.com/1/009/686.htm",
+      "id": 147,
+      "category": "大模型",
+      "title": "泼冷水！英伟达RTX Spark确实强，但不是Agent理想方案|Windows PC|笔记本电脑|微软|AI Agent|Copilot_手机新浪网 - 新浪财经",
+      "summary": "泼冷水！英伟达RTX Spark确实强，但不是Agent理想方案|Windows PC|笔记本电脑|微软|AI Agent|Copilot_手机新浪网 &nbsp;&nbsp; 新浪财经",
+      "source": "Google News 新产品",
+      "publish_time": "2026-10-04 17:40",
+      "url": "https://news.google.com/rss/articles/CBMivwRBVV95cUxQbVc0cC1rRWltNWFEX2hUX0JZb0lpeVBqTmJOUVdiV0lub3lrT3ZqR19mbEF4UXU1bWtiaTdaV0puUUhHYUtQMU5LNTRJM2c4empMbElMUDBDVEZxQ2tuTUttckpOTUh6YVRNNmRjSGNWYUZaSFdfaTY5TWh3cktXb1ZNVktfNVMtQmc1MUJTOVZNaUIxVWluMWlHdXRzc0ZQRUhZenE0STBMdkZ5LWV5Z2V5dHAtMm9PU1RlNjZqWGhfV010VG5RTUZSSTFhZ01oaldUN2hwNk5qbTNjM2dlQVl5WDZseUtLSUFkUVB6VFNObEIwOG5uRlhkYlY2bUl6U0NxRGdSa1RSQXlBRGJkVWxTZG1sUUtUMEJRX25xeS1Sby1jOFlCbjlSUkhDbkM4bXRnS2s0NV9vUXk2SC1KT1BXaHZZLW1HVzZrNlZ5UGItUm1UVlpfcl9la1F3TGx6VllZSkF1YXN3aWJYVmFJSmhFSTlOcmt4QXB2Q3Y3NWtjWnNfSmZjZTdZTFdJN1Fhd2IyTE82X1ptWTZlV1A3OF9tbkFHSWpPQi1kTWNNXzlWSFRKenBJQ2JOWXVQRGpZTUdGdFZqbkx5N2dhZ2M1d2t3b0NpMVpxQ3pOR25hODBObm4zTWdYdHV4Y203WWZTdk0wQ2J1MWlLT0tUcEM0eTZfZ0FBcW5peEtrTEk1by1CMExQRGRJTDNOemtaeDlGaVhuak43TzJPb3RWMEpjVVcyTzcyTjhzRVQtTWpWYw?oc=5",
       "tags": [
-        "新产品"
-      ]
-    },
-    {
-      "id": 81,
-      "category": "芯片",
-      "title": "A股半导体概念股峰岹科技拟以8.04亿元收购荷兰传感器企业Sciosense - 21财经",
-      "summary": "A股半导体概念股峰岹科技拟以8.04亿元收购荷兰传感器企业Sciosense &nbsp;&nbsp; 21财经",
-      "source": "Google News 芯片",
-      "publish_time": "2026-10-04 17:34",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPcWRPRDNQbVpMQ0ZlQjc3ZFpmZy0zN3pMV0g3c3FWV29iOUQxU1oxXzV6V3c0LTkxS0dOUXd5WVJ1d0otWVlCdVdIcVJ3eFg1bUNkOVJmN0dvaDBySWV0WUg4b2c1MTBxcExGSkNJTGZPVFhhX3R0NFlCSjNJQTNXTm5wVC13UUI5V05GNklsNA?oc=5",
-      "tags": [
-        "芯片",
-        "半导体"
-      ]
-    },
-    {
-      "id": 82,
-      "category": "芯片",
-      "title": "语音开黑平台 Discord 将引入“游戏模式”，开启后可降低应用 CPU / GPU 占用",
-      "summary": "IT之家 10 月 4 日消息，Discord 官方账号在 X 平台透露，目前开发人员正在为 Discord 应用开发全新的“游戏模式（Game Mode）”。该功能可在检测到玩家启动游戏后，自动降低 Discord 应用的 CPU、GPU...",
-      "source": "IT之家",
-      "publish_time": "2026-10-04 17:33",
-      "url": "https://www.ithome.com/1/009/685.htm",
-      "tags": [
-        "芯片"
-      ]
-    },
-    {
-      "id": 83,
-      "category": "芯片",
-      "title": "中国 Ai 的算力大半都花在《征服》二创上了 - t.cj.sina.cn",
-      "summary": "中国 Ai 的算力大半都花在《征服》二创上了 &nbsp;&nbsp; t.cj.sina.cn",
-      "source": "Google News 芯片",
-      "publish_time": "2026-10-04 17:33",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZFdFZElzMi1jWGttRVltdHVuTTJMcG5hVTJUYzdveUVGZjVtblRCSGp4SmU5dnZmSmVCbEN0dE1Lc3ZGWWNiZlZZMkE0NkczOFVvOFhNZEdVSTFZNWdudGhWU2ZxVU1CLU40YU1sRU9wOWxWTERHY2dBRlVwajBlZ0JtT0FDdw?oc=5",
-      "tags": [
-        "芯片",
+        "大模型",
+        "英伟达",
         "AI"
       ]
     },
     {
-      "id": 84,
-      "category": "大模型",
-      "title": "天津大学获批全国首个“脑机接口”一级交叉学科博士点",
-      "summary": "IT之家 10 月 4 日消息，近日，国务院学位委员会正式下发《关于下达 2025 年度学位授予资格自主审核单位撤销和增设学位授予点名单的通知》（学位〔2026〕17 号），天津大学成功获批 全国首个、也是目前全国唯一一个的“脑机接口”一级...",
-      "source": "IT之家",
-      "publish_time": "2026-10-04 17:28",
-      "url": "https://www.ithome.com/1/009/684.htm",
-      "tags": [
-        "大模型"
-      ]
-    },
-    {
-      "id": 85,
-      "category": "芯片",
-      "title": "强基补链筑高地 算电协同赋新能——张家口加速打造全国领先算力产业生态 - zjknews.com",
-      "summary": "强基补链筑高地 算电协同赋新能——张家口加速打造全国领先算力产业生态 &nbsp;&nbsp; zjknews.com",
-      "source": "Google News 芯片",
-      "publish_time": "2026-10-04 17:25",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1VcEtveDhpcUUtVkJsZ2JLZEpUU040OGxiRHp2U2IzR0NRaURkVVZvV2FuUEpCbkN3WEFVRHB4SENSQXJfanhLVnVRQW1qc3FVTXM1eUVqNGllOUN4R1E?oc=5",
-      "tags": [
-        "芯片"
-      ]
-    },
-    {
-      "id": 86,
-      "category": "新产品",
-      "title": "手游《世界计划：缤纷舞台！feat.初音未来》日服主线故事 2028 年初完结，官方将推出后日谈及番外篇拓展剧情",
-      "summary": "IT之家 10 月 4 日消息，手游《 世界计划 缤纷舞台 ！ feat. 初音未来》官方宣布，本作（日服）各团队的主线故事预计将在 2028 年初迎来阶段性完结。主线故事告一段落后，官方将通过“After Story”后日谈和“Anoth...",
-      "source": "IT之家",
-      "publish_time": "2026-10-04 17:23",
-      "url": "https://www.ithome.com/1/009/683.htm",
-      "tags": [
-        "新产品"
-      ]
-    },
-    {
-      "id": 87,
+      "id": 148,
       "category": "芯片",
       "title": "九安医疗，投资一家AI芯片公司 - 新浪财经",
       "summary": "九安医疗，投资一家AI芯片公司 &nbsp;&nbsp; 新浪财经",
@@ -1110,103 +1921,20 @@
       ]
     },
     {
-      "id": 88,
+      "id": 149,
       "category": "芯片",
-      "title": "联想拯救者 R7 Pro 鼠标开启预约： PAW 3950 传感器 +Telink 3228 主控，449 元",
-      "summary": "IT之家 10 月 4 日消息，联想旗下拯救者 R7 Pro 鼠标现已在京东开启预约，该鼠标搭载 Telink 3228 主控芯片， 定价为 449 元 。 京东 联想拯救者 R7 Pro 无线蓝牙电竞鼠标 449 元 直达链接 该鼠标提供...",
-      "source": "IT之家",
-      "publish_time": "2026-10-04 17:15",
-      "url": "https://www.ithome.com/1/009/681.htm",
-      "tags": [
-        "芯片"
-      ]
-    },
-    {
-      "id": 89,
-      "category": "大模型",
-      "title": "比亚迪秦 MAX 车型 9 月销量 12066 辆，上市 2 个月连续破万",
-      "summary": "IT之家 10 月 4 日消息，10 月 3 日，比亚迪王朝网销售事业部总经理路天透露，秦 MAX 车型 9 月热销 12066 辆，上市 2 个月销量连续破万。 IT之家注意到，比亚迪秦家族“超大杯”车型秦 MAX 于 8 月 13 日晚...",
-      "source": "IT之家",
-      "publish_time": "2026-10-04 17:13",
-      "url": "https://www.ithome.com/1/009/680.htm",
-      "tags": [
-        "大模型"
-      ]
-    },
-    {
-      "id": 90,
-      "category": "新产品",
-      "title": "模拟经营游戏《狂热运输 3》发售，Steam 国区 198 元起",
-      "summary": "IT之家 10 月 4 日消息，发行商 Paradox Interactive 旗下模拟经营游戏《狂热运输 3（Transport Fever 3）》现已正式发售，登陆 PlayStation 5、XBOX Series X|S、PC 平台...",
-      "source": "IT之家",
-      "publish_time": "2026-10-04 17:07",
-      "url": "https://www.ithome.com/1/009/679.htm",
-      "tags": [
-        "新产品"
-      ]
-    },
-    {
-      "id": 91,
-      "category": "新产品",
-      "title": "海信“猎影 G5 Pro”24.5 英寸显示器预售：2K 320Hz，1777 元（国补后低至 1599 元）",
-      "summary": "IT之家 10 月 4 日消息，海信旗下“猎影 G5 Pro”24.5 英寸显示器现已在京东开启预约， 首发价 1777 元 ，部分地区国补后低至 1599 元。 京东 海信猎影 G5 Pro 24.5 英寸显示器 1777 元 直达链接 ...",
-      "source": "IT之家",
-      "publish_time": "2026-10-04 17:03",
-      "url": "https://www.ithome.com/1/009/678.htm",
-      "tags": [
-        "新产品"
-      ]
-    },
-    {
-      "id": 92,
-      "category": "新产品",
-      "title": "现在还能相信光吗？ - 新浪财经",
-      "summary": "现在还能相信光吗？ &nbsp;&nbsp; 新浪财经",
+      "title": "继AMD后，高通、英特尔、英伟达硬件本月将全面支持微软高级着色器交付|directx|显卡驱动|GPU|博客|卡顿_手机新浪网 - 新浪财经",
+      "summary": "继AMD后，高通、英特尔、英伟达硬件本月将全面支持微软高级着色器交付|directx|显卡驱动|GPU|博客|卡顿_手机新浪网 &nbsp;&nbsp; 新浪财经",
       "source": "Google News 芯片",
-      "publish_time": "2026-10-04 16:59",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9FOWdNQ0V3eXpHajdiRmpHRVdWRDd6SUM1dEx0STYtc3gybkpUT0ZMYjZobzVsbzFURHlZSTktNXpoaTkwY1pldVc5dWt0aXEyVW4tRHRIbS1oQmUxV2NwNkx5WUZSWmJONy1IUmxHWmZYdWtDLTcxSQ?oc=5",
+      "publish_time": "2026-10-04 17:15",
+      "url": "https://news.google.com/rss/articles/CBMi-wJBVV95cUxORG9iNjNYdXU2RFNrTG9WaTVRN2JMQjdpMVpkU2tVREVRdk5XN1QzN0k4ZDh0cF84UE1RTVp4VHk3Qk1RelhtZFpPUGx0RTM5bmRuMFZIYUZKR2hmNU8zcEpIY3lZSk5DOWNMQWRfQUEyMEpFTk9mMl9WZi1JNnRuRmxOelRwZDcxNTJkRWhoWlU5WkhkWW9STHllc2FOUzc5R3RLT201VHZIazFpb3dKUWJ3dFNxZUZoOXpPeDZOalZnbDdDV1FJREhXNHFaZGt3T0ZCV21BTzUxbjR3dmU1N0pPT2VwTzlvWEt4NnVBNzhYcFNMMGEyaG9KUVF5T1hUa3JaQ3Y2U05MUGdmZ3U5RWtEc0g1cTNub1FhQ1NEZHdueTNjaG94Z1RFQ1JDWklIamxvMWtsem9rOHE0MEFNUjFvWkZOaTRyd05xcHJPd0xaZ3BoUWFUWVVyTHltRXdDaUU1MUpnY0praDMxVjBodm8tZDc5T0t6blNz?oc=5",
       "tags": [
-        "新产品"
+        "芯片",
+        "英伟达"
       ]
     },
     {
-      "id": 93,
-      "category": "新产品",
-      "title": "Meta 开启 2026 年度 VR Start 开发者竞赛：奖金池百万美元、鼓励为 VR Glasses 全新头显打造手部追踪应用",
-      "summary": "IT之家 10 月 4 日消息，Meta 在 2026 年度开发者大会上宣布了 2026 年度 VR Start 开发者竞赛，本次比赛将提供总额 100 万美元 （IT之家注：现汇率约合 672 万元人民币） 的奖金池，鼓励开发者为 Met...",
-      "source": "IT之家",
-      "publish_time": "2026-10-04 16:56",
-      "url": "https://www.ithome.com/1/009/677.htm",
-      "tags": [
-        "新产品"
-      ]
-    },
-    {
-      "id": 94,
-      "category": "新产品",
-      "title": "VR 驾驶模拟游戏《亚利桑那卡车司机》本月开启抢先体验，Meta Quest 平台独占",
-      "summary": "IT之家 10 月 4 日消息，Carbon Studio 打造的卡车模拟游戏《Arizona Truck Driver（亚利桑那卡车司机）》宣布将于本月在 Meta Quest 平台开启抢先体验。本作以美国亚利桑那州为背景，玩家不仅需要驾...",
-      "source": "IT之家",
-      "publish_time": "2026-10-04 16:51",
-      "url": "https://www.ithome.com/1/009/676.htm",
-      "tags": [
-        "新产品"
-      ]
-    },
-    {
-      "id": 95,
-      "category": "新产品",
-      "title": "韩国多家银行遭黑客攻击致个人信息泄露，总统李在明下令彻查",
-      "summary": "IT之家 10 月 4 日消息，据韩联社今日报道，韩国总统李在明 4 日就近期商业银行等多家金融公司遭到 黑客攻击 事件下达指示，要求有关部门彻底调查并制定切实有效对策。 总统府青瓦台首席发言人姜由桢发布上述消息。姜由桢指出，李在明听取了有...",
-      "source": "IT之家",
-      "publish_time": "2026-10-04 16:48",
-      "url": "https://www.ithome.com/1/009/674.htm",
-      "tags": [
-        "新产品"
-      ]
-    },
-    {
-      "id": 96,
+      "id": 150,
       "category": "芯片",
       "title": "全球跨国投资十强榜单出炉：台积电居首、字节跳动位列第二 - 驱动之家",
       "summary": "全球跨国投资十强榜单出炉：台积电居首、字节跳动位列第二 &nbsp;&nbsp; 驱动之家",
@@ -1219,7 +1947,7 @@
       ]
     },
     {
-      "id": 97,
+      "id": 151,
       "category": "芯片",
       "title": "源杰科技（688498）—— 从电信芯片到AI光芯片的转型样本 - 凤凰网",
       "summary": "源杰科技（688498）—— 从电信芯片到AI光芯片的转型样本 &nbsp;&nbsp; 凤凰网",
@@ -1232,24 +1960,10 @@
       ]
     },
     {
-      "id": 98,
-      "category": "新产品",
-      "title": "大量 AI“幻觉”报告压垮维护团队，谷歌暂停部分开源漏洞奖励计划",
-      "summary": "IT之家 10 月 4 日消息，谷歌宣布，自 2026 年 10 月 1 日起，开源软件漏洞奖励计划（OSS VRP）将不再接收产品漏洞提报。本次规则调整不影响 2026 年 10 月 1 日之前已提交的产品漏洞。 不过，针对部分可能对谷歌...",
-      "source": "IT之家",
-      "publish_time": "2026-10-04 16:46",
-      "url": "https://www.ithome.com/1/009/673.htm",
-      "tags": [
-        "新产品",
-        "Google",
-        "AI"
-      ]
-    },
-    {
-      "id": 99,
+      "id": 152,
       "category": "大模型",
-      "title": "谷歌调整Gemini模型权限，免费用户和AI Plus将失去Pro访问权| 乌克兰新闻 - Межа. Новини України.",
-      "summary": "谷歌调整Gemini模型权限，免费用户和AI Plus将失去Pro访问权| 乌克兰新闻 &nbsp;&nbsp; Межа. Новини України.",
+      "title": "谷歌调整Gemini模型权限，免费用户和AI Plus将失去Pro访问权| 乌克兰新闻 - mezha.net",
+      "summary": "谷歌调整Gemini模型权限，免费用户和AI Plus将失去Pro访问权| 乌克兰新闻 &nbsp;&nbsp; mezha.net",
       "source": "Google News 大模型",
       "publish_time": "2026-10-04 16:44",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8taEpPeXgzVmZvdDhsOF9aY2V1MWtCMkZqbXdraDZJYUVlcGZ1ekxYMGpzYndlSTY0d2dBSXVGbFdMSUpESlRZXzNucXJ5RnlhZ19tN2prUVRualFVX2tUTnZUM0xhZXhvOUlDRHhRdnk?oc=5",
@@ -1260,56 +1974,7 @@
       ]
     },
     {
-      "id": 100,
-      "category": "新产品",
-      "title": "Rust 正式成为微软内部一级编程语言，与 C++、C#、TypeScript 并列",
-      "summary": "IT之家 10 月 4 日消息，据 Rust 基金会，Rust 现已成为微软公司内部的“一级编程语言（Tier-1）”，与 C++、C#和 TypeScript 并列。 需要注意的是，这里的 Tier-1 是微软内部使用的分类，并非 Rus...",
-      "source": "IT之家",
-      "publish_time": "2026-10-04 16:43",
-      "url": "https://www.ithome.com/1/009/672.htm",
-      "tags": [
-        "新产品"
-      ]
-    },
-    {
-      "id": 101,
-      "category": "新产品",
-      "title": "10 月 4 日 30 个服务区预计充电特别繁忙，主要集中在河北、河南、辽宁等省",
-      "summary": "IT之家 10 月 4 日消息，据交通运输部动态研判，10 月 4 日，全国高速公路预计有 30 个服务区充电特别繁忙，主要集中在河北、河南、辽宁等省，大家可通过“e 路畅通”微信小程序查询服务区充电桩运行状态，合理规划出行。 序号 省份 ...",
-      "source": "IT之家",
-      "publish_time": "2026-10-04 16:41",
-      "url": "https://www.ithome.com/1/009/671.htm",
-      "tags": [
-        "新产品"
-      ]
-    },
-    {
-      "id": 102,
-      "category": "新产品",
-      "title": "System76 更新 COSMIC 项目 PR 模板，禁止贡献者提交利用 AI 辅助完成的代码",
-      "summary": "IT之家 10 月 4 日消息，开发团队 System76 现已更新 COSMIC 项目的 Pull Request（PR）模板，新增一份强制性检查清单，明确禁止贡献者提交利用 AI 辅助完成的代码。贡献者必须确认提交内容中不存在任何 AI...",
-      "source": "IT之家",
-      "publish_time": "2026-10-04 16:35",
-      "url": "https://www.ithome.com/1/009/669.htm",
-      "tags": [
-        "新产品",
-        "AI"
-      ]
-    },
-    {
-      "id": 103,
-      "category": "新产品",
-      "title": "索尼 PS5 游戏机模拟器 KytyPS5 新进展：运行《漫威金刚狼》可达到接近 20 FPS 峰值水平",
-      "summary": "IT之家 10 月 4 日消息，外媒 TechPowerUP 援引 YouTube 频道 Unreal Gaming PC 测试视频，透露游戏《漫威金刚狼》在索尼 PS5 游戏机模拟器 KytyPS5 上的运行性能近日再次取得明显进展。此前...",
-      "source": "IT之家",
-      "publish_time": "2026-10-04 16:30",
-      "url": "https://www.ithome.com/1/009/668.htm",
-      "tags": [
-        "新产品"
-      ]
-    },
-    {
-      "id": 104,
+      "id": 153,
       "category": "芯片",
       "title": "英伟达与鸿海展示自动化成果，机器人组装GB300的母线成功率超95% - 凤凰网科技",
       "summary": "英伟达与鸿海展示自动化成果，机器人组装GB300的母线成功率超95% &nbsp;&nbsp; 凤凰网科技",
@@ -1323,74 +1988,19 @@
       ]
     },
     {
-      "id": 105,
-      "category": "新产品",
-      "title": "中国人民大学宣布收到一位校友 5.03 亿元捐赠，用于支持通州校区体育中心建设",
-      "summary": "IT之家 10 月 4 日消息，中国人民大学今日宣布， 近期收到一位校友 5.03 亿元捐赠 ，用于支持母校通州校区体育中心建设。 官方并未公布捐赠者的相关信息。 据介绍，体育中心是中国人民大学通州校区重要标志性建筑之一，在设计时提取陕北公...",
-      "source": "IT之家",
-      "publish_time": "2026-10-04 16:29",
-      "url": "https://www.ithome.com/1/009/667.htm",
-      "tags": [
-        "新产品"
-      ]
-    },
-    {
-      "id": 106,
-      "category": "新产品",
-      "title": "国内首部 AIGC 长剧《后西游记》再上新，战天宫篇今日开播",
-      "summary": "IT之家 10 月 4 日消息，今日，国内首部 AIGC 长剧《后西游记》再上新。10 月 4 日起，第一季 · 战天宫篇将在湖南卫视、芒果 TV 双平台播出，10 月 9 日起，“剧好看”专区播出。 IT之家注意到，神话题材季播剧 《后西...",
-      "source": "IT之家",
-      "publish_time": "2026-10-04 16:18",
-      "url": "https://www.ithome.com/1/009/666.htm",
-      "tags": [
-        "新产品",
-        "AI"
-      ]
-    },
-    {
-      "id": 107,
+      "id": 154,
       "category": "芯片",
-      "title": "英伟达与鸿海展示自动化成果，机器人组装 GB300 的母线成功率超 95%",
-      "summary": "IT之家 10 月 4 日消息，据台媒经济日报，英伟达与鸿海首次对外展示了利用机器人制造设备的成果。 针对英伟达 GB300 的母线（Busbar，也叫汇流排或母排，是一种用于大电流配电和传输的导电金属条、棒或管）以及多组连接器组装等较复杂...",
-      "source": "IT之家",
-      "publish_time": "2026-10-04 16:17",
-      "url": "https://www.ithome.com/1/009/665.htm",
+      "title": "英特尔酷睿Ultra 4000系列首批共七款：定位最高为Ultra 9 4970K BFC - 手机新浪网",
+      "summary": "英特尔酷睿Ultra 4000系列首批共七款：定位最高为Ultra 9 4970K BFC &nbsp;&nbsp; 手机新浪网",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-04 16:29",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPd1VjcVJVZm16U2tyREdUeG9GSEVocThkUDFfN2Z0R3RDcEk0c01iOTkxYTFvM3ZZck9QUHJ6X2hQeXRYZmJ4VGNMbjllTWxaTXp5U3M3RjFEeURWVUppcExIMHZXVVE0UmU4REo5dW1FdHJUUWZqUGJ4eEVnN2FQUUFtQ1VSa1JYUVVOVl9samtSNjVDOWZ5d01KTFZnY09ZRWlIQlAtNTg4RkZpbUc1bkoyOEo2czhCSHFNeU8weXNQQkJ4bk5tdGthM1dOVmUzODd6c0xrYzVmMTREbVhXNEh4Zk1CVjc2YkI1bTFaMlRnRzJ6?oc=5",
       "tags": [
-        "芯片",
-        "英伟达",
-        "NVIDIA",
-        "机器人"
+        "芯片"
       ]
     },
     {
-      "id": 108,
-      "category": "新产品",
-      "title": "好莱坞大师 Phil Tippett 关闭加州伯克利工作室，影迷竞拍获得珍贵特效资产将其数字化上传至互联网档案馆",
-      "summary": "IT之家 10 月 4 日消息，去年 8 月，好莱坞特效大师、动画师 Phil Tippett 关闭了自己位于美国加州伯克利的工作室。工作室内部各种电影特效资产随即被公开变卖。 公开信息显示，Tippett 及其团队曾参与《侏罗纪公园》《机...",
-      "source": "IT之家",
-      "publish_time": "2026-10-04 16:12",
-      "url": "https://www.ithome.com/1/009/664.htm",
-      "tags": [
-        "新产品",
-        "机器人",
-        "AI"
-      ]
-    },
-    {
-      "id": 109,
-      "category": "大模型",
-      "title": "突发，谷歌关停大批免费Gemini模型！ - 手机新浪网",
-      "summary": "突发，谷歌关停大批免费Gemini模型！ &nbsp;&nbsp; 手机新浪网",
-      "source": "Google News 大模型",
-      "publish_time": "2026-10-04 16:09",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9xWEswYzJ5LUhNWi12OHVoYWYyb0VRWGhyOHJGMmQxa3JrcXBFSC1CTDZfY2lHc0tQSkJDWTBZbWxJc3dxS2tONmlXMXRTQlIxZ01JTzdYM1NYeWJSRWZvZ1VsOFd6VGNtOU40UHZGdlIzbHBwT25vV0d3XzlSdE0?oc=5",
-      "tags": [
-        "大模型",
-        "Gemini"
-      ]
-    },
-    {
-      "id": 110,
+      "id": 155,
       "category": "新产品",
       "title": "方方面面都熟悉，方方面面都更好：iPhone 18 Pro 体验",
       "summary": "iPhone 18 Pro 也许不会让你感觉焕然一新，却在许多地方都变得更加完整了。 查看全文",
@@ -1402,25 +2012,10 @@
       ]
     },
     {
-      "id": 111,
+      "id": 156,
       "category": "芯片",
-      "title": "消息称苹果 iPhone 18 Pro 系列 W39 国内累计销量 176 万台",
-      "summary": "IT之家 10 月 4 日消息，博主 @数码闲聊站 今日爆料，苹果 iPhone 18 Pro 系列 W39 周累计销量 176 万台（预计指国内），根据国庆期间的走势，W40 预估累计销量超 250 万台，两款机型均轻松完成单品激活 10...",
-      "source": "IT之家",
-      "publish_time": "2026-10-04 15:56",
-      "url": "https://www.ithome.com/1/009/662.htm",
-      "tags": [
-        "芯片",
-        "台积电",
-        "苹果",
-        "AI"
-      ]
-    },
-    {
-      "id": 112,
-      "category": "芯片",
-      "title": "新疆喀什造AI芯片的“退烧材料”要量产了- 中国日报网 - xj.chinadaily.com.cn",
-      "summary": "新疆喀什造AI芯片的“退烧材料”要量产了- 中国日报网 &nbsp;&nbsp; xj.chinadaily.com.cn",
+      "title": "新疆喀什造AI芯片的“退烧材料”要量产了- 中国日报网 - China Daily",
+      "summary": "新疆喀什造AI芯片的“退烧材料”要量产了- 中国日报网 &nbsp;&nbsp; China Daily",
       "source": "Google News 芯片",
       "publish_time": "2026-10-04 15:55",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1OTzFoWnlZelJEQlh2bW01OEVGUzJqaHJNclBCZExUVW5uS1VDa2pSanhwS3ZpenZvX25hYWc0cHg0ckhEeU50TlZ3QURLbGFHSWpsd2RJRllETkxZdk5JZWlnaG1oX3Jma3ZHb0o2N01qODBuMUpYTWFHTWc?oc=5",
@@ -1430,20 +2025,7 @@
       ]
     },
     {
-      "id": 113,
-      "category": "芯片",
-      "title": "AI耳机蓄势，芯片厂商待发 - 凤凰网科技",
-      "summary": "AI耳机蓄势，芯片厂商待发 &nbsp;&nbsp; 凤凰网科技",
-      "source": "Google News 芯片",
-      "publish_time": "2026-10-04 15:55",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFA4ejRPNXplVzJwRmxGTmZOdDMzWXZ0NW9vNE1ZcVpPTE9aNnpxeF9ZR3NMMFFDV01jc2hSelB6elBoc29QYVUwTDVfZ0g?oc=5",
-      "tags": [
-        "芯片",
-        "AI"
-      ]
-    },
-    {
-      "id": 114,
+      "id": 157,
       "category": "芯片",
       "title": "英特尔酷睿Ultra 4000系列首批共七款：定位最高为Ultra 9 4970K BFC - 驱动之家",
       "summary": "英特尔酷睿Ultra 4000系列首批共七款：定位最高为Ultra 9 4970K BFC &nbsp;&nbsp; 驱动之家",
@@ -1455,7 +2037,7 @@
       ]
     },
     {
-      "id": 115,
+      "id": 158,
       "category": "芯片",
       "title": "英特尔酷睿Ultra 4000系列首批共七款：定位最高为Ultra 9 4970K BFC - 新浪财经",
       "summary": "英特尔酷睿Ultra 4000系列首批共七款：定位最高为Ultra 9 4970K BFC &nbsp;&nbsp; 新浪财经",
@@ -1467,57 +2049,7 @@
       ]
     },
     {
-      "id": 116,
-      "category": "芯片",
-      "title": "英伟达RTX 5090买家须签转售忠诚承诺：禁止出口，概不例外 - 凤凰网科技",
-      "summary": "英伟达RTX 5090买家须签转售忠诚承诺：禁止出口，概不例外 &nbsp;&nbsp; 凤凰网科技",
-      "source": "Google News 芯片",
-      "publish_time": "2026-10-04 15:50",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE16aGVoRlRHZUFjSzRiRVN2aEVJRDFiZEFCaUlVbThST1MwbEI0YTZCU19OQzdOSmpCamY1YUFKMWJfWmRxMFZmX0xfMDM?oc=5",
-      "tags": [
-        "芯片",
-        "英伟达"
-      ]
-    },
-    {
-      "id": 117,
-      "category": "芯片",
-      "title": "美国买家曝购买英伟达 RTX 5090 整机时遭经销商要求签署“转售承诺”：禁止带出境，概不例外",
-      "summary": "IT之家 10 月 4 日消息，据外媒 Tom's Hardware 报道，近期一名美国消费者 Krothic 在 Reddit 发帖，称自己在加州图斯廷（Tustin）一家经销商 Micro Center 门店购买内含英伟达 RTX 50...",
-      "source": "IT之家",
-      "publish_time": "2026-10-04 15:49",
-      "url": "https://www.ithome.com/1/009/661.htm",
-      "tags": [
-        "芯片",
-        "英伟达"
-      ]
-    },
-    {
-      "id": 118,
-      "category": "新产品",
-      "title": "交通运输部：10 月 3 日全社会跨区域人员流动量 30356.8 万人次，同比下降 0.4%",
-      "summary": "IT之家 10 月 4 日消息，交通运输部今日公布的最新数据显示，2026 年 10 月 3 日（国庆假期第 3 日），全社会跨区域人员流动量 30356.8 万人次，环比下降 0.6%，比 2025 年同期（10 月 3 日，中秋国庆假期...",
-      "source": "IT之家",
-      "publish_time": "2026-10-04 15:40",
-      "url": "https://www.ithome.com/1/009/660.htm",
-      "tags": [
-        "新产品"
-      ]
-    },
-    {
-      "id": 119,
-      "category": "新产品",
-      "title": "雪铁龙旗下经典车型 2CV 将以纯电形式复活：10 月 11 日巴黎亮相，量产版预计 2028 年推出",
-      "summary": "IT之家 10 月 4 日消息，据外媒 carscoops 报道，雪铁龙旗下经典车型 2CV 时隔 36 年后将以纯电动城市车的形式重新亮相，该车将延续原版经典设计元素，同时主打“亲民售价”，将于 10 月 11 日在巴黎登场，而量产版预计...",
-      "source": "IT之家",
-      "publish_time": "2026-10-04 15:39",
-      "url": "https://www.ithome.com/1/009/659.htm",
-      "tags": [
-        "新产品"
-      ]
-    },
-    {
-      "id": 120,
+      "id": 159,
       "category": "芯片",
       "title": "利好！多家A股公司业绩预喜 半导体等赛道公司业绩增长明显 - 手机新浪网",
       "summary": "利好！多家A股公司业绩预喜 半导体等赛道公司业绩增长明显 &nbsp;&nbsp; 手机新浪网",
@@ -1530,55 +2062,7 @@
       ]
     },
     {
-      "id": 121,
-      "category": "新产品",
-      "title": "网友曝光比亚迪汽车兆瓦闪充桩线缆被儿童当“秋千”荡着玩，客服回应称将联系站点员工巡查",
-      "summary": "IT之家 10 月 4 日消息，近期有网友曝光广西南宁一新能源汽车充电场内，多名小孩把比亚迪闪充桩充电线缆当成秋千荡着玩，画面惊险。相应话题在微博登上热搜，截至IT之家发稿阅读量达 442.5 万。 IT之家获悉，被相应儿童当成“秋千绳”的...",
-      "source": "IT之家",
-      "publish_time": "2026-10-04 15:29",
-      "url": "https://www.ithome.com/1/009/658.htm",
-      "tags": [
-        "新产品"
-      ]
-    },
-    {
-      "id": 122,
-      "category": "新产品",
-      "title": "小马智行回应乘客被夹手事件：已配合交警调查，属意外而非交通事故",
-      "summary": "IT之家 10 月 4 日消息，10 月 3 日晚间，一乘客被小马智行无人驾驶车门夹住手指的视频流出，引发广泛关注。 ▲ 网传视频截图 对此，小马智行方面回应新浪科技称：“10 月 3 日，一位乘客在上车时，被同行人手动关闭车门不慎夹住手指...",
-      "source": "IT之家",
-      "publish_time": "2026-10-04 15:20",
-      "url": "https://www.ithome.com/1/009/657.htm",
-      "tags": [
-        "新产品"
-      ]
-    },
-    {
-      "id": 123,
-      "category": "新产品",
-      "title": "雷诺未来五年将在法国再投超 100 亿欧元，加码电动车和经济型汽车",
-      "summary": "IT之家 10 月 4 日消息，据路透社报道，雷诺集团首席执行官弗朗索瓦 · 普罗沃（François Provost）于周六表示，集团计划在未来五年内向法国本土投资超 100 亿欧元 （IT之家注：现汇率约合 757.28 亿元人民币） ...",
-      "source": "IT之家",
-      "publish_time": "2026-10-04 15:20",
-      "url": "https://www.ithome.com/1/009/656.htm",
-      "tags": [
-        "新产品"
-      ]
-    },
-    {
-      "id": 124,
-      "category": "新产品",
-      "title": "2026 年国庆假期有关部门将发放超 3.1 亿元消费券，叠加地方配套补贴激活市场活力",
-      "summary": "IT之家 10 月 4 日消息，据央视新闻报道，今年第四批 625 亿元超长期特别国债支持消费品以旧换新资金赶在国庆假期前落地，“十一”长假期间，国家消费品以旧换新政策叠加地方配套补贴，国补和地补协同发力，有效激活节日市场消费活力。 央视新...",
-      "source": "IT之家",
-      "publish_time": "2026-10-04 15:19",
-      "url": "https://www.ithome.com/1/009/655.htm",
-      "tags": [
-        "新产品"
-      ]
-    },
-    {
-      "id": 125,
+      "id": 160,
       "category": "新产品",
       "title": "襄阳亲子DIY手工坊去哪？科技馆+非遗+社区3大路线实测推荐+FAQ - 手机新浪网",
       "summary": "襄阳亲子DIY手工坊去哪？科技馆+非遗+社区3大路线实测推荐+FAQ &nbsp;&nbsp; 手机新浪网",
@@ -1590,7 +2074,7 @@
       ]
     },
     {
-      "id": 126,
+      "id": 161,
       "category": "芯片",
       "title": "暴涨200%！三星下一代HBM4存储芯片大幅提价 - 新浪财经",
       "summary": "暴涨200%！三星下一代HBM4存储芯片大幅提价 &nbsp;&nbsp; 新浪财经",
@@ -1602,57 +2086,20 @@
       ]
     },
     {
-      "id": 127,
-      "category": "大模型",
-      "title": "韩国多家银行接连发生信息泄露，金融监管部门启动 IT 系统全面排查",
-      "summary": "IT之家 10 月 4 日消息，据韩媒 The Elec 报道，韩国多家主要银行近日接连发生信息泄露事件。与以往直接针对网上银行等核心金融网络的攻击不同，此次事件的目标主要集中在银行员工及贷款代理机构使用的外围业务系统。韩国金融监管部门已开...",
-      "source": "IT之家",
-      "publish_time": "2026-10-04 15:12",
-      "url": "https://www.ithome.com/1/009/654.htm",
+      "id": 162,
+      "category": "芯片",
+      "title": "AI芯片真正的下一场革命，不是算力，而是“地基”——玻璃基板量产时间终于被锁定HBM、CoWoS、Chiplet 已... - Moomoo",
+      "summary": "AI芯片真正的下一场革命，不是算力，而是“地基”——玻璃基板量产时间终于被锁定HBM、CoWoS、Chiplet 已... &nbsp;&nbsp; Moomoo",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-04 15:00",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUHgxMnlHZC1HVGpVU01hbl9fZTJFOEd4Z2otX1BrbkpFd09sYTFiNWlGUTROV1kyU256aGhrV3ZINzFUTUtuRkJfUWtHRGVfdVRwN1Z0MEV4ZEJkM0FHQTVEclBlNTl0Z0NGMG5kR21oS2JyaVpPNjAwT0t2MkhaOWY3VHdqREJNT2x4X1lOSWVMeHBuQTNBdEVRcXBmWDNBVEF3ZG9hcw?oc=5",
       "tags": [
-        "大模型",
+        "芯片",
         "AI"
       ]
     },
     {
-      "id": 128,
-      "category": "新产品",
-      "title": "特斯拉悄然测试动态大灯水平调节功能：近光灯可根据车身姿态自动修正照射角度",
-      "summary": "IT之家 10 月 4 日消息，特斯拉一项巧妙的全新灯光功能已经开始向用户车辆推送。在海外近期的软件更新（包括 2026.38 版本）当中，特斯拉悄然开启了一项尚未对外正式发布的功能测试： 动态大灯水平调节（Dynamic Headligh...",
-      "source": "IT之家",
-      "publish_time": "2026-10-04 15:07",
-      "url": "https://www.ithome.com/1/009/653.htm",
-      "tags": [
-        "新产品",
-        "特斯拉"
-      ]
-    },
-    {
-      "id": 129,
-      "category": "新产品",
-      "title": "中国汽车加速出海：阿根廷首次举办中国汽车展，8 月销量份额已达 10%",
-      "summary": "IT之家 10 月 4 日消息，据路透社报道，在阿根廷总统哈维尔 · 米莱（Javier Milei）的执政下，阿根廷汽车市场已从高度保护主义转向更加开放和竞争的环境。阿根廷首都布宜诺斯艾利斯于当地时间周五（10 月 2 日）迎来 首届中国...",
-      "source": "IT之家",
-      "publish_time": "2026-10-04 14:59",
-      "url": "https://www.ithome.com/1/009/652.htm",
-      "tags": [
-        "新产品"
-      ]
-    },
-    {
-      "id": 130,
-      "category": "新产品",
-      "title": "罚 6000 元扣 12 分：深圳一车主 2026 国庆期间连续 2 天走应急车道被处罚",
-      "summary": "IT之家 10 月 4 日消息，2026 年度国庆假期七座以下（含七座）小型客车可免费通行高速，这也导致不少主干高速的早晚高峰都出现了长时间拥堵的情况，面对拥堵，部分车主选择“钻空子”，但等待他们的是交规严惩。 例如，昨日便有“男子连续 2...",
-      "source": "IT之家",
-      "publish_time": "2026-10-04 14:58",
-      "url": "https://www.ithome.com/1/009/651.htm",
-      "tags": [
-        "新产品"
-      ]
-    },
-    {
-      "id": 131,
+      "id": 163,
       "category": "芯片",
       "title": "国产GPU逆袭！壁仞科技下一代芯片BR20X点亮：性能有望超英伟达H200 - 手机新浪网",
       "summary": "国产GPU逆袭！壁仞科技下一代芯片BR20X点亮：性能有望超英伟达H200 &nbsp;&nbsp; 手机新浪网",
@@ -1665,7 +2112,7 @@
       ]
     },
     {
-      "id": 132,
+      "id": 164,
       "category": "芯片",
       "title": "四代麒麟芯片齐亮相！余承东硬核解读：何为韬定律、麒麟9050系列到底有多强 - 驱动之家",
       "summary": "四代麒麟芯片齐亮相！余承东硬核解读：何为韬定律、麒麟9050系列到底有多强 &nbsp;&nbsp; 驱动之家",
@@ -1677,10 +2124,10 @@
       ]
     },
     {
-      "id": 133,
+      "id": 165,
       "category": "芯片",
-      "title": "【早报】美股光通信、存储芯片股，全线爆发；原油、黄金齐涨；华为与赛力斯达成新五年合作 - cls.cn",
-      "summary": "【早报】美股光通信、存储芯片股，全线爆发；原油、黄金齐涨；华为与赛力斯达成新五年合作 &nbsp;&nbsp; cls.cn",
+      "title": "【早报】美股光通信、存储芯片股，全线爆发；原油、黄金齐涨；华为与赛力斯达成新五年合作 - 财联社",
+      "summary": "【早报】美股光通信、存储芯片股，全线爆发；原油、黄金齐涨；华为与赛力斯达成新五年合作 &nbsp;&nbsp; 财联社",
       "source": "Google News 芯片",
       "publish_time": "2026-10-04 14:43",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1UM2dmWFdZZk8xalZtTEtVSzhMb1hlX2tFTHFrbThCa18zbnQ2c25YcUZxTWI3ekZPRmI0RUxXQk5Qckp3a0NVaQ?oc=5",
@@ -1690,20 +2137,7 @@
       ]
     },
     {
-      "id": 134,
-      "category": "大模型",
-      "title": "前沿科技产品、趣味人工智能互动齐聚，上海静安首个AI主题市集开进永源路 - jingjiribao.cn",
-      "summary": "前沿科技产品、趣味人工智能互动齐聚，上海静安首个AI主题市集开进永源路 &nbsp;&nbsp; jingjiribao.cn",
-      "source": "Google News 新产品",
-      "publish_time": "2026-10-04 14:19",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1ITVlaU21WNTZMRU9BNGwwcGdPZE04bHdjRjV6N1J0emhFVk9fQnB2Ui1XVHI2eHpFU2pLdVFGOVh4ZTk5RmRCMk5TUzMxRVRCVG9JQXc1VmxFMG9yWXVJc1NmUQ?oc=5",
-      "tags": [
-        "大模型",
-        "AI"
-      ]
-    },
-    {
-      "id": 135,
+      "id": 166,
       "category": "芯片",
       "title": "AI算力硬合作，马斯克还是更相信中国制造 - 手机新浪网",
       "summary": "AI算力硬合作，马斯克还是更相信中国制造 &nbsp;&nbsp; 手机新浪网",
@@ -1716,58 +2150,20 @@
       ]
     },
     {
-      "id": 136,
-      "category": "芯片",
-      "title": "AI算力硬合作，马斯克还是更相信中国制造 - 搜狐网",
-      "summary": "AI算力硬合作，马斯克还是更相信中国制造 &nbsp;&nbsp; 搜狐网",
-      "source": "Google News 芯片",
-      "publish_time": "2026-10-04 14:05",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOQzNsVF9Ed0hPNGpWdXVnbW9sdDFNRzJabDBXcTV6azlBakRwQTdWTjN6UlEwalRWdWhSU1lGWnBZU3k0MTVodG9iTFJjTUlUU1BQUURPWHViQzFvWW55Vm5obWJPVWYtSzR5OS1YVVltcFBNRy04Q1BpRTNyMUI5RVRxOS1nQmRkeXlPZA?oc=5",
-      "tags": [
-        "芯片",
-        "AI"
-      ]
-    },
-    {
-      "id": 137,
-      "category": "芯片",
-      "title": "芯片设计软件龙头为何开始关心散热、机械和整车？ - 凤凰网",
-      "summary": "芯片设计软件龙头为何开始关心散热、机械和整车？ &nbsp;&nbsp; 凤凰网",
-      "source": "Google News 芯片",
-      "publish_time": "2026-10-04 13:51",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1rYXVMMEJtQm84bG9SclJiN3hDaDVZMFplemxmUFRjR28xUDdvX1Y1V0VJdFBhcU9fR3BrdFdYRTV0emRUM19WNkgyVWFFcGJ2?oc=5",
-      "tags": [
-        "芯片"
-      ]
-    },
-    {
-      "id": 138,
+      "id": 167,
       "category": "芯片",
       "title": "AI算力硬合作，马斯克还是更相信中国制造 - 新浪财经",
       "summary": "AI算力硬合作，马斯克还是更相信中国制造 &nbsp;&nbsp; 新浪财经",
       "source": "Google News 芯片",
-      "publish_time": "2026-10-04 13:44",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9YSnIwakFVRmxjLUdrNzdKQWlfcHB5MDJpOXFXaGFpSk5iUU1hTng1dDAzcXA5WEZEbU5CLTB4dEdWTWlSQ2lPUldMZmFjWDluOFFwQ2llMGxMMEY2RG9RU245NFR3NlpiLVpnMTlydGhmZWZnMnBNaV8xOXgzUQ?oc=5",
+      "publish_time": "2026-10-04 13:59",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5SZWlIQ0w2R3BYUUsyQUYzUHE3RmtBOFN3cm94Ri1oRHRISnVIRkNkTk1PdUZReUxqa25obUFjUElscGVrRFlEazYzb1dVdDlOb1RfNE5iRVI3aEJQbktuakF2VFlrLTVWQTE5TWp6UW0tMWlSSVNreTF5STE?oc=5",
       "tags": [
         "芯片",
         "AI"
       ]
     },
     {
-      "id": 139,
-      "category": "芯片",
-      "title": "AI算力硬合作，马斯克还是更相信中国制造 - 搜狐网",
-      "summary": "AI算力硬合作，马斯克还是更相信中国制造 &nbsp;&nbsp; 搜狐网",
-      "source": "Google News 芯片",
-      "publish_time": "2026-10-04 13:44",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOM3VuZW5ySWUtc01QdnZtakkwWnNwODlEN1lrOFdXbU44N3hCN2JTNm85NDVVRmFDN1NvYWQ5emJBbkxUU3lxNFRSbGExaUlOblU5ZXhBcmlLcHdNT3kzZzQ0Q2lVblJwZ0dPbDZfWENJQ19XUVB5M0JJb1JGRHBCZTM2YUhXeGpT?oc=5",
-      "tags": [
-        "芯片",
-        "AI"
-      ]
-    },
-    {
-      "id": 140,
+      "id": 168,
       "category": "新产品",
       "title": "余承东：华为已量产381款τ芯片 覆盖手机、AI、智能汽车等领域 - 驱动之家",
       "summary": "余承东：华为已量产381款τ芯片 覆盖手机、AI、智能汽车等领域 &nbsp;&nbsp; 驱动之家",
@@ -1782,7 +2178,7 @@
       ]
     },
     {
-      "id": 141,
+      "id": 169,
       "category": "新产品",
       "title": "Meta Muse爆红后遇留存瓶颈：打开率低于主流应用，长期变现面临考验 - 华尔街见闻",
       "summary": "Meta Muse爆红后遇留存瓶颈：打开率低于主流应用，长期变现面临考验 &nbsp;&nbsp; 华尔街见闻",
@@ -1794,49 +2190,10 @@
       ]
     },
     {
-      "id": 142,
+      "id": 170,
       "category": "芯片",
-      "title": "赛前热身挑战- AMD ETF - Moomoo",
-      "summary": "赛前热身挑战- AMD ETF &nbsp;&nbsp; Moomoo",
-      "source": "Google News 芯片",
-      "publish_time": "2026-10-04 13:01",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQVhfaEpFNVkxYkExUDhXS1BPLUYxb3JKYzNkT2JfcnhHRWpZUjhyWDRITGo5ZjhZNVBMa1Z3TWZ6dUNQajBtYkpXYmk4UkU0NF92MEFYNGZYcmVDa1lfR2phcEkwUG1RWXd2VkdKTlByUGJ2NGNoM3RGRUJyV3psZGx6bGYwXzhwWmJWb1FUQkgxQXVkeDBwOTJB?oc=5",
-      "tags": [
-        "芯片"
-      ]
-    },
-    {
-      "id": 143,
-      "category": "芯片",
-      "title": "四川肉兔育种迈入“芯”时代：蜀兴1号肉兔10K功能性液相芯片研发成功 - 四川新闻",
-      "summary": "四川肉兔育种迈入“芯”时代：蜀兴1号肉兔10K功能性液相芯片研发成功 &nbsp;&nbsp; 四川新闻",
-      "source": "Google News 芯片",
-      "publish_time": "2026-10-04 12:49",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB6eXAwR2ZwbHdqdFJoT1ZiaTRScGc2ZmFpOEZVZlVocFZheGpNMzhpYWtmS3VPR2lVMk5OanlsNE92cC14bVpOdGU3YUZUejFoeFZlZUZLamZ5SEhQTzF6RUJ5bw?oc=5",
-      "tags": [
-        "芯片"
-      ]
-    },
-    {
-      "id": 144,
-      "category": "芯片",
-      "title": "余承东：华为半导体已在手机、AI、智能汽车等领域成功设计并量产381款τ芯片 - 手机新浪网",
-      "summary": "余承东：华为半导体已在手机、AI、智能汽车等领域成功设计并量产381款τ芯片 &nbsp;&nbsp; 手机新浪网",
-      "source": "Google News 芯片",
-      "publish_time": "2026-10-04 12:48",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE02OThjNjNRbE1wbkVpRHZXRndMU0YtTlNXMjFyQkNjMlhaV1VhWmRrbUprNWNRUm1WbTdkckU3TUljdDB3RXVwWW5Yd0ltM2xqemdndGJZMWYtQUVKTzJIdUU3VnNoejB5TzFPcDlvZTFFbUlBZ0xfODJTaUh4QQ?oc=5",
-      "tags": [
-        "芯片",
-        "华为",
-        "半导体",
-        "AI"
-      ]
-    },
-    {
-      "id": 145,
-      "category": "芯片",
-      "title": "余承东：华为半导体已在手机、AI、智能汽车等领域成功设计并量产381款τ芯片 - 搜狐网",
-      "summary": "余承东：华为半导体已在手机、AI、智能汽车等领域成功设计并量产381款τ芯片 &nbsp;&nbsp; 搜狐网",
+      "title": "余承东：华为半导体已在手机、AI、智能汽车等领域成功设计并量产381款τ芯片 - sohu.com",
+      "summary": "余承东：华为半导体已在手机、AI、智能汽车等领域成功设计并量产381款τ芯片 &nbsp;&nbsp; sohu.com",
       "source": "Google News 新产品",
       "publish_time": "2026-10-04 12:46",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdTR3M1RMaE83SUlTTVRkeW5yVHFJUlFCZTBhXzFPSVNaRE9Sd21hdEpBNjNOZnNjS0ktZGJNdFhuNlY1OTR3WmwxSVdHZk1la0JyTGVwdUxoczhpVzN2cEVhUTh4U0syY0NJb2pkSDR2Y3B3YmxqMzdKRmZfU1lvUy1XRS1BZVQ4RVhrbg?oc=5",
@@ -1848,112 +2205,7 @@
       ]
     },
     {
-      "id": 146,
-      "category": "芯片",
-      "title": "余承东：华为半导体已在手机、AI、智能汽车等领域成功设计并量产381款τ芯片 - 凤凰网科技",
-      "summary": "余承东：华为半导体已在手机、AI、智能汽车等领域成功设计并量产381款τ芯片 &nbsp;&nbsp; 凤凰网科技",
-      "source": "Google News 芯片",
-      "publish_time": "2026-10-04 12:40",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1kZVRKSGxBaGh1STRlNVRrVUx0bDdEejNFNjF0dnVkSHR0aXEzUnBXTUNqUTBqdkJWMkJWTlhnRjNXb2tqazBNOEp1MWY?oc=5",
-      "tags": [
-        "芯片",
-        "华为",
-        "半导体",
-        "AI"
-      ]
-    },
-    {
-      "id": 147,
-      "category": "芯片",
-      "title": "华为徐直军确认昇腾中国市场份额已超英伟达 - 手机新浪网",
-      "summary": "华为徐直军确认昇腾中国市场份额已超英伟达 &nbsp;&nbsp; 手机新浪网",
-      "source": "Google News 芯片",
-      "publish_time": "2026-10-04 12:22",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1lWTc3M2E2ak5NWWYwR0s2NHZiYWVmelJ3QVJRUW9waExlWUR6bW1rYTM3STkxdjk5U01jVXB1RVllRzdhT3ZOMnNTZ3B6bTRRYjJnaGExNlhhaXVmekcyNmMwV0pxYkVFZ0NoOF9GWHF4OHU1X212ektNUnlLZw?oc=5",
-      "tags": [
-        "芯片",
-        "英伟达",
-        "华为"
-      ]
-    },
-    {
-      "id": 148,
-      "category": "芯片",
-      "title": "美智库：中国已囤343台ASML光刻机 够造7nm芯片好几年 - 驱动之家",
-      "summary": "美智库：中国已囤343台ASML光刻机 够造7nm芯片好几年 &nbsp;&nbsp; 驱动之家",
-      "source": "Google News 芯片",
-      "publish_time": "2026-10-04 12:04",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAzOXBtQUxqUEdwX2NBS3RJXzh6dzFGYVp2eXJ3bV96UDFNaDJ2R1M4NzlWT0hQcHNPaTVZamVmNElhbFk4V2RFaEtIRFB4dU9CS3daMWdqR0w?oc=5",
-      "tags": [
-        "芯片"
-      ]
-    },
-    {
-      "id": 149,
-      "category": "芯片",
-      "title": "长飞光纤：算力数据中心光纤需求持续上升 年均增速将达20.74% - 驱动之家",
-      "summary": "长飞光纤：算力数据中心光纤需求持续上升 年均增速将达20.74% &nbsp;&nbsp; 驱动之家",
-      "source": "Google News 芯片",
-      "publish_time": "2026-10-04 12:03",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9uOUhfSVJJOWtSQk1LWldtQUVfeDVGdk03Y1RmaXdXLUQ5d0ZZWlFKUXJRTi1ZUm1rcVpBWWpUbUVkYi1CVXFlR3J3X1pmMGF2TF9KaDdNdkg?oc=5",
-      "tags": [
-        "芯片"
-      ]
-    },
-    {
-      "id": 150,
-      "category": "芯片",
-      "title": "达飞轮船强势回应三星电子1.86亿美元FMC索赔 | 航运界 - 新浪财经",
-      "summary": "达飞轮船强势回应三星电子1.86亿美元FMC索赔 | 航运界 &nbsp;&nbsp; 新浪财经",
-      "source": "Google News 芯片",
-      "publish_time": "2026-10-04 12:03",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZnduMXBBRUs2LXJ6c2k5SGhLX25oeDBUbHo4QTRScnREd3VuYlpnMnctcU5NN2RWbTFha0IyUjYxbGhsc20tbVBJczJlck5vRzV6bHBfN0lrRjY5d09mc1Bqa2k4Rk0xdHV5TGtMTU95UkFWY3l2VXFmdTJPbVR3RHl6UjJLeHg3Qnl1ZXB3?oc=5",
-      "tags": [
-        "芯片"
-      ]
-    },
-    {
-      "id": 151,
-      "category": "芯片",
-      "title": "英伟达推出64GB版DGX Spark重构本地AI算力生态 - 手机新浪网",
-      "summary": "英伟达推出64GB版DGX Spark重构本地AI算力生态 &nbsp;&nbsp; 手机新浪网",
-      "source": "Google News 芯片",
-      "publish_time": "2026-10-04 11:38",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE13S0NPYnBFamp4NXFkY3lsWUxTQ3Uwc1E0Y3JpUXRIZFVhdW5XdnB6anVTbkZiWm50ODExNVMxcDdhSHE5RTRLTmZzU1F1eDhENHhMcDVhOVU5cjl3NmlTaURHTmxjN0dTckc3ZXJJTU4xRWFEWThSNDZqTjNZNFU?oc=5",
-      "tags": [
-        "芯片",
-        "英伟达",
-        "AI"
-      ]
-    },
-    {
-      "id": 152,
-      "category": "芯片",
-      "title": "AI耳机蓄势，芯片厂商待发 - 手机新浪网",
-      "summary": "AI耳机蓄势，芯片厂商待发 &nbsp;&nbsp; 手机新浪网",
-      "source": "Google News 芯片",
-      "publish_time": "2026-10-04 11:38",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPcC1TVWFodHl2cWlDdTBOYzdlN3hNRWZEWXJkS1dzdzhGMzdxcmFZRGF3VEtvQjNFVVpGMFFJTHJMYktrUFdpSlVDM3N4anB3XzJ0cU1xbUxHTjNsMWtKaHkwOWx5cGJyYzRpeWxZM0xfVDJ6MWVlckZWMHdaaUpJSw?oc=5",
-      "tags": [
-        "芯片",
-        "AI"
-      ]
-    },
-    {
-      "id": 153,
-      "category": "芯片",
-      "title": "AI耳机蓄势，芯片厂商待发 - 风闻",
-      "summary": "AI耳机蓄势，芯片厂商待发 &nbsp;&nbsp; 风闻",
-      "source": "Google News 芯片",
-      "publish_time": "2026-10-04 11:28",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5tbTJ2NTFycDlnTkVYa3hRZUtNcDJ5TXRzdnRnNktQMUV1NWlMQWY4UWM1bjlBTU9NbktTNnRLUWlweTdiNldibzNsclA2VE5XdDJtSnhfWms5SWozTFd6WHNHcmQ1ZlRmMzI4WFpiQVdKdGJt?oc=5",
-      "tags": [
-        "芯片",
-        "AI"
-      ]
-    },
-    {
-      "id": 154,
+      "id": 171,
       "category": "新产品",
       "title": "对等降税催化小家电出口、净水概念、绿色电力）。连续3板赛力斯。（与华为合作升级）。N力勤资源。（注册制次新股 - 手机新浪网",
       "summary": "对等降税催化小家电出口、净水概念、绿色电力）。连续3板赛力斯。（与华为合作升级）。N力勤资源。（注册制次新股 &nbsp;&nbsp; 手机新浪网",
@@ -1966,24 +2218,10 @@
       ]
     },
     {
-      "id": 155,
+      "id": 172,
       "category": "新产品",
-      "title": "新商学案例｜国产智驾芯片出货量第一的地平线如何拓展AI应用新场景？ - 手机新浪网",
-      "summary": "新商学案例｜国产智驾芯片出货量第一的地平线如何拓展AI应用新场景？ &nbsp;&nbsp; 手机新浪网",
-      "source": "Google News 芯片",
-      "publish_time": "2026-10-04 10:55",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBMN190VmtuQ19IT2xQam9SaWhCUm5rN2dkNldTZEdwcFFlTXJnNlZPTW5HazZYQ1k1VTY0dzFiTjMyZ2p6QUdidVZkMkdibkc0blkxU2JXdzdhYVpqVDVPQVQzcDZ5NHlFbnh3ZmRaZ0Q2Q2t5bkpwOF9LRGhYZw?oc=5",
-      "tags": [
-        "新产品",
-        "芯片",
-        "AI"
-      ]
-    },
-    {
-      "id": 156,
-      "category": "新产品",
-      "title": "石楼：机器狗成广场明星！AI黑科技点亮国庆文旅现场 - 搜狐网",
-      "summary": "石楼：机器狗成广场明星！AI黑科技点亮国庆文旅现场 &nbsp;&nbsp; 搜狐网",
+      "title": "石楼：机器狗成广场明星！AI黑科技点亮国庆文旅现场 - sohu.com",
+      "summary": "石楼：机器狗成广场明星！AI黑科技点亮国庆文旅现场 &nbsp;&nbsp; sohu.com",
       "source": "Google News 新产品",
       "publish_time": "2026-10-04 10:02",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMnRDbTRQbW1sdDVTSENQNFAtMTM4QmNqZ3c1TXM4MXo2Vl9UU3pockM1UTU4bi1xLTJvdC03UG5zazFYaEZXTkg0OXYtWGtSVDFvVGM5emhJTHBUVnRCYmpVZXdmN0t5Sk9UTzZiZHRUY2lVTFJidUdlTFpOWFdhSmVxdXNZZ1RB?oc=5",
@@ -1993,7 +2231,7 @@
       ]
     },
     {
-      "id": 157,
+      "id": 173,
       "category": "芯片",
       "title": "硬科技早报｜腾讯70亿美元算力租赁；阿里欧洲算电协同；韬芯片照片曝光 - 观察者网",
       "summary": "硬科技早报｜腾讯70亿美元算力租赁；阿里欧洲算电协同；韬芯片照片曝光 &nbsp;&nbsp; 观察者网",
@@ -2005,7 +2243,7 @@
       ]
     },
     {
-      "id": 158,
+      "id": 174,
       "category": "新产品",
       "title": "智能 “黑科技” 齐亮相 浙企组团开拓中亚数字蓝海 - 央广网",
       "summary": "智能 “黑科技” 齐亮相 浙企组团开拓中亚数字蓝海 &nbsp;&nbsp; 央广网",
@@ -2017,46 +2255,10 @@
       ]
     },
     {
-      "id": 159,
-      "category": "芯片",
-      "title": "培育OPC产业生态！肥乡区算力补贴政策来啦 - 手机新浪网",
-      "summary": "培育OPC产业生态！肥乡区算力补贴政策来啦 &nbsp;&nbsp; 手机新浪网",
-      "source": "Google News 芯片",
-      "publish_time": "2026-10-04 09:17",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE85N0o0X1VIWVlOX21RdWNQdlRZWDY0QVVSN2E1bGlzcThDUEdBbFlOWGNfTEhyQWgtdzRJVWlqb21BLUFHQ1ZYUmxkb2xDWTRhQTBvVmVIRkZ5VU1oYU91NmxSWjVabkllb0tJdS1FMVpadw?oc=5",
-      "tags": [
-        "芯片"
-      ]
-    },
-    {
-      "id": 160,
-      "category": "芯片",
-      "title": "芯片制程提升的故事要讲不下去了 - 风闻",
-      "summary": "芯片制程提升的故事要讲不下去了 &nbsp;&nbsp; 风闻",
-      "source": "Google News 芯片",
-      "publish_time": "2026-10-04 09:02",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1xX1dBT19KVXVEdVRwV3BHdmlDb3FzUU0zYVJVTHl0QVg5TW1taW55N1AwZFBXU1BMR1Q3dWNGRmg3czNPZ2wzb0pzVV9BdFNtQ2tIb2huM0lYaXdyVGFBRlFDN1VUTjFBZHc?oc=5",
-      "tags": [
-        "芯片"
-      ]
-    },
-    {
-      "id": 161,
-      "category": "芯片",
-      "title": "美智库指中国加速囤积光刻机 吁全面禁售浸没式DUV设备 - 联合早报",
-      "summary": "美智库指中国加速囤积光刻机 吁全面禁售浸没式DUV设备 &nbsp;&nbsp; 联合早报",
-      "source": "Google News 芯片",
-      "publish_time": "2026-10-04 08:50",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ic0RJdXJ3MmRRdG1rNjZWNlZncF9aMV9PRXRvWUQ4SDAweC13TUdudVVubHVKU3psZllEWl95aS10dFpiUlU1Ym5mNlBFRHZEcTk4cWNqQ0JicURkV2tnTTk4eVMyNEdNQmc?oc=5",
-      "tags": [
-        "芯片"
-      ]
-    },
-    {
-      "id": 162,
+      "id": 175,
       "category": "新产品",
-      "title": "上演现实版终结者：退役机器人排队跳进钢水，Figure AI想卖什么？ - 搜狐网",
-      "summary": "上演现实版终结者：退役机器人排队跳进钢水，Figure AI想卖什么？ &nbsp;&nbsp; 搜狐网",
+      "title": "上演现实版终结者：退役机器人排队跳进钢水，Figure AI想卖什么？ - sohu.com",
+      "summary": "上演现实版终结者：退役机器人排队跳进钢水，Figure AI想卖什么？ &nbsp;&nbsp; sohu.com",
       "source": "Google News 新产品",
       "publish_time": "2026-10-04 08:46",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOOUZVNE1YZXRXS0VNV2ZYTXN6bF9MSjB0MDBTNlJfeF9rekh1WG1RSkNRSkVFZjlVaERWalJIZ3BoSEkwYXpPWkFxZUxIRERYbEM3ZnNUc05BbkJBQm9rQ2JuRUhESzBlM0dMSEpwUmY3WmRYLXBkQzF5ZnExYXNmTnR5Y3AzQmIx?oc=5",
@@ -2067,7 +2269,20 @@
       ]
     },
     {
-      "id": 163,
+      "id": 176,
+      "category": "芯片",
+      "title": "三星HBM4报价超前代3倍：挑战SK海力士抢占AI存储定价权 - 驱动之家",
+      "summary": "三星HBM4报价超前代3倍：挑战SK海力士抢占AI存储定价权 &nbsp;&nbsp; 驱动之家",
+      "source": "Google News 芯片",
+      "publish_time": "2026-10-04 08:10",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE94dzloZzZyZXZ2N2Q5LW1DTko2SEc4U2hOTHZUZlJ6WldSQnd0Z2dtdlFyYVpWQlpMT0ZKNjNpNm9QNVlXTmlKQi1MSGMtSXhxZDM1eTZ0ZmM?oc=5",
+      "tags": [
+        "芯片",
+        "AI"
+      ]
+    },
+    {
+      "id": 177,
       "category": "新产品",
       "title": "现实版终结者上演！美国退役机器人排队跳进1500℃钢水自尽 - 驱动之家",
       "summary": "现实版终结者上演！美国退役机器人排队跳进1500℃钢水自尽 &nbsp;&nbsp; 驱动之家",
@@ -2080,7 +2295,7 @@
       ]
     },
     {
-      "id": 164,
+      "id": 178,
       "category": "芯片",
       "title": "英伟达重返世界之巅，市值逼6万亿美元！但斌激动万分，大摩：再涨30% - 新浪财经",
       "summary": "英伟达重返世界之巅，市值逼6万亿美元！但斌激动万分，大摩：再涨30% &nbsp;&nbsp; 新浪财经",
@@ -2093,7 +2308,7 @@
       ]
     },
     {
-      "id": 165,
+      "id": 179,
       "category": "新产品",
       "title": "全国首届人机互动运动会闭幕 - 杭州网",
       "summary": "全国首届人机互动运动会闭幕 &nbsp;&nbsp; 杭州网",
@@ -2105,20 +2320,21 @@
       ]
     },
     {
-      "id": 166,
-      "category": "芯片",
-      "title": "继AMD后，高通、英特尔、英伟达硬件本月将全面支持微软高级着色器交付|directx|显卡驱动|GPU|博客|卡顿_手机新浪网 - 新浪财经",
-      "summary": "继AMD后，高通、英特尔、英伟达硬件本月将全面支持微软高级着色器交付|directx|显卡驱动|GPU|博客|卡顿_手机新浪网 &nbsp;&nbsp; 新浪财经",
-      "source": "Google News 芯片",
-      "publish_time": "2026-10-04 06:31",
-      "url": "https://news.google.com/rss/articles/CBMisgVBVV95cUxPSldGZEsydlB4UFhUamtObjF2ZDlwZU1RcTV6dUcxcklMZDRRNnBLbFpqaEJrSVcyUmVPRmdLYjI4QUYweVh5aTVlSTBHczE2dlk3ZDkzQno1cE1RV2RFMFF6akhCbmJxdXkzbHd6a1RjYXl2bHIzcVdpMlVCQU12STcwZkRoYUgxQ0d3bEwyWnBDWFBPTFc5bGtCNy1BUVAyUHItQk9wdVRSbkI2bEdWSUsyN0w0YjY2cmFwbWxRODNlLTNGRmdRVWl1Rk1IZ0JmWmtXbGpJVWpTOTYyMmhqMTN6MWNqTGFrVjlJcUFwQ1FSU2NqOWljMC04WDR2emlEVHVJMmlSN3hLdlpZVkF5dFItRWN6SjcxQUpibWZ2TzItZUN2dkprVDNWQmxvZTdsT2hGbl9NSjJqeHNNUmczNi1qdFFrTDlZTm4za0xFVUw4UVF3aW5xZnVpUE5FanpGcVZxaXc2TkRlT0UtN1ltMDduNm9UUFJXeUdhNEpYTlU5TlRuLWNucW56WEFBa19xejV6alUtUDNPNEF2bEFkNnhVVVBJMTdPZVNpZHN5M0Q3cHZwWkt3N3BCNlRyb0hGVHNTMHZ1UHpocEhqaEtDQUlrSGFpcTZVWWxhUER1REpUWWVRQU0tM1VZbk9heERtVWQ0TVZidm9iSFRJTlpZQjVrbVZ6bDRaeEdRVlF3NnNNRWVfUDFyUkp1TTVvOXlYbU56X2tXb1VfWEtyUU9fYTB1SnFBNkF6eTFybGFTOHpuNHF2bW1fYnNGTlo4bEx1YzZ4R2hWbTliS0tSRTY5blpGcUlqRGpPY2NOVWM1a210UzhCaVFwc3RpVnhqalJ3ZExJTk9KXzRwZE1ZNXN3UzNyRUNyamJIX1hwcE9RZDNoUkxkbVpHT205UXc2VkYzTnc?oc=5",
+      "id": 180,
+      "category": "新产品",
+      "title": "斯洛伐克电动汽车公共充电设施速度快速增长；布拉迪斯拉发举办AI机器人博览会 - 华人头条",
+      "summary": "斯洛伐克电动汽车公共充电设施速度快速增长；布拉迪斯拉发举办AI机器人博览会 &nbsp;&nbsp; 华人头条",
+      "source": "Google News 新产品",
+      "publish_time": "2026-10-04 07:08",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRktCRno1Q3RjaVVyejVCV1hiVTJia3N3YlJOSFJ2NG1rU2I1eHFNMzBOaTk2SG4yR3hnUG5wVEhCU0ZkOXJFMkZDaW9uemFzeEhqYzVHLUJrWGNvN291ZmV0cUhQVG5XeENIdE8ybVRfQXh6M3cxTEwwd25nRWlCYW1IMl9ONUk?oc=5",
       "tags": [
-        "芯片",
-        "英伟达"
+        "新产品",
+        "机器人",
+        "AI"
       ]
     },
     {
-      "id": 167,
+      "id": 181,
       "category": "新产品",
       "title": "2026年下半年值得关注的美股机器人概念股 - TradingKey",
       "summary": "2026年下半年值得关注的美股机器人概念股 &nbsp;&nbsp; TradingKey",
@@ -2131,19 +2347,7 @@
       ]
     },
     {
-      "id": 168,
-      "category": "芯片",
-      "title": "【现代快报】东南大学顾忠泽团队首提“器官芯片分析化学” 新概念，开辟生命分析新范式 - 东大新闻网",
-      "summary": "【现代快报】东南大学顾忠泽团队首提“器官芯片分析化学” 新概念，开辟生命分析新范式 &nbsp;&nbsp; 东大新闻网",
-      "source": "Google News 芯片",
-      "publish_time": "2026-10-04 05:49",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9CQkJMbXdjQmIwS1pKMU51ZzFlenN6OU5fZ0JrVjFVMU1XdEE1WnMzY0RuSUdHUnFtdERrT1J6SHBSbVg1anJrRnBVbzRTdG5aM2sySUo3c1RsMnYwT0VlMzNSTzZvdw?oc=5",
-      "tags": [
-        "芯片"
-      ]
-    },
-    {
-      "id": 169,
+      "id": 182,
       "category": "新产品",
       "title": "荣耀MWC火力全开：机器人手机颠覆形态，联手阿莱ARRI重写移动影像规则 - 新浪财经",
       "summary": "荣耀MWC火力全开：机器人手机颠覆形态，联手阿莱ARRI重写移动影像规则 &nbsp;&nbsp; 新浪财经",
@@ -2156,7 +2360,7 @@
       ]
     },
     {
-      "id": 170,
+      "id": 183,
       "category": "新产品",
       "title": "第五届数贸会今日开幕！逛展攻略来了 - 新蓝网",
       "summary": "第五届数贸会今日开幕！逛展攻略来了 &nbsp;&nbsp; 新蓝网",
@@ -2168,22 +2372,7 @@
       ]
     },
     {
-      "id": 171,
-      "category": "大模型",
-      "title": "英伟达盘中创历史新高，市值逼近6万亿美元！对OpenAI 300亿美元投资收官 - 新浪财经",
-      "summary": "英伟达盘中创历史新高，市值逼近6万亿美元！对OpenAI 300亿美元投资收官 &nbsp;&nbsp; 新浪财经",
-      "source": "Google News 芯片",
-      "publish_time": "2026-10-04 05:00",
-      "url": "https://news.google.com/rss/articles/CBMivgRBVV95cUxPaVItdDRVUHAwR0diak9UWndfNGVtMVh0dFo2WGFub09keXA4X09GaERxOXhpc01XMFh2U2tCcVE0bkw3UWxRWVNuLU12NGg4eUZvM0R5c2syZkxhSXkwR1phQWN6RlhIZXN3VzJRLWJ6dmlHa2FqajZRRFFYYlBMOVNNUUtXek03N3d2T3IwMV9VVFJqZmZWekwwZUZUcXZtOTNwTkV5NGdHOVUwMl83WFpnMDJjaXE0MThqTzNqdjJqT2xUUXpKQ3lBLXBScy1RRTFhS3h2M3FRamp5eFdRRXJ6b3hwTEVXeVROb3E2LTNhcHRWVzdMYVF1N3puY0NJbDFFd0RiUm1ZVmFoZ0VGVUZVNUlnTkh5MEVRemdWTlFVUlFlSWktd0JObVY0bEFEcEkzLVpSeTdYbEVCbzJ0LWFvdUZLeDNfWm9KcDZoZkZpU29MVzVrS3Y5RENRYU03QlJiNzlTWVNRRUpnX3RLeEV6VXVFaU9tRGhDT0FKTjZvNVBYOTFoWU83NnpjRnZFTktuSlczRDF2V1pCVmZybV9hNUcwMzVUSXlXS1RpZ0FncFZEV2ZUaV9hUWRrSncwRk1YTWEzcUFUX1JUcmRNN1EyaDg1NDRqdWxKa3pjTkFqXzlaSlVIcWJiN3lFMzRtWHhncVdCZXI3aHlTekFka0hHRklDX2dQb2JEOVUzdmM0eWd2WURycmpwaExidmFleUR1c3o0dHBlZ2sxTWFMdkp0bV9LeVc4dUpRLVd3?oc=5",
-      "tags": [
-        "大模型",
-        "OpenAI",
-        "英伟达",
-        "AI"
-      ]
-    },
-    {
-      "id": 172,
+      "id": 184,
       "category": "新产品",
       "title": "博鱼快速注册终于来了！这次不只是看，还能亲手玩、拿大奖——全攻略来了 - 体坛加",
       "summary": "博鱼快速注册终于来了！这次不只是看，还能亲手玩、拿大奖——全攻略来了 &nbsp;&nbsp; 体坛加",
@@ -2195,20 +2384,33 @@
       ]
     },
     {
-      "id": 173,
+      "id": 185,
       "category": "芯片",
       "title": "台积电探讨与马斯克 Terafab 项目开展合作 - 新浪财经",
       "summary": "台积电探讨与马斯克 Terafab 项目开展合作 &nbsp;&nbsp; 新浪财经",
       "source": "Google News 芯片",
       "publish_time": "2026-10-04 00:10",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYW5naUtYRTVUS0NsQjhaRFhaZFMtS1BNdzFGV0lBa2ZDQWVIcUVBajdtU2c3X2F2LXdzUjZhekxkOTZaTHk0RFNIYThFaklBc3RTajliaE5EZGtXQkVhNmZuaUl1V2Q5Z0FfQlZxbV80aXpEWVJZcF9uUGJOdWtZaGJMLXF5c01JSlB1WFVvYw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5CX09XWTZnYS1mMWdzMVhma3V3dUViRUVLS012NVRmeDhZRm1Uc29xV0Q4amZyVDBsc1pUU1hsdUFJZi11S3BEWm5WWVRjVHA4R1FZTWx6clJ3RTdjaC1BMUczdmNHVFFfVXVUMHVseVE0ODBPd1hidVV3?oc=5",
       "tags": [
         "芯片",
         "台积电"
       ]
     },
     {
-      "id": 174,
+      "id": 186,
+      "category": "新产品",
+      "title": "科技文旅新业态走热 AI+元宇宙加速商业化 - 新浪财经",
+      "summary": "科技文旅新业态走热 AI+元宇宙加速商业化 &nbsp;&nbsp; 新浪财经",
+      "source": "Google News 新产品",
+      "publish_time": "2026-10-03 22:46",
+      "url": "https://news.google.com/rss/articles/CBMi4gNBVV95cUxQRzJ0cUxqam9aUHg5Y0kySzdieGlBVHluMzRoRGlZZENrc0JPdlc4ZF9zMEk2SUJsTWFBNDVYVDJmYXJ4MnVMaUxfVFhmZFRRQUowVEFMWFVaX2tWRkE2bThOalZEWmx4RllLRnFrelB2SUZKOHNsSnR3TlhweXJHT2tSYUpoZFRJelJUenR1TmswUmlqTElkSWVtVld6a19rWDZ1cTRjOThNdExXdVZKdk9YMF9MVlpNRW1yM3VHRXQ3azlENnNKZ1dNUWd3N3A1VEpxMTV4aUphTDhWdmEyM19halFMVDNEQjBuQTE5WXRHZEZlRUphNG91VHZxejYxZ0oxMjVkUnBqV1hScDJmTEF1Q3lvQXNFQUUtTlVsTVFYZkZya3ZXS0t5Z2xqS2ZXYnNYUnJFVnRrMEFsYlpxMVJ4V1p0WEc5SHhDdktsQWx1bHpGVFI2dldmWjJUTEttb0NHSUlkSzB1YTY0a1NaaFM1ckRJUkxJSWhmZGU3ZmNPRnR6VWRoZ2VSSDhyRmxGZjBEZ1VDMHRURVVTVFZZckNxMi1JQVhhd1c4eldrSnB4SG5ia2xXYUdFd3RyWlo2T2I5XzdNeWlHTjdGVFYzVm8yV1NBNDF0T3l4QUNFczRXdw?oc=5",
+      "tags": [
+        "新产品",
+        "AI"
+      ]
+    },
+    {
+      "id": 187,
       "category": "大模型",
       "title": "岘港希望拉近人工智能和科技与人民的距离。 - Vietnam.vn",
       "summary": "岘港希望拉近人工智能和科技与人民的距离。 &nbsp;&nbsp; Vietnam.vn",
@@ -2220,7 +2422,7 @@
       ]
     },
     {
-      "id": 175,
+      "id": 188,
       "category": "芯片",
       "title": "马斯克回应台积电或参与Terafab项目 - 东方财富",
       "summary": "马斯克回应台积电或参与Terafab项目 &nbsp;&nbsp; 东方财富",
@@ -2233,45 +2435,33 @@
       ]
     },
     {
-      "id": 176,
-      "category": "芯片",
-      "title": "文件披露中国国企与英伟达Blackwell芯片的相关交易 - RFI",
-      "summary": "文件披露中国国企与英伟达Blackwell芯片的相关交易 &nbsp;&nbsp; RFI",
-      "source": "Google News 芯片",
-      "publish_time": "2026-10-03 19:56",
-      "url": "https://news.google.com/rss/articles/CBMizwJBVV95cUxQQWI3NTZka2owSG8wVnp2cXZCR3JVaFROVHFZN09ka1FZTzk0d3lJdmo1Mmx3Zm9PWU1TMTNVdkNHX1RPMGQwSUMybnduNXlRS2ZodTFDWDdibnFhOVlSaUxfUmZ5anFFV21uOHhWTkc1UG5WX3EtMl9kS1kwM2xVckdFZ3lzdG1FUjRPQUZIUkJ6T2g5YVVWM0RzbEVicjNCT1BEdnNXWmpLSnM5em8xeGNBMU1FSGlsRE1RRjFsYlRaTDZ1LXg1Sm5DUXNwX1N1a1ViLVpnRjJveWc5ZDRYTFZCeWpOcEFSaUpQRS1yV291WmU3dTlfQndTbjBBXzV2MDFNMm16LVhOVS03UTBsZlpuRUhhRE9EbWlqZTlCZWEyeTdWaXhra24ybmthT0lfeDFpd3dTNHQ4SUlaU1Z5QnJ2QkVQVTJ3UUVtaHRPdw?oc=5",
+      "id": 189,
+      "category": "新产品",
+      "title": "AI重塑全球大学权力版图 - 万维读者网",
+      "summary": "AI重塑全球大学权力版图 &nbsp;&nbsp; 万维读者网",
+      "source": "Google News 新产品",
+      "publish_time": "2026-10-03 19:42",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1xUkFwWDQyaFFLRDB4OFloZ25pYVg5VTViWmthazFVUnFSNnFSaTdSSTRJMTlJeDdUeEhDQmViVVdDQ3BSTmtBaG5kMnB4NTBWOFpyZjBadVQxeFg2SXc?oc=5",
       "tags": [
-        "芯片",
-        "英伟达"
+        "新产品",
+        "AI"
       ]
     },
     {
-      "id": 177,
+      "id": 190,
       "category": "新产品",
       "title": "让机器人自己跳进熔炉是营销吗 科技与营销的完美结合 - 中华网",
       "summary": "让机器人自己跳进熔炉是营销吗 科技与营销的完美结合 &nbsp;&nbsp; 中华网",
       "source": "Google News 新产品",
       "publish_time": "2026-10-03 18:48",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9uSGhpRUhBM2U3X2pnNmc5dExvRk5jWENNUzJmZTdTUzh5RGVVdnRvSlM3RFFwQ3oteHgwak9HXy1pREVKbE1BcGV4eGY1VldCUzIyMXlDblFYcm9CbGdwMjE0NkVaUzNzNGotR19DaG8?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB0bVFCRU1iazV5ZUJ2aEpjNGxDQ2lsX3BQSzJwUTdGc3dhQklxdW5qMmNuQVFkNE1UMDQ5Qy1pOGZSR1dfRmN5V1VKWEc5QXFSR0lqZW5rUC1nS2FfVk5tQlAxZk5QT1pFLUtUaHJ3?oc=5",
       "tags": [
         "新产品",
         "机器人"
       ]
     },
     {
-      "id": 178,
-      "category": "新产品",
-      "title": "智能硬件商店，变身打卡新“景点” - 21财经",
-      "summary": "智能硬件商店，变身打卡新“景点” &nbsp;&nbsp; 21财经",
-      "source": "Google News 新产品",
-      "publish_time": "2026-10-03 18:41",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPb0RZMzVOY2lvSFExMXl5TnZGX0tBbkJnQTNzQ0M3Q3pPOEVSYzJ1WmNzeVI2dlVyZjVqTVhpMXM5eXZkSkxkdkxXRDlPbTdZNmhwakhGSnlUZVVtZ1VEVkw0WUxhMnpTRmZ4dW82Smc0OFk4UTk4Zkc3dHhjMDdmOWdCa0Q5V1h6SDdEWTdpZw?oc=5",
-      "tags": [
-        "新产品"
-      ]
-    },
-    {
-      "id": 179,
+      "id": 191,
       "category": "大模型",
       "title": "Meta宣布旗下AI智能体Muse将登陆智能眼镜平台|Linux|Muse Spark|Agent|运行|虚拟机_手机新浪网 - 新浪财经",
       "summary": "Meta宣布旗下AI智能体Muse将登陆智能眼镜平台|Linux|Muse Spark|Agent|运行|虚拟机_手机新浪网 &nbsp;&nbsp; 新浪财经",
@@ -2284,24 +2474,23 @@
       ]
     },
     {
-      "id": 180,
-      "category": "芯片",
-      "title": "AI进化速递｜谷歌搭载AI芯片测试卫星发射升空 - 东方财富",
-      "summary": "AI进化速递｜谷歌搭载AI芯片测试卫星发射升空 &nbsp;&nbsp; 东方财富",
-      "source": "Google News 芯片",
-      "publish_time": "2026-10-03 17:58",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBycDZHbkNCSnVYSFhRcG1wM014TVp0QkktbVhuZjh0LVNzaE1LT3dNVGJVTm1oU2lxTHBiaG42cFpiREsyYkNJZllydEgtc2hmM2N2UjJGaUhXcmxMWE5VTVdVMnpzZw?oc=5",
+      "id": 192,
+      "category": "新产品",
+      "title": "智能硬件商店，变身打卡新“景点” - sohu.com",
+      "summary": "智能硬件商店，变身打卡新“景点” &nbsp;&nbsp; sohu.com",
+      "source": "Google News 新产品",
+      "publish_time": "2026-10-03 17:29",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUFhVV0YwYXprTlk1RFBRc0hLSmY4VjV0TTBFd0I2eHhZRVBOeTlMOFkyT1ozT3Z5MlVZUFp6U09tWWlLSlA0NGwzZUNDcFRYMVRXOHFESmMwR2dxempUZ1BXOVh4UWVnN2R6c0FYLWZTQnBtUHN1VFBtcmpDWHhCSWZtRDB2VVFhOHVIUQ?oc=5",
       "tags": [
-        "芯片",
-        "AI"
+        "新产品"
       ]
     },
     {
-      "id": 181,
+      "id": 193,
       "category": "芯片",
       "title": "DRAM价格疯涨！特斯拉下一代AI芯片不再盲目堆内存 - 驱动之家",
       "summary": "DRAM价格疯涨！特斯拉下一代AI芯片不再盲目堆内存 &nbsp;&nbsp; 驱动之家",
-      "source": "Google News 芯片",
+      "source": "Google News 新产品",
       "publish_time": "2026-10-03 17:26",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1YRVRlejFScUNaekp2aW9mSFdvQTNYeldxMkNjQ2pBVUlaVDEyM3o3by1EM2I5czA4akxpa3JZRFhrYWpxeEYxU0hzNnUxUzFYN3VNbGlUMUc?oc=5",
       "tags": [
@@ -2311,10 +2500,10 @@
       ]
     },
     {
-      "id": 182,
+      "id": 194,
       "category": "芯片",
-      "title": "马斯克回应！Terafab与台积电谈上了，此前已牵手英特尔 - cls.cn",
-      "summary": "马斯克回应！Terafab与台积电谈上了，此前已牵手英特尔 &nbsp;&nbsp; cls.cn",
+      "title": "马斯克回应！Terafab与台积电谈上了，此前已牵手英特尔 - 财联社",
+      "summary": "马斯克回应！Terafab与台积电谈上了，此前已牵手英特尔 &nbsp;&nbsp; 财联社",
       "source": "Google News 芯片",
       "publish_time": "2026-10-03 17:11",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9uQkZUSXZZd1V0bFNZMDFTZGdSNFdJN3cyb1ZabmxWelZ2T1UyMUV3bUZOVkJ0dDNKeU1HeTRabnM5X1Ezb1pBZA?oc=5",
@@ -2324,7 +2513,7 @@
       ]
     },
     {
-      "id": 183,
+      "id": 195,
       "category": "新产品",
       "title": "🔥 AI 员工支持知识库文档引用：开源 AI 无代码平台 NocoBase",
       "summary": "汇总一周产品更新日志，最新发布可前往我们的博客查看。 NocoBase 目前更新包括三个分支： main、next 和 develop。** main： 截至目前最稳定的版本，推荐安装此版本。 next： 包含即将发布的新功能，经过初步测试...",
@@ -2337,20 +2526,7 @@
       ]
     },
     {
-      "id": 184,
-      "category": "芯片",
-      "title": "台积电被指参与马斯克的TeraFab芯片厂：难以理解 何故给他人做嫁衣 - 驱动之家",
-      "summary": "台积电被指参与马斯克的TeraFab芯片厂：难以理解 何故给他人做嫁衣 &nbsp;&nbsp; 驱动之家",
-      "source": "Google News 芯片",
-      "publish_time": "2026-10-03 16:59",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE13SGlVVEkxUEIzU3BUNmViUVhSOWY4Zlc2ZHZydVNMN1oxYzJ1QU1NSkhCc1NFOTE2VHlNSU1XbGtYRmRZeGJlX2ZGeW52c2kwZ09VYTY3bnk?oc=5",
-      "tags": [
-        "芯片",
-        "台积电"
-      ]
-    },
-    {
-      "id": 185,
+      "id": 196,
       "category": "新产品",
       "title": "空手来、满箱走：AI眼镜热销洞见“未来感”深圳 - 新浪财经",
       "summary": "空手来、满箱走：AI眼镜热销洞见“未来感”深圳 &nbsp;&nbsp; 新浪财经",
@@ -2363,7 +2539,7 @@
       ]
     },
     {
-      "id": 186,
+      "id": 197,
       "category": "新产品",
       "title": "江苏南通70后卖AI司机，半年收入1.63亿，港股上市- 产业链 - 光通信Pro",
       "summary": "江苏南通70后卖AI司机，半年收入1.63亿，港股上市- 产业链 &nbsp;&nbsp; 光通信Pro",
@@ -2376,10 +2552,10 @@
       ]
     },
     {
-      "id": 187,
+      "id": 198,
       "category": "新产品",
-      "title": "从海珠湿地“小鹭珠”到北京天坛，海珠AI文创解锁国庆打卡新姿势 - 搜狐网",
-      "summary": "从海珠湿地“小鹭珠”到北京天坛，海珠AI文创解锁国庆打卡新姿势 &nbsp;&nbsp; 搜狐网",
+      "title": "从海珠湿地“小鹭珠”到北京天坛，海珠AI文创解锁国庆打卡新姿势 - sohu.com",
+      "summary": "从海珠湿地“小鹭珠”到北京天坛，海珠AI文创解锁国庆打卡新姿势 &nbsp;&nbsp; sohu.com",
       "source": "Google News 新产品",
       "publish_time": "2026-10-03 15:20",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQYWp3Q2ZCcGROczdnTVBMbGxqY2o4blBjSDRrYmQ2aXJfdnZ3UXFCUjMzQnBOdV9VbElVSlpaQ3p1b05sYzRCUVVfRlJ6bDIweXk3NTk0T3VOY0tFV09IS2lwaTNFSGtkSWNvcU9wdTN5MkpZZXNZcUZvRUJ3c3VpMjdSOW5qTktOR2ZKRA?oc=5",
@@ -2389,7 +2565,7 @@
       ]
     },
     {
-      "id": 188,
+      "id": 199,
       "category": "新产品",
       "title": "TDS REVIEW | CMF Clip Pro 耳夹式无线耳机体验",
       "summary": "不知道以后 CMF 的设计还会不会像现在一样出彩。 查看全文",
@@ -2401,7 +2577,7 @@
       ]
     },
     {
-      "id": 189,
+      "id": 200,
       "category": "新产品",
       "title": "理想多屏联动是噱头还是真香？3个维度拆解2026新版本+FAQ - 手机新浪网",
       "summary": "理想多屏联动是噱头还是真香？3个维度拆解2026新版本+FAQ &nbsp;&nbsp; 手机新浪网",
@@ -2413,20 +2589,7 @@
       ]
     },
     {
-      "id": 190,
-      "category": "芯片",
-      "title": "创历史新高！英伟达市值一夜暴涨5200亿：距史上首家6万亿美元仅一步之遥 - 驱动之家",
-      "summary": "创历史新高！英伟达市值一夜暴涨5200亿：距史上首家6万亿美元仅一步之遥 &nbsp;&nbsp; 驱动之家",
-      "source": "Google News 芯片",
-      "publish_time": "2026-10-03 14:45",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBSQUxPdmtYRkRRLUJ0R3RXbUNxME0zY1dWaVpXcC1fdVUzUTZUYWxSYk5XTVBDZ0lTdm5KOENpV0hRQ1QtUDJCNmVQeDlyY1owVUNER1RvQVA?oc=5",
-      "tags": [
-        "芯片",
-        "英伟达"
-      ]
-    },
-    {
-      "id": 191,
+      "id": 201,
       "category": "芯片",
       "title": "OpenAI自研AI芯片选择搭配AMD CPU：NVIDIA CPU还不太成熟 - 驱动之家",
       "summary": "OpenAI自研AI芯片选择搭配AMD CPU：NVIDIA CPU还不太成熟 &nbsp;&nbsp; 驱动之家",
@@ -2441,10 +2604,10 @@
       ]
     },
     {
-      "id": 192,
+      "id": 202,
       "category": "新产品",
-      "title": "乡土文化与新潮科技同台，密云冯家峪秋季村晚好戏连台 - 搜狐网",
-      "summary": "乡土文化与新潮科技同台，密云冯家峪秋季村晚好戏连台 &nbsp;&nbsp; 搜狐网",
+      "title": "乡土文化与新潮科技同台，密云冯家峪秋季村晚好戏连台 - sohu.com",
+      "summary": "乡土文化与新潮科技同台，密云冯家峪秋季村晚好戏连台 &nbsp;&nbsp; sohu.com",
       "source": "Google News 新产品",
       "publish_time": "2026-10-03 14:38",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQVNFNjNJYXNnX1BMYmFjeEQ1V1pRSHRrNy1ZMUNlZmY4OXFCSTM0QVppS0ppbVEwNGI4OXdrSlgydGJ1dW1ORXhsYklUSS0tQUpQRGt5LWVyWTZ4NEFmcTBiNWFIUHJ6ZlJaTl9CYkRjcDRvSlJETndzVHBFUUYtOUJXWnF0Rldf?oc=5",
@@ -2453,7 +2616,7 @@
       ]
     },
     {
-      "id": 193,
+      "id": 203,
       "category": "新产品",
       "title": "十年聚木成林：宇树科技为什么把「树业共生」写进世界物理AI大会主题？ - CSDN",
       "summary": "十年聚木成林：宇树科技为什么把「树业共生」写进世界物理AI大会主题？ &nbsp;&nbsp; CSDN",
@@ -2466,85 +2629,19 @@
       ]
     },
     {
-      "id": 194,
+      "id": 204,
       "category": "新产品",
-      "title": "【黄金赛道】券商是牛市发动机+风向标！ - caifuhao.eastmoney.com",
-      "summary": "【黄金赛道】券商是牛市发动机+风向标！ &nbsp;&nbsp; caifuhao.eastmoney.com",
+      "title": "【黄金赛道】券商是牛市发动机+风向标！ - 财富号",
+      "summary": "【黄金赛道】券商是牛市发动机+风向标！ &nbsp;&nbsp; 财富号",
       "source": "Google News 新产品",
       "publish_time": "2026-10-03 14:21",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBnVTdtYWJ4Y2E2WU9uVEFZcU5IREVVUnk4WEc4alNIMXZ4Smg3clBlcGx0TmxYXzIzMG42aW5zLUZfZ1NTNVdSS3ZrRG5LeDNLVFloOVpPaDk2aTBoOHBOY3VxY3otM0g1VUNj?oc=5",
-      "tags": [
-        "新产品",
-        "AI"
-      ]
-    },
-    {
-      "id": 195,
-      "category": "芯片",
-      "title": "利好！多家A股公司业绩预喜，半导体等赛道公司业绩增长明显 - 证券时报网",
-      "summary": "利好！多家A股公司业绩预喜，半导体等赛道公司业绩增长明显 &nbsp;&nbsp; 证券时报网",
-      "source": "Google News 芯片",
-      "publish_time": "2026-10-03 12:58",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBQRGNQR1p5SDNHWUlxejJGTi1UNGthUFMwVmtHYUNSeTNLRnRmM2x6djdoM3ZRTmktWXZxS2YxdXdDc3NLdl9JRG9hRkdaM0JDWTVFZldoN3VMLXQw?oc=5",
-      "tags": [
-        "芯片",
-        "半导体"
-      ]
-    },
-    {
-      "id": 196,
-      "category": "芯片",
-      "title": "谷歌搭载AI芯片测试卫星发射升空 - 新京报",
-      "summary": "谷歌搭载AI芯片测试卫星发射升空 &nbsp;&nbsp; 新京报",
-      "source": "Google News 芯片",
-      "publish_time": "2026-10-03 10:58",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBXQUFuYmxRalpDT2RPLVU5UUh2ZnJxYk1XUWxlYUhqLVF2eWVzWXpjTlA2UVRZSkN1VVB6UE1zdGk3NDRGMW5mZjJyVWlRWE53OEpYSHFwNk56d3NMRURpdXpnQkU?oc=5",
-      "tags": [
-        "芯片",
-        "AI"
-      ]
-    },
-    {
-      "id": 197,
-      "category": "新产品",
-      "title": "智能眼镜扎堆澳门，如何讲出全球化故事？ - 新浪财经",
-      "summary": "智能眼镜扎堆澳门，如何讲出全球化故事？ &nbsp;&nbsp; 新浪财经",
-      "source": "Google News 新产品",
-      "publish_time": "2026-10-03 10:02",
-      "url": "https://news.google.com/rss/articles/CBMigAVBVV95cUxPWTFWSzN2NGZmQkI0S2psc000UmhfRGM4QW5BZ1RHeXZtNjY0ZU1HaTdpWF9nYlY3a2s1ZjNPT0ZISVpfem9GU0NyNHBDcnZncVR4LW1iVE9qOUFNRmRCUTFaRldsZURsZ1BTMXdPQ3JyZ2daa080d0Q1blJqQS02TG45VFBiTDJVa0tfU1pHYV9YTk8wME9MU04yMktLRGYtbXJHSFh6clVHRHR2bkUtdDRQTVdZdWdqTzFyekh2OHVRNVUyUzNOMVQtQ20zOXI0S3NJYkZaVEtUWEpIR09qWG1EWVh3X3RmeGRnbGRHZ3UyWkFZV0U1VUdFZkwwR3cxbTh3TXFxOUx6N0JlWmVCcFFnNTFheWp2MHluWFBrdVRtYWI2Zk1SS2xLdFRuazBYMnMtS3lVZGFIYnhYUk1SZENVb0hGTDBvUk1TV1h1VGtocGtYeThBOXhxN09OT19ScVlVekR0NUppM1NQaWxnLXEyeGVNUUE0elFETldEa1RMdkE5czdhZ3doTklXUENjeHZla0liRHVwMlJOOVdJSEZBbU90dVdhZGo2aGpIUTRrQjBoSlN3ak5feXAzWmM5WnlQMVhpNm5GNDNQNUZ2bTR0c3lETUZySks1Tm5LOVQtODhDcjljMFJUWm5mM21IVTgxTFpqWkdFLUNqQ0FNRDRIU0g0UnFlMUdDTHFONG1pc0dMeWw4XzZQZC1IRnFkM1NuT2t4US1pRnpwWk9Va0d4c3Yyc3kwdjAtcVRCQnJfOWJDUlhsdThwQXVJZ2g2TmVVRkl6RmMzc0t5bVIxaHFYa1ZTSjVQaGlmV09vdTdOajRra2tfbWkwQVpDUTlO?oc=5",
       "tags": [
         "新产品"
       ]
     },
     {
-      "id": 198,
-      "category": "大模型",
-      "title": "2026世界人工智能大会观察：算力与制造业，支撑AI脱虚向实|我，机器人|钛媒体|阶跃星辰|机器人|产业_手机新浪网 - 新浪财经",
-      "summary": "2026世界人工智能大会观察：算力与制造业，支撑AI脱虚向实|我，机器人|钛媒体|阶跃星辰|机器人|产业_手机新浪网 &nbsp;&nbsp; 新浪财经",
-      "source": "Google News 新产品",
-      "publish_time": "2026-10-03 09:37",
-      "url": "https://news.google.com/rss/articles/CBMi1ARBVV95cUxNc3JsS2dHcWRXWXpUWlhkaDI2MVI4MExsbmY5UmRpUExFMXRfaVY5LTVDZWdzbmJZRHpvODF1anlaNzRkS2pjVEtONUpNMlBwdUprWUh0RExrV2daOEdXZmEzT3RXbXZEbTF4NTNlaHZIVGoyVTVyUmdJdjN0cW81WkZ5b0k2d0Ywa3Ffb2xWem5xcVN1LXl0XzdfNVBWdzNrenRzZDNpN3FCWktqUHFLcG0taHZfMzRuVkFYdWpyN1NhV3gwUG1hZUJHazZYekV4RFJOQVJ2Y3N1bjhlQmJxYUE4QUx4Wm5uMkNUeldIMDk5dmpsbWxWdERNNW01Y1JFVUZOOEZmam5hOVNaNFd3U3BMYzViVFdnbDFCWS1hOU9vZzNzVUdoVDFOX3l5QW11UGFSRWVIanJkWnRIbzY4N2MzSVVGT0FOdThJOHJjQ2Q4Q3c4aWs1d1hwQndwZXcwVnpfTVZaeWpianpYSEJScVc3c3hlZzh1QUhHZ2xYQ1RXMmpyMmRBXzcwODZLVl9JS3RRVzdyVnhTVTRfMmpWV1RuQ3hDUWdKUllxM3BuRUdSNHU5dEN2ZWRGdVpKX1V6clR5dVJ6Y1NPelk4QUNHcVF0YWV1RE5lWWFlQlBLVFF4RGdSV0hlTzl1ZjRqV1dLTUpfeGJuZVdPVWJaZURtWmhWYnJyd0U2SzhUYUU5eDAzZEpsNERBam82N1JSRTI1MEt1TUNPcWtTWFh3Nk03YmJ2YVRueTlCb2ZVSDBZUE9TSmRJVXlLSWVWSk9ZSW9GSHdyXw?oc=5",
-      "tags": [
-        "大模型",
-        "机器人",
-        "AI"
-      ]
-    },
-    {
-      "id": 199,
-      "category": "新产品",
-      "title": "首日暴涨266%隔日暴跌48%，物理AI大牛股成割韭菜利器，股民：报警 - 手机新浪网",
-      "summary": "首日暴涨266%隔日暴跌48%，物理AI大牛股成割韭菜利器，股民：报警 &nbsp;&nbsp; 手机新浪网",
-      "source": "Google News 新产品",
-      "publish_time": "2026-10-03 09:17",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE0zMVJ5S1VmRF9rQTZWdUtpakRocGNHUGV6RGpodE41Zy0xWmMzM202UjFUek4xRkpVVloxdUV3SFBxZ0lQclpqZHJTQnhCbnlvZU5ULURybE1fU0NfbkJQT0ExSzhtbVhUcEZtY2dWRzN1UQ?oc=5",
-      "tags": [
-        "新产品",
-        "AI"
-      ]
-    },
-    {
-      "id": 200,
+      "id": 205,
       "category": "新产品",
       "title": "破釜沉舟奔向 1.0：Zig 0.17.0 正式发布",
       "summary": "经过 5 个月的密集迭代，汇集全球 206 位贡献者的 925 次代码提交，底层系统编程语言 Zig 迎来了关键的里程碑版本——Zig 0.17.0。对于关注现代编译器技术与底层软件架构的开发者而言，这并不是一次按部就班的常规升级，而是一场...",
@@ -2556,46 +2653,7 @@
       ]
     },
     {
-      "id": 201,
-      "category": "新产品",
-      "title": "越日扩大在战略技术领域的合作 - Thông tấn xã Việt Nam (TTXVN)",
-      "summary": "越日扩大在战略技术领域的合作 &nbsp;&nbsp; Thông tấn xã Việt Nam (TTXVN)",
-      "source": "Google News 新产品",
-      "publish_time": "2026-10-03 09:01",
-      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPQlZ5SWRfdHE5dFdPdGhnQVkxNHc3WXQ0bXNBOWlEQ203ZlNHdXZPb3BTczFKaTg0Z2YyVXlhUUQ2aHdDLXhmZTk2SVYybjJfMnlGamYyWlk2OHhqUlJBTXBJSnFkS1l5a3RNR0xaVnlIZkVfNzljOTU1Z3p6dFZ5aHhtaWRXcFZldWJlSmI5dXdBTGUwRUd1QVRoanBDdzNSQ1BUdU1tX0lwOWpfQjVYNi0xSy1LVlBVQzJKZmV6Ulc2V2Qwb0luRVQyQ1RRVXJJR0lJOTBjSUlPNlZDTlRCeUUxR240SE1kMUZmLUM4ZXcyQTRkdkZxUHZpSzVUSVdzTnlZTGNkQU1SQzNV?oc=5",
-      "tags": [
-        "新产品"
-      ]
-    },
-    {
-      "id": 202,
-      "category": "芯片",
-      "title": "硬科技早报|昇腾中国份额超英伟达；东芝大扩产机械硬盘；野村看好阿里AI云 - 观察者网",
-      "summary": "硬科技早报|昇腾中国份额超英伟达；东芝大扩产机械硬盘；野村看好阿里AI云 &nbsp;&nbsp; 观察者网",
-      "source": "Google News 芯片",
-      "publish_time": "2026-10-03 08:40",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8yVkZRS2JYQlRlVHJ4Nk8zbWExM3lHVmFpMUI4NVdXMDRmU3NWOVBZVGtqdlhDV2pOSzNYMU5DSkhvdHcySkNsSHhON0d1WXR3d0F6UHJnQ3YzeHVSWm9NRklBY20?oc=5",
-      "tags": [
-        "芯片",
-        "英伟达",
-        "AI"
-      ]
-    },
-    {
-      "id": 203,
-      "category": "新产品",
-      "title": "水下机器人Top10 : 谁能最终配得上“水下宇树” - thepaper.cn",
-      "summary": "水下机器人Top10 : 谁能最终配得上“水下宇树” &nbsp;&nbsp; thepaper.cn",
-      "source": "Google News 新产品",
-      "publish_time": "2026-10-03 08:32",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE14X0hMR2ZmWGpwSVBlWExaRldadllNOWRpRWxfZlhyVXNfRVJnakdSSHgycnI4TjBUZEk1Z0tiMUZqZlVvRmE2TG1Td0dsd1JKZHo4bnc5MGhIWW1OSEhUYQ?oc=5",
-      "tags": [
-        "新产品",
-        "机器人"
-      ]
-    },
-    {
-      "id": 204,
+      "id": 206,
       "category": "新产品",
       "title": "从 PyQt6 到 Electron：一款英语字帖生成器的跨平台重构实战与踩坑全记录",
       "summary": "原文项目：钟毓英语衡水体字帖生成器 重构前后：PyQt6 v1.1.1 → Electron v2.0.x（跨平台 Windows / macOS / Linux） 关键词：electron-vite、Canvas 2D、tesseract...",
@@ -2607,62 +2665,7 @@
       ]
     },
     {
-      "id": 205,
-      "category": "新产品",
-      "title": "从“第一行代码”出发，青年定义AI未来|世界人工智能大会|具身智能|物理AI|Hugging Face|机器人_手机新浪网 - 新浪财经",
-      "summary": "从“第一行代码”出发，青年定义AI未来|世界人工智能大会|具身智能|物理AI|Hugging Face|机器人_手机新浪网 &nbsp;&nbsp; 新浪财经",
-      "source": "Google News 新产品",
-      "publish_time": "2026-10-03 08:28",
-      "url": "https://news.google.com/rss/articles/CBMingVBVV95cUxPWTdHQVBZOGQ2OHJDWGR5TWk1cjltN2YwTHpKNnh1RlFSOFNoNVN4dkh2TjNYX1lPaF9qX1JtTm9pNFBZOW9uN2hDMGMyN3I3UDQ1NVh1LXROaEhZb0ZGdkkyNFVfSnNVQU1ENkVvS0dCa19tcldwdm1XLUlzUkwyX2lzdmtmdWlOWXNUNmVLNkZoUEtVQnctZzJMUE1KSmVUMi1GZ2dDM09GYnJGQVFjWGR0VEdFSDJUclhyN2NyNmFSbUszWGliU1dxaWJJSW9VVW9FV19KRzBERTFfNGY3UjM0VFZod192Unl6Ty0zMGt6TEYxbVlPZkstQWhpdEpIQWp4Wld0Ql9pTXo0Vm1PQVVwczM5UkRQUzFWZEViSWFQb0wzUXZWVnY0d2FOYkVZZi1OeW1ucXU3ejl0YmJtWFlqWVF1Rl95U1p4LTZkQy1zRHBKcVlEUmNIZ1dmVzZzLUI4eUY3RHY1VmFyeUhKcTlkdFRQdF9vbTZRaVllbTRmSjFOeFF0SUxNb25aQnlLX2Z6S3ZlWWFGTmF5alZCX2JhSzdNVmd0ZGI5Rm9WekR3SFVDU2VmTlVLWS12bVBZem9OWGM3MHFrZDUwWHdINjI5bkgyTmNLRkNJOVhRay10QU54YWFXOFp3LTBLMzNVelFzU3p2blNSODY0b2FRYS1nUUFkZGszVlFTMkhIYkFDNDRVdkk3ejY1RzE0X3FOZjVGTDhwbDVZSXB1OFpmcHJvbEZsVVBFbDh2V2xoQjFxUHRFUGhIeHYwc3VPb1pSdWo0di02cC1HRjhnbDZYRlE4RjFJMmJBeXFfeFRKcHZGclhLMENXY1o5c05wOVp1NDU2cTZiTHBpMk52WEYwTHZKRWFPWmw1ekJDdXVB?oc=5",
-      "tags": [
-        "新产品",
-        "机器人",
-        "AI"
-      ]
-    },
-    {
-      "id": 206,
-      "category": "大模型",
-      "title": "【国内动态】沉浸式感受AI魅力！宿迁人工智能开放日多款机器人亮相 - 手机新浪网",
-      "summary": "【国内动态】沉浸式感受AI魅力！宿迁人工智能开放日多款机器人亮相 &nbsp;&nbsp; 手机新浪网",
-      "source": "Google News 新产品",
-      "publish_time": "2026-10-03 08:17",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB3U3lIVy1vQ0J3allHWmtyNk9QbzEzSmxxaUdfYUE5OUhCdTg3TWFwSy05YVdRRnRTT2NmeHFJSk1GRzRjVkg2Y0NmOUhzbWdHTDRGOW14cmo2akEzWWZuUHZZSDBnMWJMWFlIWVpnZ3VuZF8yX1B1elNRREFlQWs?oc=5",
-      "tags": [
-        "大模型",
-        "机器人",
-        "AI"
-      ]
-    },
-    {
       "id": 207,
-      "category": "大模型",
-      "title": "【国内动态】沉浸式感受AI魅力！宿迁人工智能开放日多款机器人亮相 - 新浪财经",
-      "summary": "【国内动态】沉浸式感受AI魅力！宿迁人工智能开放日多款机器人亮相 &nbsp;&nbsp; 新浪财经",
-      "source": "Google News 新产品",
-      "publish_time": "2026-10-03 08:00",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5DU1p1R2pxRU5QT1g4anpCZHhXbmNXeld5QkxJeWpJcE5raktDZmtSRzBzdGdad1ByWUpXTW84T1BJSWpVVF91MEtDN3lGUFZlZHRjN3VQMFU5cV9GejJBelpSRkhBckNxcjM3eTN6SkoyU1hxZ2c?oc=5",
-      "tags": [
-        "大模型",
-        "机器人",
-        "AI"
-      ]
-    },
-    {
-      "id": 208,
-      "category": "新产品",
-      "title": "【国内动态】机器人玩转国庆！成都“智创国庆”机器人系列活动火热开展 - 新浪财经",
-      "summary": "【国内动态】机器人玩转国庆！成都“智创国庆”机器人系列活动火热开展 &nbsp;&nbsp; 新浪财经",
-      "source": "Google News 新产品",
-      "publish_time": "2026-10-03 08:00",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8yb1gzUU9LWGpEdmIxb0xNMVRVeU5zYm1UM09BZHhUQjQwVHhpUkZaYnFRV2RwTEVlb3dDOHo1VWZWTHU1WHQxWHFlWWh2UW14WlI0SFU4bFF6aFd5MWdfYk1DU3V0UEVMNUxqSzR3ME5SOTJaV3c?oc=5",
-      "tags": [
-        "新产品",
-        "机器人"
-      ]
-    },
-    {
-      "id": 209,
       "category": "大模型",
       "title": "马克谈天下(657) 个人AI助理: OpenAI Dots vs Meta Muse - 文学城",
       "summary": "马克谈天下(657) 个人AI助理: OpenAI Dots vs Meta Muse &nbsp;&nbsp; 文学城",
@@ -2676,10 +2679,10 @@
       ]
     },
     {
-      "id": 210,
+      "id": 208,
       "category": "新产品",
-      "title": "刚刚，Meta开源Muse Gadgets，让全球开发者自己「造AI外设」 - 36kr.com",
-      "summary": "刚刚，Meta开源Muse Gadgets，让全球开发者自己「造AI外设」 &nbsp;&nbsp; 36kr.com",
+      "title": "刚刚，Meta开源Muse Gadgets，让全球开发者自己「造AI外设」 - 36Kr",
+      "summary": "刚刚，Meta开源Muse Gadgets，让全球开发者自己「造AI外设」 &nbsp;&nbsp; 36Kr",
       "source": "Google News 大模型",
       "publish_time": "2026-10-02 18:23",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA1Vk9BOFVLMFNNOXdkMEU2d0x2Y0FXSVlZWnc4YjdYTE1OUzhXVXpFeFcwWlAyVHRhc1AtS1dTSVFWSExzUS05NkExVXYydw?oc=5",
@@ -2689,7 +2692,7 @@
       ]
     },
     {
-      "id": 211,
+      "id": 209,
       "category": "新产品",
       "title": "灵界 OS 6.0 稳定版 · 窗口渲染优化与应用安装器更新",
       "summary": "这次更新两块内容。 1. 窗口渲染优化 开启时的确认弹窗增加「不再提示」 勾选后，下次直接开启，不再弹窗 取消勾选不会记住，下次还会弹 恢复出厂设置会清掉这个记录 2. 应用安装器支持可选 2.txt 没有 2.txt 不影响安装 有的话，...",
@@ -2701,7 +2704,7 @@
       ]
     },
     {
-      "id": 212,
+      "id": 210,
       "category": "新产品",
       "title": "本周看什么 | 最近值得一看的 8 部作品",
       "summary": "📅本周新预告《泥面人》终极预告9月24日，DC新片《泥面人》发布了终极预告，将于10月23日在北美上映。詹姆斯·瓦特金斯执导，汤姆·里斯·哈里斯主演，隆重介绍哥谭市的新面孔，一位意外毁容的演员在注射了 ... 查看全文",
@@ -2713,7 +2716,7 @@
       ]
     },
     {
-      "id": 213,
+      "id": 211,
       "category": "芯片",
       "title": "PS5 模拟器的开发取得突破",
       "summary": "当前一代游戏机的模拟器通常需要较长时间才能成熟，但 PS5 的模拟器仅仅几个月时间就让许多 PS5 游戏能在 PC 平台上可玩。SharpEmu 从 5 月的极早 Alpha 阶段到现在具备加载真实游戏 eboot.bin 文件、执行原生 ...",
@@ -2725,7 +2728,7 @@
       ]
     },
     {
-      "id": 214,
+      "id": 212,
       "category": "大模型",
       "title": "团队使用 Codex 和 Claude Code，API Key 和模型权限怎么管？我开源了 Zentrola",
       "summary": "一个人使用 AI Coding 工具时，事情很简单：申请一个 API Key，填进 Codex 或 Claude Code，然后开始工作。 但当使用者从一个人变成一个团队，原本简单的配置问题很快就会变成管理问题：真实 API Key 要不要...",
@@ -2739,7 +2742,7 @@
       ]
     },
     {
-      "id": 215,
+      "id": 213,
       "category": "大模型",
       "title": "Gemini 4 Argon：迈入前沿智能新时代 - 53AI",
       "summary": "Gemini 4 Argon：迈入前沿智能新时代 &nbsp;&nbsp; 53AI",
@@ -2753,10 +2756,10 @@
       ]
     },
     {
-      "id": 216,
+      "id": 214,
       "category": "大模型",
-      "title": "Meta Muse AI 智能体确实能用，但信任才是真正的产品 - remio",
-      "summary": "Meta Muse AI 智能体确实能用，但信任才是真正的产品 &nbsp;&nbsp; remio",
+      "title": "Meta Muse AI 智能体确实能用，但信任才是真正的产品 - remio.ai",
+      "summary": "Meta Muse AI 智能体确实能用，但信任才是真正的产品 &nbsp;&nbsp; remio.ai",
       "source": "Google News 大模型",
       "publish_time": "2026-10-01 15:46",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPM1pUOG9sTEQ5cEIyU0ZDdlpLcWtEZXY3Zk5FRlhtbUxIbm5aVWtJZlNXdkJBUEF3NVJoSUJtYWM5c0V6QXF2NTFtbXNaeDNmWkY5UWIxT2FNR21OdjJrYlpBdWxjZkM3dlhXVnAzc0c0RlRXdGhJQzdjTThZTWtGWURhUDFsNU92VmUtc1JsWQ?oc=5",
@@ -2766,7 +2769,7 @@
       ]
     },
     {
-      "id": 217,
+      "id": 215,
       "category": "大模型",
       "title": "DeepMind开始给AI设计的蛋白质加“水印”，可追溯来源，还不影响蛋白功能 - 麻省理工科技评论",
       "summary": "DeepMind开始给AI设计的蛋白质加“水印”，可追溯来源，还不影响蛋白功能 &nbsp;&nbsp; 麻省理工科技评论",
@@ -2779,10 +2782,10 @@
       ]
     },
     {
-      "id": 218,
+      "id": 216,
       "category": "大模型",
-      "title": "介绍 SynthID Bio：Google DeepMind 将水印嵌入 AI 设计的蛋白质 - remio",
-      "summary": "介绍 SynthID Bio：Google DeepMind 将水印嵌入 AI 设计的蛋白质 &nbsp;&nbsp; remio",
+      "title": "介绍 SynthID Bio：Google DeepMind 将水印嵌入 AI 设计的蛋白质 - remio.ai",
+      "summary": "介绍 SynthID Bio：Google DeepMind 将水印嵌入 AI 设计的蛋白质 &nbsp;&nbsp; remio.ai",
       "source": "Google News 大模型",
       "publish_time": "2026-10-01 15:15",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQbFd1OUdEcTZuNGt6UEljUXBPdVlFM0NJdVlsS3VIQ1BkMjd6RGY4MUNQc2kyNm9qOVh1REd4RXdYYllGckJHNENBY0hob0JGN3hTalFGWVAzbjl5bmdNZ2JTdWhUN0dzcWpINkt4SlpMdFZqNkpFeEFxZVQ5SXo4M185SnBiR0sxajlKaEVSekdGZ3FwaW12QlFKdFRYQnFNUXJ4Ny1qYkFGN1B3TlE?oc=5",
@@ -2793,7 +2796,7 @@
       ]
     },
     {
-      "id": 219,
+      "id": 217,
       "category": "大模型",
       "title": "推出22天下载突破500万！Muse“火爆”超过当年ChatGPT|Claude|Anthropic|Grok|AI智能|Meta AI_手机新浪网 - 新浪财经",
       "summary": "推出22天下载突破500万！Muse“火爆”超过当年ChatGPT|Claude|Anthropic|Grok|AI智能|Meta AI_手机新浪网 &nbsp;&nbsp; 新浪财经",
@@ -2808,7 +2811,7 @@
       ]
     },
     {
-      "id": 220,
+      "id": 218,
       "category": "大模型",
       "title": "OpenAI正面迎战Meta Muse - 新浪财经",
       "summary": "OpenAI正面迎战Meta Muse &nbsp;&nbsp; 新浪财经",
@@ -2822,7 +2825,7 @@
       ]
     },
     {
-      "id": 221,
+      "id": 219,
       "category": "新产品",
       "title": "Meta股价因AI势头创2022年以来最佳月度表现 - 新浪财经",
       "summary": "Meta股价因AI势头创2022年以来最佳月度表现 &nbsp;&nbsp; 新浪财经",
@@ -2835,7 +2838,7 @@
       ]
     },
     {
-      "id": 222,
+      "id": 220,
       "category": "大模型",
       "title": "Gemini 4终于来了！首款模型Argon发布，18项评测领先12项，优先开放给网络安全团队 - 麻省理工科技评论",
       "summary": "Gemini 4终于来了！首款模型Argon发布，18项评测领先12项，优先开放给网络安全团队 &nbsp;&nbsp; 麻省理工科技评论",
@@ -2848,7 +2851,7 @@
       ]
     },
     {
-      "id": 223,
+      "id": 221,
       "category": "大模型",
       "title": "谷歌推出最先进的AI模型Gemini 4 Argon - 新浪财经",
       "summary": "谷歌推出最先进的AI模型Gemini 4 Argon &nbsp;&nbsp; 新浪财经",
@@ -2862,7 +2865,7 @@
       ]
     },
     {
-      "id": 224,
+      "id": 222,
       "category": "大模型",
       "title": "Google 将可重用技能引入 Gemini 聊天，取代 Gems - Unite.AI",
       "summary": "Google 将可重用技能引入 Gemini 聊天，取代 Gems &nbsp;&nbsp; Unite.AI",
@@ -2877,7 +2880,7 @@
       ]
     },
     {
-      "id": 225,
+      "id": 223,
       "category": "新产品",
       "title": "从玩家的世界掠过：Bungie 的「列车」如何驶向终焉",
       "summary": "Bungie 究竟是在和时间赛跑，还是在和自己赛跑？ 查看全文",
@@ -2889,7 +2892,7 @@
       ]
     },
     {
-      "id": 226,
+      "id": 224,
       "category": "大模型",
       "title": "OpenAI Dots亮相，与Meta角逐AI助手赛道|开发者大会|开发工具|旧金山|GPT-6|Agent_手机新浪网 - 新浪财经",
       "summary": "OpenAI Dots亮相，与Meta角逐AI助手赛道|开发者大会|开发工具|旧金山|GPT-6|Agent_手机新浪网 &nbsp;&nbsp; 新浪财经",
@@ -2903,7 +2906,7 @@
       ]
     },
     {
-      "id": 227,
+      "id": 225,
       "category": "大模型",
       "title": "Anthropic 红队盯上 GLM-5.3：能力追平 Mythos，却连拒绝护栏都是摆设",
       "summary": "Anthropic 的前沿红色团队（Frontier Red Team）盯上了智谱的 GLM-5.3，结论有点重：这是第一个能像五个月前的 Claude Mythos Preview 那样自主构建端到端漏洞利用、却几乎光着身子就被放出来的模...",
@@ -2918,7 +2921,7 @@
       ]
     },
     {
-      "id": 228,
+      "id": 226,
       "category": "新产品",
       "title": "生态聚力・智启新程｜openKylin生态委员会第七次会议圆满召开",
       "summary": "2026年9月29日，OpenAtom openKylin（简称\"openKylin\"）生态委员会第七次会议成功举行。与会委员围绕委员增选、工作组管理、生态运营进展及未来规划等议题展开讨论，共同推动社区治理与生态建设。 治理焕新｜生态委员会...",
@@ -2930,7 +2933,7 @@
       ]
     },
     {
-      "id": 229,
+      "id": 227,
       "category": "新产品",
       "title": "openKylin参展2026明日城市・上海：开源操作系统走向国际舞台",
       "summary": "9月22日至26日，2026明日城市・上海（Tomorrow.City Shanghai 2026，TCS 2026）于上海张江科学会堂举办。大会以 “共济山海，和而不同” 为主题，是全球智慧城市大会立足中国、辐射 “一带一路” 的区域盛会...",
@@ -2943,7 +2946,7 @@
       ]
     },
     {
-      "id": 230,
+      "id": 228,
       "category": "大模型",
       "title": "OpenAI 发布 GPT‑6.1 Sol：智能水平接近 Astra、价格仅为其五分之一",
       "summary": "OpenAI 上周才推出 GPT-6 Sol，这周就把 6.1 Sol 端上了桌。官方称之为一次「重大升级」，覆盖专业办公、操控电脑、agentic 编程等任务。放在别家这可能只是常规迭代，但放在此刻的 OpenAI 身上，最刺眼的参照系是...",
@@ -2957,7 +2960,7 @@
       ]
     },
     {
-      "id": 231,
+      "id": 229,
       "category": "新产品",
       "title": "谷歌将提前两年终止对 ChromeOS 的支持",
       "summary": "Google 用一份支持文档，悄悄把 Chromebook 们的寿命砍了两年。文档标题很客气——「What the Googlebook announcement means for your ChromeOS devices」，但内容很直...",
@@ -2970,7 +2973,7 @@
       ]
     },
     {
-      "id": 232,
+      "id": 230,
       "category": "大模型",
       "title": "Meta Muse横空出世：当消费级AI Agent真正能帮你搞定烦心事，前沿大模型的护城河还在吗 - thepaper.cn",
       "summary": "Meta Muse横空出世：当消费级AI Agent真正能帮你搞定烦心事，前沿大模型的护城河还在吗 &nbsp;&nbsp; thepaper.cn",
@@ -2983,7 +2986,7 @@
       ]
     },
     {
-      "id": 233,
+      "id": 231,
       "category": "大模型",
       "title": "OpenAI刹车，Meta狂飙，AI竞赛的“胜负手”变了？ - thepaper.cn",
       "summary": "OpenAI刹车，Meta狂飙，AI竞赛的“胜负手”变了？ &nbsp;&nbsp; thepaper.cn",
@@ -2997,7 +3000,7 @@
       ]
     },
     {
-      "id": 234,
+      "id": 232,
       "category": "新产品",
       "title": "dummyscheme，另一个 lisp/scheme 方言，支持 r5rs",
       "summary": "受Lua启发，支持R5RS，基于字节码和寄存器寻址的Scheme 解释器 字节码编译器，指令集基于寄存器 尾调用优化 一等公民延续（call/cc），multi-short、不限长度，用 callframe 的 copy-on-write ...",
@@ -3009,7 +3012,7 @@
       ]
     },
     {
-      "id": 235,
+      "id": 233,
       "category": "新产品",
       "title": "dummyscheme，轻量 scheme 解释器，支持 r5rs，基于字节码和寄存器寻址",
       "summary": "受Lua启发，支持R5RS，基于字节码和寄存器寻址的Scheme 解释器 字节码编译器，指令集基于寄存器 尾调用优化 一等公民延续（call/cc），multi-short、不限长度，用 callframe 的 copy-on-write ...",
@@ -3021,7 +3024,7 @@
       ]
     },
     {
-      "id": 236,
+      "id": 234,
       "category": "大模型",
       "title": "【AI 智能运维平台】本周更新：智能体问答现可展示知识库中的图片",
       "summary": "Blueking Lite 是一个 AI First 的轻量版运维产品，具有部署资源要求低、使用成本低、渐进式体验等特点，为运维管理员提供日常运维中的必备工具。 📢 【平台 · 本周更新速递】 🛠 系统管理 • 支持查看API调用日志 🗂 ...",
@@ -3034,7 +3037,7 @@
       ]
     },
     {
-      "id": 237,
+      "id": 235,
       "category": "新产品",
       "title": "经典任务管理软件的现代重构：新版 2Do 详解",
       "summary": "完全重构的 2Do 是我的心目中最佳的任务管理工具。 查看全文",
@@ -3046,7 +3049,7 @@
       ]
     },
     {
-      "id": 238,
+      "id": 236,
       "category": "大模型",
       "title": "OpenAI 发布全天候运行 AI Agent \"dots\"，由 GPT‑6 Astra 驱动、拥有独立的云端电脑",
       "summary": "周二旧金山的 OpenAI DevDay 2026 开发者大会上，Sam Altman 热情洋溢地揭开了 dots 的面纱——一个由 GPT-6 Astra 驱动的个人智能体助理。 dots 长着一张人畜无害的脸：戴贝雷帽、架眼镜的彩色小圆...",
@@ -3061,7 +3064,7 @@
       ]
     },
     {
-      "id": 239,
+      "id": 237,
       "category": "大模型",
       "title": "MateClaw 2.3.0 发布：企业智能体告别“自报完成”，不可变 JSON 接管长任务验收",
       "summary": "MateClaw 2.3.0 正式版已于 2026 年 9 月 20 日发布。本次版本为 Persistent Goal 增加用户配置的托管 JSON 验收：Agent 发布不可变产物版本，服务端将检查结果绑定到当前要求与具体 genera...",
@@ -3073,7 +3076,7 @@
       ]
     },
     {
-      "id": 240,
+      "id": 238,
       "category": "大模型",
       "title": "DeepSeek Harness v0.2 发布桌面版：装插件靠 npm 包名，还能让 AI 自己写插件",
       "summary": "DeepSeek Harness 终于有了「开箱即用」的样子。本周（9 月 29 日）v0.2 预览版正式发布，同时放出 macOS 和 Windows 桌面端安装包，去官网 deepseek.com/harness 下载装上、跟着引导走就...",
@@ -3087,7 +3090,7 @@
       ]
     },
     {
-      "id": 241,
+      "id": 239,
       "category": "新产品",
       "title": "Resumv 开源：免注册、本地保存的简历制作工具，支持 15 套模板",
       "summary": "Resumv 是一款新近开源的简历制作工具，采用 Astro、React 和 TypeScript 构建，以“免注册、免登录、简历内容保存在浏览器”为核心设计。用户可以直接打开网站编辑和预览简历，也可以将项目部署到自己的静态网站托管环境。 ...",
@@ -3099,7 +3102,7 @@
       ]
     },
     {
-      "id": 242,
+      "id": 240,
       "category": "新产品",
       "title": "Termexo v0.10.9 发布：五种 Agent 状态集中显示，终端内可确认完成",
       "summary": "开源 Windows 多 Agent 工作台 Termexo 发布 v0.10.9。这次更新把工作区内的 Agent 状态收成按终端顺序排列的图标：空闲为灰色，运行和思考为绿色闪动，异常与等待授权为红色，完成为绿色对号。鼠标悬停可查看对应窗...",
@@ -3111,7 +3114,7 @@
       ]
     },
     {
-      "id": 243,
+      "id": 241,
       "category": "大模型",
       "title": "Meta Muse爆火，美银警示AI智能体或冲击苹果服务业务收入 - 新浪财经",
       "summary": "Meta Muse爆火，美银警示AI智能体或冲击苹果服务业务收入 &nbsp;&nbsp; 新浪财经",
@@ -3125,7 +3128,7 @@
       ]
     },
     {
-      "id": 244,
+      "id": 242,
       "category": "芯片",
       "title": "DeepSeek 开源昇腾基础组件",
       "summary": "DeepSeek 今天（9 月 30 日）正式开源面向华为昇腾算力平台的基础设施组件，涵盖 TileLang 高级语言编译工具、计算库、分布式通信库——所有组件与此前面向英伟达平台的开源组件一一对应。 文件里最重的一块是 TileLang ...",
@@ -3140,7 +3143,7 @@
       ]
     },
     {
-      "id": 245,
+      "id": 243,
       "category": "新产品",
       "title": "别再把攻略全甩给 AI：国庆七天河南自驾，我是这样用 Agent 的",
       "summary": "祝你旅途顺遂，假期自由。 查看全文",
@@ -3153,7 +3156,7 @@
       ]
     },
     {
-      "id": 246,
+      "id": 244,
       "category": "大模型",
       "title": "Meta又放大招！中小企业也能用上AI智能体了|Instagram|Facebook|Agent|账户|广告_手机新浪网 - 新浪财经",
       "summary": "Meta又放大招！中小企业也能用上AI智能体了|Instagram|Facebook|Agent|账户|广告_手机新浪网 &nbsp;&nbsp; 新浪财经",
@@ -3166,7 +3169,7 @@
       ]
     },
     {
-      "id": 247,
+      "id": 245,
       "category": "新产品",
       "title": "KnowForge v2026.0.7 发布：让知识库更好运营，让内容彼此连接",
       "summary": "知识整理成文档之后，如何持续更新？读者最关心哪些问题？怎样把内容接入自己的工具，又如何运营一个有价值的知识站点？ KnowForge v2026.0.7 围绕这些需求，带来了会员运营、开放平台、双向链接、读者问题洞察和多实例部署等一系列更新...",
@@ -3178,7 +3181,7 @@
       ]
     },
     {
-      "id": 248,
+      "id": 246,
       "category": "大模型",
       "title": "特朗普与谷歌、OpenAI、Meta等CEO签署AI协议，建立四层管控机制 - eeo.com.cn",
       "summary": "特朗普与谷歌、OpenAI、Meta等CEO签署AI协议，建立四层管控机制 &nbsp;&nbsp; eeo.com.cn",
@@ -3192,7 +3195,7 @@
       ]
     },
     {
-      "id": 249,
+      "id": 247,
       "category": "大模型",
       "title": "派早报：OpenAI 发布 Dot 智能体、Apple 移动睡眠呼吸暂停迹象提示软件国内获批等",
       "summary": "Nothing 发布旗舰耳机 Headphone 1 Pro，AMD 斥资 82 亿美元收购 World Labs 等。 查看全文",
@@ -3206,7 +3209,7 @@
       ]
     },
     {
-      "id": 250,
+      "id": 248,
       "category": "大模型",
       "title": "OpenAI应战Meta：发布个人AI助手Dots，高端订阅每月500美元，是Muse高阶版的5倍 - 华尔街见闻",
       "summary": "OpenAI应战Meta：发布个人AI助手Dots，高端订阅每月500美元，是Muse高阶版的5倍 &nbsp;&nbsp; 华尔街见闻",
@@ -3220,10 +3223,10 @@
       ]
     },
     {
-      "id": 251,
+      "id": 249,
       "category": "大模型",
-      "title": "OpenAI现场翻车，发布个人AI助手Dots迎战Meta Muse，但是...... - 36kr.com",
-      "summary": "OpenAI现场翻车，发布个人AI助手Dots迎战Meta Muse，但是...... &nbsp;&nbsp; 36kr.com",
+      "title": "OpenAI现场翻车，发布个人AI助手Dots迎战Meta Muse，但是...... - 36Kr",
+      "summary": "OpenAI现场翻车，发布个人AI助手Dots迎战Meta Muse，但是...... &nbsp;&nbsp; 36Kr",
       "source": "Google News 大模型",
       "publish_time": "2026-09-29 23:12",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1ScFlEQWg2RGpmR0gzaXByTmwwUFBuaGZTeFdMTWMzVXdxSG1nSy0xWmZZWTEwbjZBRGVCazRQcWotb2plU2c2OW5nY1JUbnFw?oc=5",
@@ -3234,7 +3237,7 @@
       ]
     },
     {
-      "id": 252,
+      "id": 250,
       "category": "新产品",
       "title": "Meta推出面向小企业的AI助手Muse 加速拓展企业级市场 - 东方财富",
       "summary": "Meta推出面向小企业的AI助手Muse 加速拓展企业级市场 &nbsp;&nbsp; 东方财富",
@@ -3247,7 +3250,7 @@
       ]
     },
     {
-      "id": 253,
+      "id": 251,
       "category": "新产品",
       "title": "Meta新AI智能体被曝靠真人打电话完成任务-AI应用 - 至顶网",
       "summary": "Meta新AI智能体被曝靠真人打电话完成任务-AI应用 &nbsp;&nbsp; 至顶网",
@@ -3260,7 +3263,7 @@
       ]
     },
     {
-      "id": 254,
+      "id": 252,
       "category": "新产品",
       "title": "Goodlink 支持同时运行多个Local端和Remote端 全网最简单、最快、零成本的内网穿透",
       "summary": "外出办公, 对比市面上的远程工具, 无论画质、软件适配, 都不如 windows 自带的远程桌面, 但外出如何使用 windows远程桌面？ 是否可以无需远程桌面, 直接访问公司的内网 WEB, GIT, SSH 等？ feat: 默认需要...",
@@ -3272,7 +3275,7 @@
       ]
     },
     {
-      "id": 255,
+      "id": 253,
       "category": "新产品",
       "title": "Meta 挖走 MongoDB 的 CEO 去管企业 AI，后者股价一天崩了 18%",
       "summary": "Meta 把 MongoDB 的 CEO 挖走了，代价是 MongoDB 股价周一早盘崩了 18%。Chirantan \"CJ\" Desai 上任才不到一年，就从数据库软件公司的最高位跳去 Meta 带一个全新的部门——把 Meta 的 A...",
@@ -3285,7 +3288,7 @@
       ]
     },
     {
-      "id": 256,
+      "id": 254,
       "category": "大模型",
       "title": "Codeaha v1.0.0 正式发布—本地优先的 AI 编程伙伴",
       "summary": "Codeaha｜码悟 Code + Aha，看见代码的顿悟时刻 本地优先、国产大模型友好的 AI 编程 Agent。 基于 GoFrame + Eino + mark3labs/mcp-go + GF sqlite 驱动（glebarez/...",
@@ -3298,7 +3301,7 @@
       ]
     },
     {
-      "id": 257,
+      "id": 255,
       "category": "新产品",
       "title": "社区速递 160 | 水月雨首款游戏耳机与八月派友剁手清单",
       "summary": "除了首页时间流和侧栏的精选展位，少数派Matrix社区还有很多优秀内容因条件所限无法得到有效曝光，因此我们决定重启Matrix周报，并在此基础上添加更多社区内容、作者投稿新玩意呈现给大家。临近国庆长假 ... 查看全文",
@@ -3310,7 +3313,7 @@
       ]
     },
     {
-      "id": 258,
+      "id": 256,
       "category": "新产品",
       "title": "Meta股价跳水，市值蒸发近5400亿元 - 新浪财经",
       "summary": "Meta股价跳水，市值蒸发近5400亿元 &nbsp;&nbsp; 新浪财经",
@@ -3322,7 +3325,7 @@
       ]
     },
     {
-      "id": 259,
+      "id": 257,
       "category": "新产品",
       "title": "更懂你的心，也更懂你：Apple Watch Series 12 体验",
       "summary": "全新 Apple Watch Series 12，有哪些可感知的升级？ 查看全文",
@@ -3334,7 +3337,7 @@
       ]
     },
     {
-      "id": 260,
+      "id": 258,
       "category": "新产品",
       "title": "Linux 内核要扔掉自己的 LZ4 fork，改为直接引入和同步上游代码",
       "summary": "Linux 内核里的 LZ4 压缩实现，终于要停止维护自己的那份「fork」了。三星的 Michal Wilczynski 提交了一个 RFC 补丁系列（9 个 patch），把内核里的 LZ4 从「手工维护的分叉」改成「原样同步 vend...",
@@ -3346,7 +3349,7 @@
       ]
     },
     {
-      "id": 261,
+      "id": 259,
       "category": "新产品",
       "title": "荷兰政府基于 NixOS 打造替代 Windows 的办公系统",
       "summary": "荷兰政府正在给自己造一套基于 Linux 的办公系统，替代 Windows 和 Office。这套系统叫 DAWO（Digitaal Autonome Werkomgeving Overheid，自治数字政府办公环境），底层是荷兰本土的 L...",
@@ -3358,7 +3361,7 @@
       ]
     },
     {
-      "id": 262,
+      "id": 260,
       "category": "新产品",
       "title": "Jeff 开源发布：22 毫秒出一次决策的小模型、0.8B 微调在 benchmark 上逼近 Jev",
       "summary": "一个叫 Jeff 的开源项目，把「专做快速决策的小模型」这条路又往前推了一步。它是 Qwen3.5 和 Gemma 4 的微调版本，定位是“zero-shot（零样本）”分类器——你描述一个场景、列一堆选项，Jeff 一次前向计算就返回每个...",
@@ -3370,7 +3373,7 @@
       ]
     },
     {
-      "id": 263,
+      "id": 261,
       "category": "新产品",
       "title": "Meta股价跳水，市值蒸发近5400亿元 - 新浪财经",
       "summary": "Meta股价跳水，市值蒸发近5400亿元 &nbsp;&nbsp; 新浪财经",
@@ -3382,7 +3385,7 @@
       ]
     },
     {
-      "id": 264,
+      "id": 262,
       "category": "大模型",
       "title": "OpenAI、Meta等多家头部AI企业同意出席纽约市议会10月5日听证会 - 新浪财经",
       "summary": "OpenAI、Meta等多家头部AI企业同意出席纽约市议会10月5日听证会 &nbsp;&nbsp; 新浪财经",
@@ -3396,10 +3399,10 @@
       ]
     },
     {
-      "id": 265,
+      "id": 263,
       "category": "大模型",
-      "title": "据报 OpenAI 个人 AI 助手即将发布，Meta Muse 加剧竞争压力 - remio",
-      "summary": "据报 OpenAI 个人 AI 助手即将发布，Meta Muse 加剧竞争压力 &nbsp;&nbsp; remio",
+      "title": "据报 OpenAI 个人 AI 助手即将发布，Meta Muse 加剧竞争压力 - remio.ai",
+      "summary": "据报 OpenAI 个人 AI 助手即将发布，Meta Muse 加剧竞争压力 &nbsp;&nbsp; remio.ai",
       "source": "Google News 大模型",
       "publish_time": "2026-09-29 12:58",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZlkwN3hoa0g5TUxiSjk4LTlZRUdVSEpHdmIzNm1lOVBmX1VNNzFhNWFHdzA5R3F6TWl6RVB2eWJ0aFpXczU4X0dsaXNpMHdwSGRkd1FLdDltdGhxekt2dFBLWDhTQ1BUREc2dG5xY2dvaVRPTDBiZ0t0RTBPODEyaDdzMVdPd2gxTkdNdTRGTkhMX2NWbGRRNXV2TjU2Q0RNeVFtc3lKU3VGakti?oc=5",
@@ -3410,7 +3413,7 @@
       ]
     },
     {
-      "id": 266,
+      "id": 264,
       "category": "大模型",
       "title": "Claude Sonnet 5.5 发布：速度快 3 成、Agent 编程评测从 10% 跳到 70%",
       "summary": "Claude 5.5 家族的第二个成员今天发布：Sonnet 5.5。Anthropic 把它定位成 Opus 5.5 的「快而省」互补款——专攻范围明确的高频日常任务、修 bug、做文档和表格，还强调它有敏锐的设计眼光。官方口径一句话：比...",
@@ -3424,7 +3427,7 @@
       ]
     },
     {
-      "id": 267,
+      "id": 265,
       "category": "大模型",
       "title": "Meta AI智能体Muse被指未经许可泄露用户住址，擅自约买家上门交易 - 新浪财经",
       "summary": "Meta AI智能体Muse被指未经许可泄露用户住址，擅自约买家上门交易 &nbsp;&nbsp; 新浪财经",
@@ -3437,7 +3440,7 @@
       ]
     },
     {
-      "id": 268,
+      "id": 266,
       "category": "新产品",
       "title": "Java Web 服务器 wastnet mvc 开发实战",
       "summary": "用 wastnet MVC 写接口服务（实战教程） wastnet 是一款完全自研、零第三方依赖的轻量级 Java 网络应用框架，核心基于 JDK 原生 NIO 构建 Reactor 多路复用模型，HTTP/2 协议栈从 HPACK、Huf...",
@@ -3449,7 +3452,7 @@
       ]
     },
     {
-      "id": 269,
+      "id": 267,
       "category": "新产品",
       "title": "CyreneAdmin 1.5.0 发布：新增 i18n 与 E2E 测试，全面升级前后端依赖",
       "summary": "CyreneAdmin 是一款面向企业级应用的后台管理系统脚手架，同时支持 Spring Boot 与 Solon 双框架，内置权限控制、用户管理、菜单配置、操作日志等核心模块，助力开发者快速构建安全、可维护的管理后台。 最新版本 v1.5...",
@@ -3461,7 +3464,7 @@
       ]
     },
     {
-      "id": 270,
+      "id": 268,
       "category": "大模型",
       "title": "🔥「可信Data+智能体AI」本体工作坊",
       "summary": "🔥「可信Data+智能体AI」本体工作坊。来源：开源中国。",
@@ -3474,7 +3477,7 @@
       ]
     },
     {
-      "id": 271,
+      "id": 269,
       "category": "新产品",
       "title": "可塑的白昼：ColorOS17 深度评测",
       "summary": "时间倾斜，触碰我，发出清澈的金属般的声响。我的感官在战栗，我觉我能——我能抓住这可塑的白昼。——里尔克《时辰祈祷》AppleEvent'26上，主动智能赋能的SiriAI终于正式发布。Craig一句「 ... 查看全文",
@@ -3487,7 +3490,7 @@
       ]
     },
     {
-      "id": 272,
+      "id": 270,
       "category": "芯片",
       "title": "AMD 花 82 亿美元买下李飞飞的 World Labs，她直接空降成首席科学家",
       "summary": "AMD 用 82 亿美元换了一张通往「真实世界 AI」的门票。周一官方宣布收购 World Labs——这位由李飞飞 2024 年创立的旧金山 AI 实验室，曾经投资过它的 AMD 这次全资以股票形式买下，交易预计今年年底前完成，待监管审批...",
@@ -3500,7 +3503,7 @@
       ]
     },
     {
-      "id": 273,
+      "id": 271,
       "category": "新产品",
       "title": ":clap:工单管理系统 WGCAT v1.3.1 新增知识库",
       "summary": "WGCAT 是 WGCLOUD 团队精心开发的一款工单管理系统，设计一如既往的的简单实用，具有部署方便，上手容易，性能优秀，界面友好等特点。 WGCAT 工单系统中，每个人都可以新建工单，每个账号都具有新建工单的权限，而且还有对外提供的工单...",
@@ -3512,7 +3515,7 @@
       ]
     },
     {
-      "id": 274,
+      "id": 272,
       "category": "新产品",
       "title": "Manus 2.0 发布：自研框架 Cascade 省 32% 成本，视频编辑器把时间线交到你手上",
       "summary": "Manus 2.0 今天上线，官方把它定义成一次架构级更新，而不是又一个小版本。整场发布围绕一个根本问题展开：下一代 Manus 应该长什么样？答案落成三块新东西——自研 Agent 框架 Cascade、桌面应用升级成共享工作区 Manu...",
@@ -3524,7 +3527,7 @@
       ]
     },
     {
-      "id": 275,
+      "id": 273,
       "category": "新产品",
       "title": "2026 openKylin 社区年度技术贡献评选开启，共享高光时刻！",
       "summary": "在广大开发者与社区伙伴的携手努力下，OpenAtom openKylin（简称\"openKylin\"）社区又迎来了一年创新涌动、协作共进的丰收征程。为感谢在过去一年中积极推动社区技术创新的杰出贡献者， 2026 openKylin 社区年度...",
@@ -3536,7 +3539,7 @@
       ]
     },
     {
-      "id": 276,
+      "id": 274,
       "category": "新产品",
       "title": "JuiceFS 企业版 5.4：从千亿文件到百万客户端",
       "summary": "继 JuiceFS 企业版 v5.3 支撑千亿文件规模之后，v5.4 进一步在超大规模场景下提升多项能力。千亿文件规模下，单次操作的细小开销也会累积成显著的资源负担，元数据分区部署后需要协调不同节点，兼顾性能、数据一致性与稳定性。围绕这些问...",
@@ -3548,7 +3551,7 @@
       ]
     },
     {
-      "id": 277,
+      "id": 275,
       "category": "新产品",
       "title": "wastnet v1.0.2 发布：强类型配置与 MVC 模块独立",
       "summary": "wastnet v1.0.2 发布：强类型配置与 MVC 模块独立 wastnet 是一款完全自研、零第三方依赖的轻量级 Java 网络应用框架，核心基于 JDK 原生 NIO 构建 Reactor 多路复用模型，不依赖 Netty、Tom...",
@@ -3560,7 +3563,7 @@
       ]
     },
     {
-      "id": 278,
+      "id": 276,
       "category": "新产品",
       "title": "go-carbon v2.6.18 正式版发布，轻量级、语义化的 golang 时间处理库",
       "summary": "Carbon 是一个轻量级、语义化、对开发者友好的 golang 时间处理库，不依赖于 任何 第三方库， 100% 单元测试覆盖率，已被 docker 组织使用以及被 awesome-go 和 hello-github 收录，并获得 git...",
@@ -3572,7 +3575,7 @@
       ]
     },
     {
-      "id": 279,
+      "id": 277,
       "category": "大模型",
       "title": "迎战Meta Muse！OpenAI据称将紧急推出个人AI助手 或于周二亮相 - 新浪财经",
       "summary": "迎战Meta Muse！OpenAI据称将紧急推出个人AI助手 或于周二亮相 &nbsp;&nbsp; 新浪财经",
@@ -3586,7 +3589,7 @@
       ]
     },
     {
-      "id": 280,
+      "id": 278,
       "category": "新产品",
       "title": "scrapy-cookbook 2.19版本发布，Python爬虫框架Scrapy橙皮书",
       "summary": "Scrapy 是 Python 开发的著名爬虫框架，目前使用非常广泛。Scrapy橙皮书教程基于最新的 Scrapy 2.19 版本编写，通过实际的例子带领你一步步掌握 Scrapy 核心。 在线阅读: http://scrapy-cook...",
@@ -3598,7 +3601,7 @@
       ]
     },
     {
-      "id": 281,
+      "id": 279,
       "category": "大模型",
       "title": "如何自定义你的AI工具，从ChatGPT到Gemini和Claude-AI应用 - 至顶网",
       "summary": "如何自定义你的AI工具，从ChatGPT到Gemini和Claude-AI应用 &nbsp;&nbsp; 至顶网",
@@ -3613,7 +3616,7 @@
       ]
     },
     {
-      "id": 282,
+      "id": 280,
       "category": "大模型",
       "title": "个人AI Agent，巨头们的新赛场 - 21财经",
       "summary": "个人AI Agent，巨头们的新赛场 &nbsp;&nbsp; 21财经",
@@ -3626,7 +3629,7 @@
       ]
     },
     {
-      "id": 283,
+      "id": 281,
       "category": "大模型",
       "title": "OpenAI 暂停最新模型训练，称 Agent 曾尝试黑进教育部网站",
       "summary": "OpenAI 又把训练按下了暂停键。上周五披露了一连串越界行为之后，官方宣布停掉最新一批模型的训练，「只有在我们确信已有额外安全措施时」才恢复，而且已经预期「还会再次按下暂停」。这是三个月里的第二次——上一次是 7 月，起因是 Huggin...",
@@ -3640,7 +3643,7 @@
       ]
     },
     {
-      "id": 284,
+      "id": 282,
       "category": "大模型",
       "title": "Strands 开源组装好的 Agent harness，同模型下 token 省 28%",
       "summary": "很多开发者的 AI Agent 依赖 Claude Code 或 Codex 这类开箱即用的 harness——本地一跑顺畅得很。可一旦要自己搭 agent，就得自己把各种原语拼到「刚刚好」的程度，才能找回那种「it just worked...",
@@ -3654,7 +3657,7 @@
       ]
     },
     {
-      "id": 285,
+      "id": 283,
       "category": "大模型",
       "title": "超越ChatGPT冲上美国iOS免费榜，Meta的AI究竟有什么魅力？ - Enjoy出海",
       "summary": "超越ChatGPT冲上美国iOS免费榜，Meta的AI究竟有什么魅力？ &nbsp;&nbsp; Enjoy出海",
@@ -3668,7 +3671,7 @@
       ]
     },
     {
-      "id": 286,
+      "id": 284,
       "category": "大模型",
       "title": "AIGCPanel v2.5.0 支持豆包语音音色，数字人直播音色模板管理",
       "summary": "这次更新让云端语音模型填个 API Key 就能用，也把数字人与直播的音色收进各自独立的音色库。 AIGCPanel 是一款一站式 AI 数字人桌面应用，Windows / macOS / Linux 都能跑，内置数字人合成、语音合成与克隆...",
@@ -3681,7 +3684,7 @@
       ]
     },
     {
-      "id": 287,
+      "id": 285,
       "category": "大模型",
       "title": "QuotaPanel v0.1.0 轻量本地 AI 额度看板，聚合 15 种订阅与 API 余额",
       "summary": "把散在各家控制台里的订阅与 API 余额，收进一张桌面面板。 QuotaPanel 是一个开源的桌面端 AI 额度面板。Claude、ChatGPT / Codex、Cursor、GitHub Copilot、Z.ai、Kimi、MiniM...",
@@ -3696,7 +3699,7 @@
       ]
     },
     {
-      "id": 288,
+      "id": 286,
       "category": "新产品",
       "title": "DataTalk Studio 开源：用对话完成报表开发的 AI-native BI 工作区",
       "summary": "DataTalk Studio 是一个面向数据分析师、业务人员和开发团队的 AI-native BI 工作区，目标是用自然语言完成报表创建、修改、校验、发布和复用。 传统 BI 流程通常需要在数据源管理、指标定义、SQL 编写、图表配置和报...",
@@ -3709,7 +3712,7 @@
       ]
     },
     {
-      "id": 289,
+      "id": 287,
       "category": "新产品",
       "title": "C++ Web框架Paozhu v1.17.0发布，添加MQTT，网络支付",
       "summary": "Paozhu 重构了webpay模块 公网测试了支付宝支付 微信v2, v3版支付，小程序支付。网站使用 微信native支付 无需年费，应用于低频次支付场景。 Paozhu 已经是金丹修为的框架，提供了完善了web开发，而无需依赖第三方。...",
@@ -3721,7 +3724,7 @@
       ]
     },
     {
-      "id": 290,
+      "id": 288,
       "category": "大模型",
       "title": "智能体Muse赋能新一代产品！艾为AI眼镜方案助力Meta 智能眼镜新体验 - abvr360.com",
       "summary": "智能体Muse赋能新一代产品！艾为AI眼镜方案助力Meta 智能眼镜新体验 &nbsp;&nbsp; abvr360.com",
@@ -3734,7 +3737,7 @@
       ]
     },
     {
-      "id": 291,
+      "id": 289,
       "category": "大模型",
       "title": "开源 AI 终端 uniTerm v1.9.5 发布: 工作区管理全面升级、终端图片显示、SFTP 提速等 50 余项更新",
       "summary": "uniTerm 是一款轻量级一站式开源终端软件。整合终端、文件传输、远程桌面、数据库客户端、容器等 5 大类协议于一身，覆盖 30+ 协议，安装包仅 15MB；内置可自主执行的 AI Agent，能规划并执行多轮 Shell 命令。 v1....",
@@ -3747,7 +3750,7 @@
       ]
     },
     {
-      "id": 292,
+      "id": 290,
       "category": "新产品",
       "title": "GitHub 花三年把官网从 CSS-in-JS 搬到 CSS Modules，网站性能显著提升",
       "summary": "GitHub 在工程博客复盘了一场持续三年的迁移：把 github.com 整套 UI 从 CSS-in-JS 全面搬到 CSS Modules，从 2023 年组件数量爆炸导致的性能问题说起，一直到 2026 年 6 月网站 100% 跑...",
@@ -3759,10 +3762,10 @@
       ]
     },
     {
-      "id": 293,
+      "id": 291,
       "category": "大模型",
-      "title": "迎战Meta Muse！OpenAI据称将紧急推出个人AI助手 或于周二亮相 - cls.cn",
-      "summary": "迎战Meta Muse！OpenAI据称将紧急推出个人AI助手 或于周二亮相 &nbsp;&nbsp; cls.cn",
+      "title": "迎战Meta Muse！OpenAI据称将紧急推出个人AI助手 或于周二亮相 - 财联社",
+      "summary": "迎战Meta Muse！OpenAI据称将紧急推出个人AI助手 或于周二亮相 &nbsp;&nbsp; 财联社",
       "source": "Google News 大模型",
       "publish_time": "2026-09-28 11:23",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBQXzYzbk1TV2p3cnprUzk5M0lxaER2Zmt5dURRQ2JmREVCaEc1aFVCc3g1WlpVOVU3TVhqVkx5elBOXzAtdmtKeA?oc=5",
@@ -3773,7 +3776,7 @@
       ]
     },
     {
-      "id": 294,
+      "id": 292,
       "category": "新产品",
       "title": "KnowForge 2026.0.6 发布：会员、支付、付费内容与 AI 知识服务全面上线",
       "summary": "这可能是 KnowForge 到目前为止，功能跨度最大的一次更新。 如果说前面的版本主要在解决： 如何更好地创作、组织、阅读和管理知识 那么这一次，我们开始进一步回答几个更大的问题： 知识服务如何商业化？ AI 如何真正进入知识创作与阅读流...",
@@ -3786,7 +3789,7 @@
       ]
     },
     {
-      "id": 295,
+      "id": 293,
       "category": "新产品",
       "title": "ShopXO 免费开源商城系统 v6.9.2 版本已发布",
       "summary": "更新日志 1.【新增】AI大模型插件，支持腾讯云等通道 2.【新增】AI编辑器插件 3.【新增】商品助手插件、后台经营助手插件 4.【新增】以图搜款插件 5.【新增】商品高级购买插件，支持全部按钮替换 6.【新增】文档插件，支持手机端、权限...",
@@ -3799,7 +3802,7 @@
       ]
     },
     {
-      "id": 296,
+      "id": 294,
       "category": "新产品",
       "title": "gtk-zlang v0.8.0.0发布，基于zlang编程语言的GTK封装的跨平台图形窗口应用开发库",
       "summary": "0.8.0.0 2026-09-24 calvin 依赖v0.12.8.0<=zlang<=0.12.*.0 * 随着zlang v0.12.8.0重新构建，所有控件的设置类函数的返回值从控件对象改为bool，配合zlang的连续调用函数操...",
@@ -3811,7 +3814,7 @@
       ]
     },
     {
-      "id": 297,
+      "id": 295,
       "category": "新产品",
       "title": "zlang v0.12.8.0 发布，支持中文编程、支持Web开发/桌面应用开发的国产全自研编程语言",
       "summary": "0.12.8.0 2026-09-22 calvin * 新增操作符\"??\"，用于\"?.\"后返回缺省值 * 微调了&apos;.&apos;、&apos;..&apos;的语义 0.12.7.0 2026-09-21 calvin * fl...",
@@ -3823,7 +3826,7 @@
       ]
     },
     {
-      "id": 298,
+      "id": 296,
       "category": "新产品",
       "title": "Meta发布多款AI眼镜：Muse智能体上线，推出无摄像头版本 - 至顶网",
       "summary": "Meta发布多款AI眼镜：Muse智能体上线，推出无摄像头版本 &nbsp;&nbsp; 至顶网",
@@ -3836,7 +3839,7 @@
       ]
     },
     {
-      "id": 299,
+      "id": 297,
       "category": "大模型",
       "title": "扎克伯格复盘Meta AI：Llama 4 逼我把千人团队改成小组科研，一年后这个决定带来了Muse-高飞的电子替身 - 至顶网",
       "summary": "扎克伯格复盘Meta AI：Llama 4 逼我把千人团队改成小组科研，一年后这个决定带来了Muse-高飞的电子替身 &nbsp;&nbsp; 至顶网",
@@ -3849,7 +3852,7 @@
       ]
     },
     {
-      "id": 300,
+      "id": 298,
       "category": "大模型",
       "title": "扎克伯格谈Muse：AI Agent爆发，“元宇宙、智能眼镜和大模型”三大赌注完成交汇 - 华尔街见闻",
       "summary": "扎克伯格谈Muse：AI Agent爆发，“元宇宙、智能眼镜和大模型”三大赌注完成交汇 &nbsp;&nbsp; 华尔街见闻",
@@ -3862,10 +3865,10 @@
       ]
     },
     {
-      "id": 301,
+      "id": 299,
       "category": "新产品",
-      "title": "Meta Muse引爆AI新叙事：Agent带热CPU后，IC载板能否成为下一个增量环节？ - cls.cn",
-      "summary": "Meta Muse引爆AI新叙事：Agent带热CPU后，IC载板能否成为下一个增量环节？ &nbsp;&nbsp; cls.cn",
+      "title": "Meta Muse引爆AI新叙事：Agent带热CPU后，IC载板能否成为下一个增量环节？ - 财联社",
+      "summary": "Meta Muse引爆AI新叙事：Agent带热CPU后，IC载板能否成为下一个增量环节？ &nbsp;&nbsp; 财联社",
       "source": "Google News 大模型",
       "publish_time": "2026-09-26 10:14",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1kTmhoWUN3cGtrc3NvSEhVcWVXWW1yR2ZJWk1UbFhFcC1zMjBuQUpvR2NvRld4V29ncG45ZTV1Zmt4eUxoQk9wZg?oc=5",
@@ -3875,7 +3878,7 @@
       ]
     },
     {
-      "id": 302,
+      "id": 300,
       "category": "大模型",
       "title": "上线12天跑赢ChatGPT！Meta爆款AI自曝老底，灵魂文件来自OpenClaw - 智源社区",
       "summary": "上线12天跑赢ChatGPT！Meta爆款AI自曝老底，灵魂文件来自OpenClaw &nbsp;&nbsp; 智源社区",
@@ -3889,7 +3892,7 @@
       ]
     },
     {
-      "id": 303,
+      "id": 301,
       "category": "大模型",
       "title": "映射Meta催化！花旗看好微信“小微”成终极AI Agent - 新浪财经",
       "summary": "映射Meta催化！花旗看好微信“小微”成终极AI Agent &nbsp;&nbsp; 新浪财经",
@@ -3902,10 +3905,10 @@
       ]
     },
     {
-      "id": 304,
+      "id": 302,
       "category": "大模型",
-      "title": "映射Meta催化！花旗看好微信“小微”成终极AI Agent - cls.cn",
-      "summary": "映射Meta催化！花旗看好微信“小微”成终极AI Agent &nbsp;&nbsp; cls.cn",
+      "title": "映射Meta催化！花旗看好微信“小微”成终极AI Agent - 财联社",
+      "summary": "映射Meta催化！花旗看好微信“小微”成终极AI Agent &nbsp;&nbsp; 财联社",
       "source": "Google News 大模型",
       "publish_time": "2026-09-25 11:47",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5iWEg0SXdiRDhoYmRTUUs2UGdMX2MzWlJVLTA2Yk4zRzNzQnRvNVlNOVFPYW90VDFpSU5JNHRUblNOTDNUVlJEMQ?oc=5",
@@ -3915,7 +3918,7 @@
       ]
     },
     {
-      "id": 305,
+      "id": 303,
       "category": "大模型",
       "title": "Meta AI智能体Muse爆红后，遭亚马逊“封杀”！美国银行等六家银行预警：AI可能发生诈骗或错误交易 - 新浪财经",
       "summary": "Meta AI智能体Muse爆红后，遭亚马逊“封杀”！美国银行等六家银行预警：AI可能发生诈骗或错误交易 &nbsp;&nbsp; 新浪财经",
@@ -3928,7 +3931,21 @@
       ]
     },
     {
-      "id": 306,
+      "id": 304,
+      "category": "大模型",
+      "title": "上线12天跑赢ChatGPT，Meta爆款AI自曝老底，灵魂文件来自OpenClaw - 新浪财经",
+      "summary": "上线12天跑赢ChatGPT，Meta爆款AI自曝老底，灵魂文件来自OpenClaw &nbsp;&nbsp; 新浪财经",
+      "source": "Google News 大模型",
+      "publish_time": "2026-09-24 18:13",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1QeW1hNHdSRDl4VzZkNVNWNUZLdjI4blV4cGJqODZpMkE3NUhjLWViTnB4aHBXcWNPeW42dzVzYUFtckp5NlprX0NEeDBxcWZ3NkZMenZZRTdCZUlXY29TRFZIVXFKQ29ncTlRaUFaLXZRdWx4NEYyZg?oc=5",
+      "tags": [
+        "大模型",
+        "ChatGPT",
+        "AI"
+      ]
+    },
+    {
+      "id": 305,
       "category": "大模型",
       "title": "上线12天跑赢ChatGPT！Meta爆款AI自曝老底，灵魂文件来自OpenClaw - 新浪财经",
       "summary": "上线12天跑赢ChatGPT！Meta爆款AI自曝老底，灵魂文件来自OpenClaw &nbsp;&nbsp; 新浪财经",
@@ -3942,7 +3959,7 @@
       ]
     },
     {
-      "id": 307,
+      "id": 306,
       "category": "大模型",
       "title": "ChatGPT之后，下一个全民AI应用会是Meta Muse吗？ - 华尔街见闻",
       "summary": "ChatGPT之后，下一个全民AI应用会是Meta Muse吗？ &nbsp;&nbsp; 华尔街见闻",
@@ -3956,7 +3973,7 @@
       ]
     },
     {
-      "id": 308,
+      "id": 307,
       "category": "大模型",
       "title": "Meta Connect 2026启幕AI智能眼镜与智能体亮相丨盘前线索- 21世纪经济报道 - 21财经",
       "summary": "Meta Connect 2026启幕AI智能眼镜与智能体亮相丨盘前线索- 21世纪经济报道 &nbsp;&nbsp; 21财经",
@@ -3969,10 +3986,10 @@
       ]
     },
     {
-      "id": 309,
+      "id": 308,
       "category": "大模型",
-      "title": "上线12天跑赢ChatGPT，Meta爆款AI自曝老底，灵魂文件来自OpenClaw - 36kr.com",
-      "summary": "上线12天跑赢ChatGPT，Meta爆款AI自曝老底，灵魂文件来自OpenClaw &nbsp;&nbsp; 36kr.com",
+      "title": "上线12天跑赢ChatGPT，Meta爆款AI自曝老底，灵魂文件来自OpenClaw - 36Kr",
+      "summary": "上线12天跑赢ChatGPT，Meta爆款AI自曝老底，灵魂文件来自OpenClaw &nbsp;&nbsp; 36Kr",
       "source": "Google News 大模型",
       "publish_time": "2026-09-24 15:00",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1CeUNyMkdXOGN4RXpLc3BtZC1PRWRaNkFMRkozeEk1clNwcG9vZFkxbTNxWmpwbnh2bksxVEFPdnZaRGg1UGplbllNR3FxUQ?oc=5",
@@ -3983,7 +4000,7 @@
       ]
     },
     {
-      "id": 310,
+      "id": 309,
       "category": "大模型",
       "title": "Meta推出多款AI眼镜：智能体Muse全面接入，小扎称要让数十亿人使用 - thepaper.cn",
       "summary": "Meta推出多款AI眼镜：智能体Muse全面接入，小扎称要让数十亿人使用 &nbsp;&nbsp; thepaper.cn",
@@ -3996,7 +4013,7 @@
       ]
     },
     {
-      "id": 311,
+      "id": 310,
       "category": "新产品",
       "title": "Meta开启史上最大规模裁员，AI巨额投入成主因 - 麻省理工科技评论",
       "summary": "Meta开启史上最大规模裁员，AI巨额投入成主因 &nbsp;&nbsp; 麻省理工科技评论",
@@ -4009,7 +4026,7 @@
       ]
     },
     {
-      "id": 312,
+      "id": 311,
       "category": "新产品",
       "title": "Meta的AI智能体Muse迎来重大功能升级-AI应用 - 至顶网",
       "summary": "Meta的AI智能体Muse迎来重大功能升级-AI应用 &nbsp;&nbsp; 至顶网",
@@ -4022,7 +4039,7 @@
       ]
     },
     {
-      "id": 313,
+      "id": 312,
       "category": "大模型",
       "title": "Meta推出Muse AI智能体电子宠物式可穿戴设备 - 至顶网",
       "summary": "Meta推出Muse AI智能体电子宠物式可穿戴设备 &nbsp;&nbsp; 至顶网",
@@ -4035,7 +4052,7 @@
       ]
     },
     {
-      "id": 314,
+      "id": 313,
       "category": "新产品",
       "title": "Meta Connect大会聚焦AI：Muse站上C位 多款可穿戴硬件同步亮相 - 东方财富",
       "summary": "Meta Connect大会聚焦AI：Muse站上C位 多款可穿戴硬件同步亮相 &nbsp;&nbsp; 东方财富",
@@ -4048,7 +4065,7 @@
       ]
     },
     {
-      "id": 315,
+      "id": 314,
       "category": "大模型",
       "title": "Meta 眼镜搭载AI 智能体，新增多项无障碍、相机及导航功能-AI云资讯 - icloudnews.net",
       "summary": "Meta 眼镜搭载AI 智能体，新增多项无障碍、相机及导航功能-AI云资讯 &nbsp;&nbsp; icloudnews.net",
@@ -4061,7 +4078,7 @@
       ]
     },
     {
-      "id": 316,
+      "id": 315,
       "category": "大模型",
       "title": "Meta AI智能体Muse爆红后陷“三重危机”：遭亚马逊“封杀”、六家银行预警，可被一行命令劫持，AI通话竟有真人代劳 - QQ News",
       "summary": "Meta AI智能体Muse爆红后陷“三重危机”：遭亚马逊“封杀”、六家银行预警，可被一行命令劫持，AI通话竟有真人代劳 &nbsp;&nbsp; QQ News",
@@ -4074,10 +4091,10 @@
       ]
     },
     {
-      "id": 317,
+      "id": 316,
       "category": "大模型",
-      "title": "海外研选 | 摩根大通：Muse拓展Meta AI商业化路径 瞄准万亿级智能体市场 - cls.cn",
-      "summary": "海外研选 | 摩根大通：Muse拓展Meta AI商业化路径 瞄准万亿级智能体市场 &nbsp;&nbsp; cls.cn",
+      "title": "海外研选 | 摩根大通：Muse拓展Meta AI商业化路径 瞄准万亿级智能体市场 - 财联社",
+      "summary": "海外研选 | 摩根大通：Muse拓展Meta AI商业化路径 瞄准万亿级智能体市场 &nbsp;&nbsp; 财联社",
       "source": "Google News 大模型",
       "publish_time": "2026-09-23 19:55",
       "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5JRnh0RGZBRUhSd1R6MEdZdmpWY0YzVWQydHYya0QtVGo4MFNha0lGbkhDM3owSkViMExuZTBTSDRXQlRwdEE?oc=5",
@@ -4087,7 +4104,7 @@
       ]
     },
     {
-      "id": 318,
+      "id": 317,
       "category": "新产品",
       "title": "科创板 - 科创板日报",
       "summary": "科创板 &nbsp;&nbsp; 科创板日报",
@@ -4099,10 +4116,10 @@
       ]
     },
     {
-      "id": 319,
+      "id": 318,
       "category": "大模型",
-      "title": "海外研选 | 摩根大通：Muse拓展Meta AI商业化路径 瞄准万亿级智能体市场 - cls.cn",
-      "summary": "海外研选 | 摩根大通：Muse拓展Meta AI商业化路径 瞄准万亿级智能体市场 &nbsp;&nbsp; cls.cn",
+      "title": "海外研选 | 摩根大通：Muse拓展Meta AI商业化路径 瞄准万亿级智能体市场 - 财联社",
+      "summary": "海外研选 | 摩根大通：Muse拓展Meta AI商业化路径 瞄准万亿级智能体市场 &nbsp;&nbsp; 财联社",
       "source": "Google News 大模型",
       "publish_time": "2026-09-23 15:00",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9GZUpmMlpZOG1GUHQ1ZmxBWmFrMTVobjZYdXMtQk8yRUR2X2kydnNCQW9oQ3ZnQ21rcjlUS19DLUwxTGVoVERXdg?oc=5",
@@ -4112,7 +4129,7 @@
       ]
     },
     {
-      "id": 320,
+      "id": 319,
       "category": "新产品",
       "title": "Meta的灵感Muse，只比“AI点咖啡”高明一点点 - 华尔街见闻",
       "summary": "Meta的灵感Muse，只比“AI点咖啡”高明一点点 &nbsp;&nbsp; 华尔街见闻",
@@ -4125,7 +4142,7 @@
       ]
     },
     {
-      "id": 321,
+      "id": 320,
       "category": "大模型",
       "title": "Meta为AI智能体Muse测试人工代办电话服务 - 东方财富",
       "summary": "Meta为AI智能体Muse测试人工代办电话服务 &nbsp;&nbsp; 东方财富",
@@ -4138,7 +4155,7 @@
       ]
     },
     {
-      "id": 322,
+      "id": 321,
       "category": "大模型",
       "title": "Meta AI智能体Muse爆红后陷“三重危机”：遭亚马逊“封杀”、六家银行预警，可被一行命令劫持，AI通话竟有真人代劳 - mrjjxw.com",
       "summary": "Meta AI智能体Muse爆红后陷“三重危机”：遭亚马逊“封杀”、六家银行预警，可被一行命令劫持，AI通话竟有真人代劳 &nbsp;&nbsp; mrjjxw.com",
@@ -4151,7 +4168,7 @@
       ]
     },
     {
-      "id": 323,
+      "id": 322,
       "category": "大模型",
       "title": "上线两周下载量和日活碾压ChatGPT Meta的Muse能干什么？ - 东方财富",
       "summary": "上线两周下载量和日活碾压ChatGPT Meta的Muse能干什么？ &nbsp;&nbsp; 东方财富",
@@ -4164,10 +4181,10 @@
       ]
     },
     {
-      "id": 324,
+      "id": 323,
       "category": "大模型",
-      "title": "干翻ChatGpt，又一AI王炸引爆全球 - 36kr.com",
-      "summary": "干翻ChatGpt，又一AI王炸引爆全球 &nbsp;&nbsp; 36kr.com",
+      "title": "干翻ChatGpt，又一AI王炸引爆全球 - 36Kr",
+      "summary": "干翻ChatGpt，又一AI王炸引爆全球 &nbsp;&nbsp; 36Kr",
       "source": "Google News 大模型",
       "publish_time": "2026-09-23 15:00",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5UaURpOW9vTlVzajNkWGYxbm9vUlRXLW5PZndsMlVOWEZGRzJScTRPOEtwYk5TMHMyVm5RMTN4M3hobmhPbGFjVHV5Q1Q3UQ?oc=5",
@@ -4178,10 +4195,25 @@
       ]
     },
     {
+      "id": 324,
+      "category": "大模型",
+      "title": "Google 在 API 和 AI Studio 中推出 Gemini 3.8 语音模型 - Unite.AI",
+      "summary": "Google 在 API 和 AI Studio 中推出 Gemini 3.8 语音模型 &nbsp;&nbsp; Unite.AI",
+      "source": "Google News 大模型",
+      "publish_time": "2026-09-23 15:00",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNk5iT09HQ2U3ZnVVMG1ndlBvc0F6LTBBQ3hWNnRmcW9Ja1ZYRXgtb0xkTHlfYklKejVJQVFqRHRwVWZJbzdLS1FXbXFmUGhyVGxockk5cUIxQU9BeWZQMUYzekxpMDhtaHhGNm5BVkdpWWZ0YV9NeEI4eHRkeU9oemlLQWRMa2JXOTUtbHY1QlJZVFdJ?oc=5",
+      "tags": [
+        "大模型",
+        "Google",
+        "Gemini",
+        "AI"
+      ]
+    },
+    {
       "id": 325,
       "category": "大模型",
-      "title": "Meta智能体登顶美区下载榜端侧AI再起新叙事，南方基金旗下恒生科技ETF南方（520570）一键卡位映射链 - cls.cn",
-      "summary": "Meta智能体登顶美区下载榜端侧AI再起新叙事，南方基金旗下恒生科技ETF南方（520570）一键卡位映射链 &nbsp;&nbsp; cls.cn",
+      "title": "Meta智能体登顶美区下载榜端侧AI再起新叙事，南方基金旗下恒生科技ETF南方（520570）一键卡位映射链 - 财联社",
+      "summary": "Meta智能体登顶美区下载榜端侧AI再起新叙事，南方基金旗下恒生科技ETF南方（520570）一键卡位映射链 &nbsp;&nbsp; 财联社",
       "source": "Google News 大模型",
       "publish_time": "2026-09-23 11:41",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE0tc0ZjQ0RaNGJmamVWQnJtVFZZUmNFMG1BcUhyeGk3Qm1abzVCZ2c2c3doWVc4eHcxTVJjd2VLWERnd2JvdVBKTA?oc=5",
@@ -4218,6 +4250,19 @@
     },
     {
       "id": 328,
+      "category": "大模型",
+      "title": "登顶美国应用榜，遭亚马逊“封杀”！Meta AI智能体Muse能购物、发邮件、打电话 - 每日经济新闻",
+      "summary": "登顶美国应用榜，遭亚马逊“封杀”！Meta AI智能体Muse能购物、发邮件、打电话 &nbsp;&nbsp; 每日经济新闻",
+      "source": "Google News 大模型",
+      "publish_time": "2026-09-22 16:57",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5RUGkwT19lV3hlTE9PckZRc0ZaZmd0c0FxRzFyeDVtUm1uekRQdmk1aGJZUjNoQUtlalBYbmlIR1B5NzhydTcxVk41R2JQaVhxaTVGYjM1UngzbnltRVcyRE1XYw?oc=5",
+      "tags": [
+        "大模型",
+        "AI"
+      ]
+    },
+    {
+      "id": 329,
       "category": "新产品",
       "title": "AI新的\"杀手级应用\"出现了？Meta Muse有多火？ - 华尔街见闻",
       "summary": "AI新的\"杀手级应用\"出现了？Meta Muse有多火？ &nbsp;&nbsp; 华尔街见闻",
@@ -4230,10 +4275,10 @@
       ]
     },
     {
-      "id": 329,
+      "id": 330,
       "category": "大模型",
-      "title": "AI智能体之争升温！OpenAI被曝加紧备战Grok Bot与Muse - cls.cn",
-      "summary": "AI智能体之争升温！OpenAI被曝加紧备战Grok Bot与Muse &nbsp;&nbsp; cls.cn",
+      "title": "AI智能体之争升温！OpenAI被曝加紧备战Grok Bot与Muse - 财联社",
+      "summary": "AI智能体之争升温！OpenAI被曝加紧备战Grok Bot与Muse &nbsp;&nbsp; 财联社",
       "source": "Google News 大模型",
       "publish_time": "2026-09-22 15:00",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBoVVd2akJSdFk1ZXRpNE1DTEFyajRtMTI3eXNfcGhOLXhoaWdDYWRtbDhVWXF6Z2ZqN1BEV3Mzc3dPMmY5c21zRg?oc=5",
@@ -4244,7 +4289,7 @@
       ]
     },
     {
-      "id": 330,
+      "id": 331,
       "category": "大模型",
       "title": "ChatGPT版Grok Bot代码曝光！OpenAI也要为你造不下班的AI同事 - 华尔街见闻",
       "summary": "ChatGPT版Grok Bot代码曝光！OpenAI也要为你造不下班的AI同事 &nbsp;&nbsp; 华尔街见闻",
@@ -4259,10 +4304,10 @@
       ]
     },
     {
-      "id": 331,
+      "id": 332,
       "category": "大模型",
-      "title": "两周冲上App Store榜首！一夜爆红的Meta Muse：一款AI智能体如何搅动全球科技与资本市场 - cls.cn",
-      "summary": "两周冲上App Store榜首！一夜爆红的Meta Muse：一款AI智能体如何搅动全球科技与资本市场 &nbsp;&nbsp; cls.cn",
+      "title": "两周冲上App Store榜首！一夜爆红的Meta Muse：一款AI智能体如何搅动全球科技与资本市场 - 财联社",
+      "summary": "两周冲上App Store榜首！一夜爆红的Meta Muse：一款AI智能体如何搅动全球科技与资本市场 &nbsp;&nbsp; 财联社",
       "source": "Google News 大模型",
       "publish_time": "2026-09-22 15:00",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5na0o4TjdITHBPU19SV3BSalB4RkNJelRPS29PUkZuT0Z1QXNhRUhoNnp2US1RS09wMVJSWVJBcjAtTWthVnRGVw?oc=5",
@@ -4272,7 +4317,7 @@
       ]
     },
     {
-      "id": 332,
+      "id": 333,
       "category": "大模型",
       "title": "一夜爆红的Meta Muse：一款AI智能体如何搅动全球科技与资本市场 - mycaijing.com",
       "summary": "一夜爆红的Meta Muse：一款AI智能体如何搅动全球科技与资本市场 &nbsp;&nbsp; mycaijing.com",
@@ -4285,7 +4330,7 @@
       ]
     },
     {
-      "id": 333,
+      "id": 334,
       "category": "大模型",
       "title": "英国议会将邀Meta、谷歌、OpenAI和Anthropic讨论AI安全 - 东方财富",
       "summary": "英国议会将邀Meta、谷歌、OpenAI和Anthropic讨论AI安全 &nbsp;&nbsp; 东方财富",
@@ -4300,7 +4345,7 @@
       ]
     },
     {
-      "id": 334,
+      "id": 335,
       "category": "大模型",
       "title": "Muse、Grok Bot大红，OpenAI也要加入“个人Agent大战” - 华尔街见闻",
       "summary": "Muse、Grok Bot大红，OpenAI也要加入“个人Agent大战” &nbsp;&nbsp; 华尔街见闻",
@@ -4314,7 +4359,7 @@
       ]
     },
     {
-      "id": 335,
+      "id": 336,
       "category": "大模型",
       "title": "Meta Muse爆火，CPU率先起飞！AI Agent三大硬件主线谁最受益？ - 富途牛牛",
       "summary": "Meta Muse爆火，CPU率先起飞！AI Agent三大硬件主线谁最受益？ &nbsp;&nbsp; 富途牛牛",
@@ -4327,7 +4372,7 @@
       ]
     },
     {
-      "id": 336,
+      "id": 337,
       "category": "新产品",
       "title": "腾讯港股收涨5%！Meta Muse走红，腾讯C端Agent生态被重估 - 华尔街见闻",
       "summary": "腾讯港股收涨5%！Meta Muse走红，腾讯C端Agent生态被重估 &nbsp;&nbsp; 华尔街见闻",
@@ -4339,7 +4384,46 @@
       ]
     },
     {
-      "id": 337,
+      "id": 338,
+      "category": "大模型",
+      "title": "登顶美国应用榜，遭亚马逊“封杀”！Meta AI智能体Muse能购物、发邮件、打电话，但在复杂任务中“掉链子”，扎克伯格称Muse不靠收费赚钱 - news.ifeng.com",
+      "summary": "登顶美国应用榜，遭亚马逊“封杀”！Meta AI智能体Muse能购物、发邮件、打电话，但在复杂任务中“掉链子”，扎克伯格称Muse不靠收费赚钱 &nbsp;&nbsp; news.ifeng.com",
+      "source": "Google News 大模型",
+      "publish_time": "2026-09-22 15:00",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5xb2ZPLURSUUJvQV9VVW9TRFoyeXZrTXZHZVRzbmFMOHB2RHdOSEhzSFoxdkNrX1VKWHVsajNJMGRpb0xrOFV4YXM2YUk?oc=5",
+      "tags": [
+        "大模型",
+        "AI"
+      ]
+    },
+    {
+      "id": 339,
+      "category": "大模型",
+      "title": "Meta Muse走红+云栖开幕！AI智能体迎内外共振 这5股业绩倍增可期(名单) - 新浪财经",
+      "summary": "Meta Muse走红+云栖开幕！AI智能体迎内外共振 这5股业绩倍增可期(名单) &nbsp;&nbsp; 新浪财经",
+      "source": "Google News 大模型",
+      "publish_time": "2026-09-22 15:00",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE45M3BIMTBDQ19UWnNlYnkwNHVQQmc5WUpYRE92aHNvVUNXcEROekY2Nk5JekN4SGJtaTVNd2psVGwyM0dEbHJZMzBBaElIOTNvNUpUWTR3OTJnTTBiRk1OS09vZVJrdVlFM24yZlFB?oc=5",
+      "tags": [
+        "大模型",
+        "AI"
+      ]
+    },
+    {
+      "id": 340,
+      "category": "芯片",
+      "title": "Meta AI助手Muse登顶美国应用商店免费榜，Meta涨超11%，AMD市值破万亿美元；黄仁勋：2030年AI毁灭人类概率为0%，应尽可能快推进AI｜全球科技早参 - mrjjxw.com",
+      "summary": "Meta AI助手Muse登顶美国应用商店免费榜，Meta涨超11%，AMD市值破万亿美元；黄仁勋：2030年AI毁灭人类概率为0%，应尽可能快推进AI｜全球科技早参 &nbsp;&nbsp; mrjjxw.com",
+      "source": "Google News 大模型",
+      "publish_time": "2026-09-22 07:52",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9ZdXlOVE1abjhlU1FfdFF2NjBqSGFsb3YxOHd2ZTZDV2Rsd1pNdHByMEpXLVpZbVl1X29FUURXSFhHS1pRT3B1eDV5blJkNl9fdU03UTREdFJzV0p0M1N2NklWc3pnZw?oc=5",
+      "tags": [
+        "芯片",
+        "AI"
+      ]
+    },
+    {
+      "id": 341,
       "category": "大模型",
       "title": "OpenAI开发个人AI助手新功能 应对Grok Bot与Meta Muse竞争 - 观点网",
       "summary": "OpenAI开发个人AI助手新功能 应对Grok Bot与Meta Muse竞争 &nbsp;&nbsp; 观点网",
@@ -4353,7 +4437,7 @@
       ]
     },
     {
-      "id": 338,
+      "id": 342,
       "category": "新产品",
       "title": "Meta 个人 AI 助手刚火 13 天，Amazon 就拉闸了 - 极客公园",
       "summary": "Meta 个人 AI 助手刚火 13 天，Amazon 就拉闸了 &nbsp;&nbsp; 极客公园",
@@ -4366,7 +4450,7 @@
       ]
     },
     {
-      "id": 339,
+      "id": 343,
       "category": "新产品",
       "title": "Meta推出Meta One订阅服务，未来将扩展至AI眼镜 - VR陀螺",
       "summary": "Meta推出Meta One订阅服务，未来将扩展至AI眼镜 &nbsp;&nbsp; VR陀螺",
@@ -4379,10 +4463,10 @@
       ]
     },
     {
-      "id": 340,
+      "id": 344,
       "category": "大模型",
-      "title": "Google says its Gemini AI model hacked 3 other companies: reports - 搜狐网",
-      "summary": "Google says its Gemini AI model hacked 3 other companies: reports &nbsp;&nbsp; 搜狐网",
+      "title": "Google says its Gemini AI model hacked 3 other companies: reports - sohu.com",
+      "summary": "Google says its Gemini AI model hacked 3 other companies: reports &nbsp;&nbsp; sohu.com",
       "source": "Google News 大模型",
       "publish_time": "2026-09-20 16:40",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNDk4RzZoSk9vUUQtTmRsbFd2WnQ2Q0ZaTGRINTdUcDNzM0dHZlNEamxjS0lDSURVa0lKVTcyNnlzdmV0Mm9xWHZRZU9IVnVzcnRpNk9VZ2pVMjN1dnZRY05Edk1CejY4WUpTVU5sUnRvV0ZRU1ZpY0FlMS1MY2oxMkZJQzcxclZp?oc=5",
@@ -4394,7 +4478,7 @@
       ]
     },
     {
-      "id": 341,
+      "id": 345,
       "category": "大模型",
       "title": "Gemini三度窥秘越轨，AI失控大祸将临？ - dw.com",
       "summary": "Gemini三度窥秘越轨，AI失控大祸将临？ &nbsp;&nbsp; dw.com",
@@ -4408,7 +4492,7 @@
       ]
     },
     {
-      "id": 342,
+      "id": 346,
       "category": "新产品",
       "title": "RSI靠“做梦”就能进化？谷歌提出不改模型也能持续变强的新系统 - 麻省理工科技评论",
       "summary": "RSI靠“做梦”就能进化？谷歌提出不改模型也能持续变强的新系统 &nbsp;&nbsp; 麻省理工科技评论",
@@ -4420,7 +4504,7 @@
       ]
     },
     {
-      "id": 343,
+      "id": 347,
       "category": "大模型",
       "title": "Claude“主导”Anthropic 26%的AI研发、3万Agent同时运行：当AI开始“造AI”，头部AI公司的RSI路线正在分化 - InfoQ-CN",
       "summary": "Claude“主导”Anthropic 26%的AI研发、3万Agent同时运行：当AI开始“造AI”，头部AI公司的RSI路线正在分化 &nbsp;&nbsp; InfoQ-CN",
@@ -4435,7 +4519,7 @@
       ]
     },
     {
-      "id": 344,
+      "id": 348,
       "category": "大模型",
       "title": "Meta发布最强AI模型：编程直追OpenAI，下一步是“24小时替你工作”的个人智能体-市场参考 - 金十数据",
       "summary": "Meta发布最强AI模型：编程直追OpenAI，下一步是“24小时替你工作”的个人智能体-市场参考 &nbsp;&nbsp; 金十数据",
@@ -4449,10 +4533,10 @@
       ]
     },
     {
-      "id": 345,
+      "id": 349,
       "category": "大模型",
-      "title": "Gemini 4 Pro疑似泄露，“AI减速”又成空话 - 36kr.com",
-      "summary": "Gemini 4 Pro疑似泄露，“AI减速”又成空话 &nbsp;&nbsp; 36kr.com",
+      "title": "Gemini 4 Pro疑似泄露，“AI减速”又成空话 - 36Kr",
+      "summary": "Gemini 4 Pro疑似泄露，“AI减速”又成空话 &nbsp;&nbsp; 36Kr",
       "source": "Google News 大模型",
       "publish_time": "2026-09-18 15:00",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5EV3ZOU1EwMndpaVBOYjdQRWFIanA3d2h0a3BicUppbHBJODNrbUJ2NVA3N0N1cndQcGJYeGJoZEctX1RGTmZBQVpMVURZZw?oc=5",
@@ -4463,7 +4547,7 @@
       ]
     },
     {
-      "id": 346,
+      "id": 350,
       "category": "大模型",
       "title": "SpaceX考虑从倒闭初创公司购买数据，为Grok AI模型扩充训练资源 - 华尔街见闻",
       "summary": "SpaceX考虑从倒闭初创公司购买数据，为Grok AI模型扩充训练资源 &nbsp;&nbsp; 华尔街见闻",
@@ -4476,7 +4560,22 @@
       ]
     },
     {
-      "id": 347,
+      "id": 351,
+      "category": "大模型",
+      "title": "OpenAI前高管用Kimi训出万亿参数模型，部分能力超GPT-6，已接入材料实验室 - 麻省理工科技评论",
+      "summary": "OpenAI前高管用Kimi训出万亿参数模型，部分能力超GPT-6，已接入材料实验室 &nbsp;&nbsp; 麻省理工科技评论",
+      "source": "Google News 大模型",
+      "publish_time": "2026-09-16 18:18",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CT3l6SElDdUtiN0VmaUg0WjVEX2ttcHplR2Z1WmpXLTlRWnNhdzhEdEV1Z05id2Yxc3drZk1meTd2aDQ3VV8yNk5oNDhIRHEwYTQ3aTNnTQ?oc=5",
+      "tags": [
+        "大模型",
+        "OpenAI",
+        "Kimi",
+        "AI"
+      ]
+    },
+    {
+      "id": 352,
       "category": "大模型",
       "title": "拒绝OpenAI和Anthropic邀约，DeepMind安全研究员离职转向独立测评 - 麻省理工科技评论",
       "summary": "拒绝OpenAI和Anthropic邀约，DeepMind安全研究员离职转向独立测评 &nbsp;&nbsp; 麻省理工科技评论",
@@ -4491,7 +4590,7 @@
       ]
     },
     {
-      "id": 348,
+      "id": 353,
       "category": "大模型",
       "title": "T早报｜OpenAI、Anthropic、DeepMind合作AI安全工作；外交部回应AI风险焦虑；梁汝波称字节跳动将加大投资企业市场 - 财新",
       "summary": "T早报｜OpenAI、Anthropic、DeepMind合作AI安全工作；外交部回应AI风险焦虑；梁汝波称字节跳动将加大投资企业市场 &nbsp;&nbsp; 财新",
@@ -4506,7 +4605,7 @@
       ]
     },
     {
-      "id": 349,
+      "id": 354,
       "category": "大模型",
       "title": "Meta推出个人AI Agent Muse，未来将登陆Meta AI眼镜 - VR陀螺",
       "summary": "Meta推出个人AI Agent Muse，未来将登陆Meta AI眼镜 &nbsp;&nbsp; VR陀螺",
@@ -4519,7 +4618,7 @@
       ]
     },
     {
-      "id": 350,
+      "id": 355,
       "category": "大模型",
       "title": "Meta 发布个人AI 智能体Muse，住在一台你看不见的虚拟机里- OSCHINA - 开源 × AI · 开发者生态社区 - OSCHINA",
       "summary": "Meta 发布个人AI 智能体Muse，住在一台你看不见的虚拟机里- OSCHINA - 开源 × AI · 开发者生态社区 &nbsp;&nbsp; OSCHINA",
@@ -4532,7 +4631,7 @@
       ]
     },
     {
-      "id": 351,
+      "id": 356,
       "category": "大模型",
       "title": "Meta推出个人AI智能体Muse，扎克伯格：个人AI助手是Meta最大的商业机遇 - 华尔街见闻",
       "summary": "Meta推出个人AI智能体Muse，扎克伯格：个人AI助手是Meta最大的商业机遇 &nbsp;&nbsp; 华尔街见闻",
@@ -4545,25 +4644,10 @@
       ]
     },
     {
-      "id": 352,
+      "id": 357,
       "category": "大模型",
-      "title": "美国头部AI服务遭遇历史级集体宕机，ChatGPT、Claude、Grok同时中断超3小时 - 电子工程专辑",
-      "summary": "美国头部AI服务遭遇历史级集体宕机，ChatGPT、Claude、Grok同时中断超3小时 &nbsp;&nbsp; 电子工程专辑",
-      "source": "Google News 大模型",
-      "publish_time": "2026-09-04 15:00",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBfQ09hWmR2XzZSM2x0eDdrS19wdVhHUlZyMmJZTFl2TjByeWF3WlFBallPMXdCcEU4NGhqdDc0c24tT1NjVnZwXzlMTnZjNEpTQmJ6STlMRVNWOXdZ?oc=5",
-      "tags": [
-        "大模型",
-        "ChatGPT",
-        "Claude",
-        "AI"
-      ]
-    },
-    {
-      "id": 353,
-      "category": "大模型",
-      "title": "美国AI服务发生大规模“宕机”事件 ChatGPT、Claude、Grok均受影响 - cls.cn",
-      "summary": "美国AI服务发生大规模“宕机”事件 ChatGPT、Claude、Grok均受影响 &nbsp;&nbsp; cls.cn",
+      "title": "美国AI服务发生大规模“宕机”事件 ChatGPT、Claude、Grok均受影响 - 财联社",
+      "summary": "美国AI服务发生大规模“宕机”事件 ChatGPT、Claude、Grok均受影响 &nbsp;&nbsp; 财联社",
       "source": "Google News 大模型",
       "publish_time": "2026-09-03 15:00",
       "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5EcTh6WmY3RXFvaVFvQXdQUVVNUC15SUo3bldDOWZSdEdsdWk3dUprV3JxNXVfTEdtZFFQeC03YUFnYmI0Z2wwTg?oc=5",
@@ -4571,102 +4655,6 @@
         "大模型",
         "ChatGPT",
         "Claude",
-        "AI"
-      ]
-    },
-    {
-      "id": 354,
-      "category": "新产品",
-      "title": "Meta发布更强大AI模型，声称进一步缩小了与竞争对手差距 - 华尔街见闻",
-      "summary": "Meta发布更强大AI模型，声称进一步缩小了与竞争对手差距 &nbsp;&nbsp; 华尔街见闻",
-      "source": "Google News 大模型",
-      "publish_time": "2026-09-02 15:00",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9KblVtR25oLUk2ZDR0WWxUZ24yWXhGTndWZHprNWRsWlR1V25KT2NDVzdaeDJBZllKSG1idENZRmNhMlktcHFXc09JcmItaklRdk1n?oc=5",
-      "tags": [
-        "新产品",
-        "AI"
-      ]
-    },
-    {
-      "id": 355,
-      "category": "新产品",
-      "title": "Meta 用一整年证明 Agent 无法取代员工：事故增四成，工程师救火多七成 - InfoQ-CN",
-      "summary": "Meta 用一整年证明 Agent 无法取代员工：事故增四成，工程师救火多七成 &nbsp;&nbsp; InfoQ-CN",
-      "source": "Google News 大模型",
-      "publish_time": "2026-08-31 15:00",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1lN3dBUXZvNm5sZFZjM3hrZ0w0UURENjNkNlZQVHVUYlk1dVMxSHZJbmc3U2hhVFdVcHE1cnVqbExORnJNVVlkQy1SX2NBYll0TmlnMTB4Ri1hSlpVQkE?oc=5",
-      "tags": [
-        "新产品"
-      ]
-    },
-    {
-      "id": 356,
-      "category": "大模型",
-      "title": "美参议员桑德斯致信OpenAI、Anthropic和Meta：暂停AI开发，否则国会将介入 - 华尔街见闻",
-      "summary": "美参议员桑德斯致信OpenAI、Anthropic和Meta：暂停AI开发，否则国会将介入 &nbsp;&nbsp; 华尔街见闻",
-      "source": "Google News 大模型",
-      "publish_time": "2026-08-11 15:00",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9GOG9OZUE4UW9saVIyYkJCTHZwMXprSGtKX3kydjJ3d2Z2anlEQ2tTcEFmblR5bXF1MlJvbTVOWm02cGtQT24ySzN6dm9qRWFBQkJv?oc=5",
-      "tags": [
-        "大模型",
-        "OpenAI",
-        "Anthropic",
-        "AI"
-      ]
-    },
-    {
-      "id": 357,
-      "category": "大模型",
-      "title": "Meta推出首款AI编程智能体 主打低价挑战OpenAI与Anthropic - cls.cn",
-      "summary": "Meta推出首款AI编程智能体 主打低价挑战OpenAI与Anthropic &nbsp;&nbsp; cls.cn",
-      "source": "Google News 大模型",
-      "publish_time": "2026-08-06 15:00",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE8wdFFmVVdhUlBzSndMOHdWeXdfakRzQWktUE80Q2RtaldISDNDdmEwZDhScHVEcHZrVnA2bXhCbTZoQ3JacG5ObA?oc=5",
-      "tags": [
-        "大模型",
-        "OpenAI",
-        "Anthropic",
-        "AI"
-      ]
-    },
-    {
-      "id": 358,
-      "category": "新产品",
-      "title": "Meta的AI模型也突破密闭环境上网入侵其他公司 - BBC",
-      "summary": "Meta的AI模型也突破密闭环境上网入侵其他公司 &nbsp;&nbsp; BBC",
-      "source": "Google News 大模型",
-      "publish_time": "2026-08-06 15:00",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5FUG9MQXI4Y3BvQ1RxZ3Z5RHZfU2NqQzlJMk5fSXV6N2VUQzUyTEtFdlJfWmdWbm94Z1FNN0J3OVFMUDlDXy13SGdtejdoQTV2SXpQRHdjclQ2MDRRMUF6STRJNl9JZ9IBa0FVX3lxTFBTTk8xZUZqLThUZG0tWG5TdjE2V2xsZHdyTjkyM0ZOSVJBWVJvVV9EZ1VzYlU4MnQ5V3lVZ192d1ZLNHpDSi1oOXNZQU5EbU9paDJJTGdFcUpGeFR1TDBZN3VSMEdRcnJmVlBv?oc=5",
-      "tags": [
-        "新产品",
-        "AI"
-      ]
-    },
-    {
-      "id": 359,
-      "category": "大模型",
-      "title": "Meta推出首款AI编程智能体，正面挑战Anthropic与OpenAI - 华尔街见闻",
-      "summary": "Meta推出首款AI编程智能体，正面挑战Anthropic与OpenAI &nbsp;&nbsp; 华尔街见闻",
-      "source": "Google News 大模型",
-      "publish_time": "2026-08-05 15:00",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE15V2hsNmo0ZE1YejhzcjczY0Q0bFFoRWVpclVWYlNHczB0Ynhkd2xSei1SLWlOMllsWjBXNzBqZ1RjNEFkSkRpOXl3YUx2UWt4clFr?oc=5",
-      "tags": [
-        "大模型",
-        "OpenAI",
-        "Anthropic",
-        "AI"
-      ]
-    },
-    {
-      "id": 360,
-      "category": "大模型",
-      "title": "Meta收跌5%！报道：扎克伯格称Meta AI智能体开发不及预期 - 华尔街见闻",
-      "summary": "Meta收跌5%！报道：扎克伯格称Meta AI智能体开发不及预期 &nbsp;&nbsp; 华尔街见闻",
-      "source": "Google News 大模型",
-      "publish_time": "2026-07-02 15:00",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9ZSVZ1NnFfaldtM2ExWTUzVlVHMU1ERXZzdllCS240U0I3OHJpS2FLUkFqNENYb1V4aU12blQxRWRWUW5xSkZMeHYzUDJJYS0zMHZV?oc=5",
-      "tags": [
-        "大模型",
         "AI"
       ]
     }
